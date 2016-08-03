@@ -28,7 +28,9 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
-
+    self.buttonAction.layer.borderColor = [UIColor grayColor].CGColor;
+    self.buttonAction.layer.borderWidth = 1.0f;
+    self.buttonAction.layer.cornerRadius = 3.0f;
     [self.viewFrameVideoContainer setTranslatesAutoresizingMaskIntoConstraints:NO];
 }
 
