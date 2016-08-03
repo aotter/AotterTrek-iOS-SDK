@@ -1,0 +1,6 @@
+framework module AotterService {
+  umbrella header "AotterService.h"
+
+  export *
+  module * { export * }
+}

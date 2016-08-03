@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <AotterService/AotterService.h>
+
 
 @interface AppDelegate ()
 
@@ -17,6 +19,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[AotterTrek sharedAPI] initServiceWithClientId:@"21tgwWwuzFYiD4ko5Klr"
+                                             secret:@"fD8P20gzWYrlbuwWklRkicYcNwlWZSZwV+iHj3TzGSzzyfgTWmVR5trs5F1Dp+x9tX2jxq44"];
+    [[AotterTrek sharedAPI] enableLoggerWithLevel:ATLoggerLevelDetail];
+    
     return YES;
 }
 
@@ -40,6 +47,24 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+
+
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(nullable UIWindow *)window{
+    id presentedViewController = [window.rootViewController presentedViewController];
+    NSString *className = presentedViewController ? NSStringFromClass([presentedViewController class]) : nil;
+    ATAdVideoFullScreenViewController *thatVC = (ATAdVideoFullScreenViewController *)presentedViewController;
+    
+    if (window && [className isEqualToString:@"AVFullScreenViewController"]) {
+        return UIInterfaceOrientationMaskAll;
+    }
+    else if (window && [className isEqualToString:@"ATAdVideoFullScreenViewController"] && thatVC.isPresented){
+        return UIInterfaceOrientationMaskAll;
+    }
+    else {
+        return UIInterfaceOrientationMaskPortrait;
+    }
 }
 
 @end

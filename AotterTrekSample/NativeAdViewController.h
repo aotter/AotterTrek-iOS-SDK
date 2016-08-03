@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AotterService/AotterService.h>
 
-@interface ViewController : UIViewController
+@interface NativeAdViewController : UIViewController<UITableViewDelegate, UITableViewDataSource, ATAdNativeDelegate>
 
 
 @end
