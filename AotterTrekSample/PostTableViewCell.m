@@ -38,7 +38,9 @@
     NSString *content = post[@"content"];
     NSString *reference = post[@"reference"];
     
-    [self.imageViewCover sd_setImageWithURL:[NSURL URLWithString:imgUrl]];
+//    [self.imageViewCover sd_setImageWithURL:[NSURL URLWithString:imgUrl]];
+    self.imageViewCover.backgroundColor = [UIColor brownColor];
+    self.imageViewCover.image = nil;
     self.labelTitle.text = title;
     self.labelContent.text = content;
     self.labelReference.text = reference;
@@ -57,6 +59,7 @@
     NSString *sponser = adData[@"sponser"];
     NSString *buttonTitle = adData[@"callToAction"];
     
+    self.imageViewCover.backgroundColor = [UIColor clearColor];
     [self.imageViewCover sd_setImageWithURL:[NSURL URLWithString:imgUrl]];
     self.labelTitle.text = title;
     self.labelContent.text = content;

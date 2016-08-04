@@ -67,7 +67,7 @@
         <!--Video Ad FullScreen-->
         <scene sceneID="hkm-yn-hAP">
             <objects>
-                <viewController id="gb4-DT-ky5" customClass="NativeVideoFullscreenViewController" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="gb4-DT-ky5" customClass="NativeVideoFullscreenViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kGd-2S-Z6D"/>
                         <viewControllerLayoutGuide type="bottom" id="mra-ce-hKb"/>
@@ -110,7 +110,7 @@
         <!--Tracker-->
         <scene sceneID="mws-oO-SzE">
             <objects>
-                <viewController id="yzu-N1-Bsd" customClass="TrackerViewController" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="yzu-N1-Bsd" customClass="TrackerViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KYy-tW-KiH"/>
                         <viewControllerLayoutGuide type="bottom" id="Q1R-F8-fvH"/>
@@ -162,7 +162,7 @@
         <!--Video Ad-->
         <scene sceneID="Owc-Jm-7F0">
             <objects>
-                <viewController id="mxN-h5-oXd" customClass="NativeVideoViewController" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="mxN-h5-oXd" customClass="NativeVideoViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AAB-oy-0ay"/>
                         <viewControllerLayoutGuide type="bottom" id="NZR-2t-G2W"/>
