@@ -11,6 +11,7 @@
 #import <AotterService/ATTracker.h>
 #import <AotterService/ATAdNative.h>
 #import <AotterService/ATAdVideo.h>
+#import <AotterService/ATInteractAd.h>
 #import <AotterService/ATAdManager.h>
 #import <AotterService/EnumHeaders.h>
 #import <AotterService/ATAdVideoFullScreenViewController.h>

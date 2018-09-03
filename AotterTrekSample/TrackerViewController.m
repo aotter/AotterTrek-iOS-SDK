@@ -63,13 +63,9 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSDictionary *selectedPost = self.arrayOfPosts[indexPath.row];
-    [[ATTracker sharedAPI] ATTrackEngageEntityWithId:selectedPost[@"postId"]
-                                               title:selectedPost[@"title"]
-                                           reference:selectedPost[@"reference"]
-                                                 url:selectedPost[@"url"]
-                                            coverImg:selectedPost[@"imgUrl"]
-                                       publishedDate:[NSDate date]
-                                          categories:@[@"news", @"tech"]];
+    NSDictionary *entityObject = [ATTracker helper_entityObjectWithTypePOST:selectedPost[@"postId"] title:selectedPost[@"title"] url:selectedPost[@"url"] tags:nil categories:@[@"news", @"tech"] reference:selectedPost[@"reference"] publishedDate:[NSDate date] imageUrl:selectedPost[@"imgUrl"] author:nil meta:nil];
+    [[ATTracker sharedAPI] ATTrackerEngageItemWithType:kATTTypeREAD_POST userObject:nil entityObject:entityObject locationObject:nil];
+    [[ATTracker sharedAPI] ATTrackerSendItems];
     
     
     TrackerDetailViewController *detailVC = [self.storyboard instantiateViewControllerWithIdentifier:@"trackerDetailViewController"];

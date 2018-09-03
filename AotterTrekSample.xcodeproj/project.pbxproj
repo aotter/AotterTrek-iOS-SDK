@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1197132E1D645B2B0094D71C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1197132D1D645B2B0094D71C /* CoreTelephony.framework */; };
 		11B4639E1D51C962007591CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B4639D1D51C962007591CE /* main.m */; };
 		11B463A11D51C962007591CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B463A01D51C962007591CE /* AppDelegate.m */; };
 		11B463A41D51C962007591CE /* NativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B463A31D51C962007591CE /* NativeAdViewController.m */; };
@@ -26,11 +27,12 @@
 		11B463D11D51D76C007591CE /* VideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B463CF1D51D76C007591CE /* VideoTableViewCell.m */; };
 		11B463D21D51D76C007591CE /* VideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B463D01D51D76C007591CE /* VideoTableViewCell.xib */; };
 		11B463D51D51D8FF007591CE /* NativeVideoFullscreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B463D41D51D8FF007591CE /* NativeVideoFullscreenViewController.m */; };
-		11B463D71D51F4A2007591CE /* AotterService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B463D61D51F4A2007591CE /* AotterService.framework */; };
+		3F168CF7213D46A00023C509 /* AotterService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F168CF6213D46A00023C509 /* AotterService.framework */; };
 		D45D86950F2F0D784A36C5FF /* libPods-AotterTrekSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5AE59297CF861213ED13E7 /* libPods-AotterTrekSample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1197132D1D645B2B0094D71C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		11B463991D51C962007591CE /* AotterTrekSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AotterTrekSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B4639D1D51C962007591CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		11B4639F1D51C962007591CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,8 +63,8 @@
 		11B463D01D51D76C007591CE /* VideoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoTableViewCell.xib; sourceTree = "<group>"; };
 		11B463D31D51D8FF007591CE /* NativeVideoFullscreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeVideoFullscreenViewController.h; sourceTree = "<group>"; };
 		11B463D41D51D8FF007591CE /* NativeVideoFullscreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeVideoFullscreenViewController.m; sourceTree = "<group>"; };
-		11B463D61D51F4A2007591CE /* AotterService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AotterService.framework; sourceTree = "<group>"; };
 		3A5AE59297CF861213ED13E7 /* libPods-AotterTrekSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AotterTrekSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F168CF6213D46A00023C509 /* AotterService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AotterService.framework; sourceTree = "<group>"; };
 		6B8BDF08FB07EED7D622754F /* Pods-AotterTrekSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AotterTrekSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AotterTrekSample/Pods-AotterTrekSample.release.xcconfig"; sourceTree = "<group>"; };
 		D9D27D232A6E199E595B01BD /* Pods-AotterTrekSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AotterTrekSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AotterTrekSample/Pods-AotterTrekSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,12 +74,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1197132E1D645B2B0094D71C /* CoreTelephony.framework in Frameworks */,
 				11B463C11D51D13D007591CE /* CoreMedia.framework in Frameworks */,
 				11B463BF1D51D132007591CE /* AVFoundation.framework in Frameworks */,
 				11B463BD1D51D12B007591CE /* AVKit.framework in Frameworks */,
+				3F168CF7213D46A00023C509 /* AotterService.framework in Frameworks */,
 				11B463BB1D51D123007591CE /* AdSupport.framework in Frameworks */,
 				D45D86950F2F0D784A36C5FF /* libPods-AotterTrekSample.a in Frameworks */,
-				11B463D71D51F4A2007591CE /* AotterService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +108,7 @@
 		11B4639B1D51C962007591CE /* AotterTrekSample */ = {
 			isa = PBXGroup;
 			children = (
-				11B463D61D51F4A2007591CE /* AotterService.framework */,
+				3F168CF6213D46A00023C509 /* AotterService.framework */,
 				11B4639F1D51C962007591CE /* AppDelegate.h */,
 				11B463A01D51C962007591CE /* AppDelegate.m */,
 				11B463C21D51D312007591CE /* MainPageViewController.h */,
@@ -155,6 +158,7 @@
 		A1C32F73D798C04D59CB4DAE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1197132D1D645B2B0094D71C /* CoreTelephony.framework */,
 				11B463C01D51D13D007591CE /* CoreMedia.framework */,
 				11B463BE1D51D132007591CE /* AVFoundation.framework */,
 				11B463BC1D51D12B007591CE /* AVKit.framework */,
@@ -198,6 +202,7 @@
 				TargetAttributes = {
 					11B463981D51C962007591CE = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UX5VYFQ2PJ;
 					};
 				};
 			};
@@ -409,6 +414,7 @@
 			baseConfigurationReference = D9D27D232A6E199E595B01BD /* Pods-AotterTrekSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UX5VYFQ2PJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AotterTrekSample",
@@ -426,6 +432,7 @@
 			baseConfigurationReference = 6B8BDF08FB07EED7D622754F /* Pods-AotterTrekSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UX5VYFQ2PJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AotterTrekSample",

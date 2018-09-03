@@ -13,13 +13,18 @@
 @optional
 -(void)ATAdNativeFetchNoAd:(ATAdNative *)ad;
 
+@optional
+-(void)ATAdNativeWillLogImpression:(ATAdNative *)ad;
+
+@optional
+-(void)ATAdNativewillLogClicked:(ATAdNative *)ad;
 @end
 
 
 
 @interface ATAdNative : NSObject
 @property NSDictionary *AdData;
-@property id<ATAdNativeDelegate> delegate;
+@property (nonatomic, weak) id<ATAdNativeDelegate> delegate;
 
 -(void)ATinitWithPlace:(NSString *)place;
 

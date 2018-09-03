@@ -28,11 +28,17 @@
 @optional
 -(void)ATAdVideoDidDismissFullScreenMode:(ATAdVideo *)ad;
 
+@optional
+-(void)ATAdVideoWillLogImpression:(ATAdVideo *)ad;
+                                   
+@optional
+-(void)ATAdVideoWillLogClicked:(ATAdVideo *)ad;
+
 @end
 
 
 @interface ATAdVideo : NSObject
-@property id<ATAdVideoDelegate> delegate;
+@property (nonatomic, weak) id<ATAdVideoDelegate> delegate;
 @property NSDictionary *adData;
 @property BOOL isReadyToPlay;
 
@@ -42,6 +48,7 @@
 -(void)ATsetTrackingView:(UIView *)trackingView;
 -(void)ATsetPresetingViewController:(UIViewController *)viewController;
 -(void)ATsetTrackingActionButton:(UIButton *)actionButton;
+-(void)ATsetCloseButtonHideTime:(CGFloat)closeButtonHideTime;
 
 -(void)ATfetchAd:(void(^)(NSDictionary *adData))completed;
 
