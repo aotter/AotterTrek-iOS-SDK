@@ -35,7 +35,7 @@
     [self.mainTableView reloadData];
     
     self.adNative = [[ATAdNative alloc]init];
-    [self.adNative ATinitWithPlace:@"myPlace"];
+    [self.adNative ATinitWithPlace:@"myPlace" category:@[@"myCategory"]];
     [self.adNative ATsetPresnetingViewController:self];
     self.adNative.delegate = self;
     [self.adNative ATfetchAd:^(NSDictionary *adData) {

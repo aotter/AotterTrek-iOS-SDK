@@ -15,7 +15,9 @@ typedef enum {
     ATUserKeyBirthday
 }ATUserKey;
 
-
+#define kAdTypeNative       @"NATIVE"
+#define kAdTypeVideo        @"NATIVE_VIDEO"
+#define kAdTypeInteractive  @"NATIVE_INTERACTIVE"
 
 @interface AotterTrek : NSObject
 @property NSString *clientId;
@@ -31,7 +33,6 @@ typedef enum {
 -(void)enableLoggerWithLevel:(ATLoggerLevel)level;
 
 -(BOOL)checkInitSuccess;
-
 
 
 #pragma mark - Client user

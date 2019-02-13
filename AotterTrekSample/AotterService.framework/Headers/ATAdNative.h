@@ -27,6 +27,7 @@
 @property (nonatomic, weak) id<ATAdNativeDelegate> delegate;
 
 -(void)ATinitWithPlace:(NSString *)place;
+-(void)ATinitWithPlace:(NSString *)place category:(NSArray *)category;
 
 -(void)ATsetTrackingView:(UIView *)trackingView;
 -(void)ATsetPresnetingViewController:(UIViewController *)viewController;

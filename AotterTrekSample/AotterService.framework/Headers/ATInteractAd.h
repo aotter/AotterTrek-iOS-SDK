@@ -37,6 +37,7 @@
 @property (nonatomic, weak) id<ATInteractAdDelegate> delegate;
 
 -(void)ATinitWithPlace:(NSString *)place;
+-(void)ATinitWithPlace:(NSString *)place categories:(NSArray *)categories;
 
 -(void)ATsetTrackingView:(UIView *)trackingView;
 -(void)ATsetInteractAdContainer:(UIView *)container;

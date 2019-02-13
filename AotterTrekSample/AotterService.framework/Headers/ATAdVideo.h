@@ -43,6 +43,7 @@
 @property BOOL isReadyToPlay;
 
 -(void)ATinitWithPlace:(NSString *)place;
+-(void)ATinitWithPlace:(NSString *)place categories:(NSArray *)categories;
 
 -(void)ATsetVideoContainer:(UIView *)container;
 -(void)ATsetTrackingView:(UIView *)trackingView;
