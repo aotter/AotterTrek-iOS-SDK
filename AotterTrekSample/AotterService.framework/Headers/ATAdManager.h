@@ -28,7 +28,7 @@
 /**
  the indisvisual size show how many cache items could remains in cache for indiviual ad unit.
  */
--(void)ATsetIndivisualAdPoolSize:(int)indivisualSize;
+-(void)ATsetIndividualAdPoolSize:(int)indivisualSize;
 
 
 
