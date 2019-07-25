@@ -22,3 +22,5 @@ Pods/*
 xcuserdata
 profile
 *.moved-aside
+
+AotterTrek-iOS-SDK.podspec
