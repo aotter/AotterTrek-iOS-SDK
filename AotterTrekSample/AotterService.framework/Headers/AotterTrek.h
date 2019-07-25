@@ -34,8 +34,6 @@ typedef enum {
 
 -(BOOL)checkInitSuccess;
 
-
-
 #pragma mark - Client user
 /**
  user data
