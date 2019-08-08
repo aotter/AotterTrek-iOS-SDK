@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		114ED7E822E953A8000168E9 /* AotterService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114ED7E722E953A8000168E9 /* AotterService.framework */; };
 		116F19DC22E8645700678B50 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19DB22E8645700678B50 /* SystemConfiguration.framework */; };
 		116F19DE22E8648200678B50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19DD22E8648200678B50 /* Foundation.framework */; };
 		116F19E022E8648B00678B50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19DF22E8648B00678B50 /* UIKit.framework */; };
 		1197132E1D645B2B0094D71C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1197132D1D645B2B0094D71C /* CoreTelephony.framework */; };
 		11B4639E1D51C962007591CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B4639D1D51C962007591CE /* main.m */; };
 		11B463A11D51C962007591CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B463A01D51C962007591CE /* AppDelegate.m */; };
-		11B463A41D51C962007591CE /* NativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B463A31D51C962007591CE /* NativeAdViewController.m */; };
 		11B463A71D51C962007591CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B463A51D51C962007591CE /* Main.storyboard */; };
 		11B463A91D51C962007591CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B463A81D51C962007591CE /* Assets.xcassets */; };
 		11B463AC1D51C962007591CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B463AA1D51C962007591CE /* LaunchScreen.storyboard */; };
@@ -27,16 +25,15 @@
 		11B463C41D51D312007591CE /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B463C31D51D312007591CE /* MainPageViewController.m */; };
 		11B463C71D51D33A007591CE /* TrackerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B463C61D51D33A007591CE /* TrackerViewController.m */; };
 		11B463CA1D51D464007591CE /* TrackerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B463C91D51D464007591CE /* TrackerDetailViewController.m */; };
-		11B463CD1D51D66F007591CE /* NativeVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B463CC1D51D66F007591CE /* NativeVideoViewController.m */; };
-		11B463D11D51D76C007591CE /* VideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B463CF1D51D76C007591CE /* VideoTableViewCell.m */; };
-		11B463D21D51D76C007591CE /* VideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B463D01D51D76C007591CE /* VideoTableViewCell.xib */; };
-		11B463D51D51D8FF007591CE /* NativeVideoFullscreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B463D41D51D8FF007591CE /* NativeVideoFullscreenViewController.m */; };
+		11E4EC5B22FC17E500BD194E /* DemoNativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E4EC5722FC17E400BD194E /* DemoNativeAdViewController.m */; };
+		11E4EC5C22FC17E500BD194E /* DemoSuprAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E4EC5A22FC17E400BD194E /* DemoSuprAdViewController.m */; };
+		11E4EC6022FC186F00BD194E /* CommonPostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E4EC5E22FC186E00BD194E /* CommonPostTableViewCell.m */; };
+		11E4EC6122FC186F00BD194E /* CommonPostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E4EC5F22FC186F00BD194E /* CommonPostTableViewCell.xib */; };
 		3FD6BB292214154200E332B7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD6BB282214154200E332B7 /* WebKit.framework */; };
 		D45D86950F2F0D784A36C5FF /* libPods-AotterTrekSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5AE59297CF861213ED13E7 /* libPods-AotterTrekSample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		114ED7E722E953A8000168E9 /* AotterService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AotterService.framework; sourceTree = "<group>"; };
 		116F19DB22E8645700678B50 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		116F19DD22E8648200678B50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		116F19DF22E8648B00678B50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -45,8 +42,6 @@
 		11B4639D1D51C962007591CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		11B4639F1D51C962007591CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11B463A01D51C962007591CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		11B463A21D51C962007591CE /* NativeAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeAdViewController.h; sourceTree = "<group>"; };
-		11B463A31D51C962007591CE /* NativeAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeAdViewController.m; sourceTree = "<group>"; };
 		11B463A61D51C962007591CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11B463A81D51C962007591CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11B463AB1D51C962007591CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,13 +59,13 @@
 		11B463C61D51D33A007591CE /* TrackerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackerViewController.m; sourceTree = "<group>"; };
 		11B463C81D51D464007591CE /* TrackerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerDetailViewController.h; sourceTree = "<group>"; };
 		11B463C91D51D464007591CE /* TrackerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackerDetailViewController.m; sourceTree = "<group>"; };
-		11B463CB1D51D66F007591CE /* NativeVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeVideoViewController.h; sourceTree = "<group>"; };
-		11B463CC1D51D66F007591CE /* NativeVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeVideoViewController.m; sourceTree = "<group>"; };
-		11B463CE1D51D76C007591CE /* VideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTableViewCell.h; sourceTree = "<group>"; };
-		11B463CF1D51D76C007591CE /* VideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewCell.m; sourceTree = "<group>"; };
-		11B463D01D51D76C007591CE /* VideoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoTableViewCell.xib; sourceTree = "<group>"; };
-		11B463D31D51D8FF007591CE /* NativeVideoFullscreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeVideoFullscreenViewController.h; sourceTree = "<group>"; };
-		11B463D41D51D8FF007591CE /* NativeVideoFullscreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeVideoFullscreenViewController.m; sourceTree = "<group>"; };
+		11E4EC5722FC17E400BD194E /* DemoNativeAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoNativeAdViewController.m; sourceTree = "<group>"; };
+		11E4EC5822FC17E400BD194E /* DemoSuprAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSuprAdViewController.h; sourceTree = "<group>"; };
+		11E4EC5922FC17E400BD194E /* DemoNativeAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoNativeAdViewController.h; sourceTree = "<group>"; };
+		11E4EC5A22FC17E400BD194E /* DemoSuprAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSuprAdViewController.m; sourceTree = "<group>"; };
+		11E4EC5D22FC186E00BD194E /* CommonPostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonPostTableViewCell.h; sourceTree = "<group>"; };
+		11E4EC5E22FC186E00BD194E /* CommonPostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonPostTableViewCell.m; sourceTree = "<group>"; };
+		11E4EC5F22FC186F00BD194E /* CommonPostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonPostTableViewCell.xib; sourceTree = "<group>"; };
 		3A5AE59297CF861213ED13E7 /* libPods-AotterTrekSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AotterTrekSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD6BB282214154200E332B7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		6B8BDF08FB07EED7D622754F /* Pods-AotterTrekSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AotterTrekSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AotterTrekSample/Pods-AotterTrekSample.release.xcconfig"; sourceTree = "<group>"; };
@@ -82,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				114ED7E822E953A8000168E9 /* AotterService.framework in Frameworks */,
 				116F19E022E8648B00678B50 /* UIKit.framework in Frameworks */,
 				116F19DE22E8648200678B50 /* Foundation.framework in Frameworks */,
 				116F19DC22E8645700678B50 /* SystemConfiguration.framework in Frameworks */,
@@ -122,26 +116,23 @@
 			children = (
 				11B4639F1D51C962007591CE /* AppDelegate.h */,
 				11B463A01D51C962007591CE /* AppDelegate.m */,
-				114ED7E722E953A8000168E9 /* AotterService.framework */,
 				11B463C21D51D312007591CE /* MainPageViewController.h */,
 				11B463C31D51D312007591CE /* MainPageViewController.m */,
 				11B463C51D51D33A007591CE /* TrackerViewController.h */,
 				11B463C61D51D33A007591CE /* TrackerViewController.m */,
 				11B463C81D51D464007591CE /* TrackerDetailViewController.h */,
 				11B463C91D51D464007591CE /* TrackerDetailViewController.m */,
-				11B463A21D51C962007591CE /* NativeAdViewController.h */,
-				11B463A31D51C962007591CE /* NativeAdViewController.m */,
-				11B463CB1D51D66F007591CE /* NativeVideoViewController.h */,
-				11B463CC1D51D66F007591CE /* NativeVideoViewController.m */,
-				11B463D31D51D8FF007591CE /* NativeVideoFullscreenViewController.h */,
-				11B463D41D51D8FF007591CE /* NativeVideoFullscreenViewController.m */,
+				11E4EC5922FC17E400BD194E /* DemoNativeAdViewController.h */,
+				11E4EC5722FC17E400BD194E /* DemoNativeAdViewController.m */,
+				11E4EC5822FC17E400BD194E /* DemoSuprAdViewController.h */,
+				11E4EC5A22FC17E400BD194E /* DemoSuprAdViewController.m */,
 				11B463A51D51C962007591CE /* Main.storyboard */,
 				11B463B31D51CAEB007591CE /* PostTableViewCell.h */,
 				11B463B41D51CAEB007591CE /* PostTableViewCell.m */,
 				11B463B51D51CAEB007591CE /* PostTableViewCell.xib */,
-				11B463CE1D51D76C007591CE /* VideoTableViewCell.h */,
-				11B463CF1D51D76C007591CE /* VideoTableViewCell.m */,
-				11B463D01D51D76C007591CE /* VideoTableViewCell.xib */,
+				11E4EC5D22FC186E00BD194E /* CommonPostTableViewCell.h */,
+				11E4EC5E22FC186E00BD194E /* CommonPostTableViewCell.m */,
+				11E4EC5F22FC186F00BD194E /* CommonPostTableViewCell.xib */,
 				11B463A81D51C962007591CE /* Assets.xcassets */,
 				11B463AA1D51C962007591CE /* LaunchScreen.storyboard */,
 				11B463AD1D51C962007591CE /* Info.plist */,
@@ -196,7 +187,6 @@
 				11B463961D51C962007591CE /* Frameworks */,
 				11B463971D51C962007591CE /* Resources */,
 				FE2A8778C366D58A35879B79 /* [CP] Embed Pods Frameworks */,
-				348EAE4C8AAE4148559490FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,10 +236,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E4EC6122FC186F00BD194E /* CommonPostTableViewCell.xib in Resources */,
 				11B463AC1D51C962007591CE /* LaunchScreen.storyboard in Resources */,
 				11B463A91D51C962007591CE /* Assets.xcassets in Resources */,
 				11B463A71D51C962007591CE /* Main.storyboard in Resources */,
-				11B463D21D51D76C007591CE /* VideoTableViewCell.xib in Resources */,
 				11B463B71D51CAEB007591CE /* PostTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,34 +247,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		348EAE4C8AAE4148559490FF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AotterTrekSample/Pods-AotterTrekSample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		75309124454CB02FC41DB2B7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AotterTrekSample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FE2A8778C366D58A35879B79 /* [CP] Embed Pods Frameworks */ = {
@@ -293,13 +271,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AotterTrekSample/Pods-AotterTrekSample-frameworks.sh",
+				"${PODS_ROOT}/GoogleAds-IMA-iOS-SDK/GoogleInteractiveMediaAds.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleInteractiveMediaAds.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AotterTrekSample/Pods-AotterTrekSample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AotterTrekSample/Pods-AotterTrekSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -311,14 +292,13 @@
 			files = (
 				11B463C41D51D312007591CE /* MainPageViewController.m in Sources */,
 				11B463CA1D51D464007591CE /* TrackerDetailViewController.m in Sources */,
-				11B463D51D51D8FF007591CE /* NativeVideoFullscreenViewController.m in Sources */,
-				11B463A41D51C962007591CE /* NativeAdViewController.m in Sources */,
-				11B463CD1D51D66F007591CE /* NativeVideoViewController.m in Sources */,
-				11B463D11D51D76C007591CE /* VideoTableViewCell.m in Sources */,
+				11E4EC6022FC186F00BD194E /* CommonPostTableViewCell.m in Sources */,
 				11B463A11D51C962007591CE /* AppDelegate.m in Sources */,
 				11B463C71D51D33A007591CE /* TrackerViewController.m in Sources */,
 				11B4639E1D51C962007591CE /* main.m in Sources */,
 				11B463B61D51CAEB007591CE /* PostTableViewCell.m in Sources */,
+				11E4EC5C22FC17E500BD194E /* DemoSuprAdViewController.m in Sources */,
+				11E4EC5B22FC17E500BD194E /* DemoNativeAdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +417,7 @@
 					"$(PROJECT_DIR)/AotterTrekSample",
 				);
 				INFOPLIST_FILE = AotterTrekSample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aotter.AotterTrekSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -455,7 +435,7 @@
 					"$(PROJECT_DIR)/AotterTrekSample",
 				);
 				INFOPLIST_FILE = AotterTrekSample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aotter.AotterTrekSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";

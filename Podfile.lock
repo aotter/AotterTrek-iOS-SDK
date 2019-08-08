@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - GoogleAds-IMA-iOS-SDK (3.9.0)
   - MBProgressHUD (1.0.0)
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
@@ -21,14 +22,23 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - GoogleAds-IMA-iOS-SDK (~> 3.9)
   - MBProgressHUD
   - SDWebImage
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - GoogleAds-IMA-iOS-SDK
+    - MBProgressHUD
+    - SDWebImage
+
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  GoogleAds-IMA-iOS-SDK: 8f57879738137b81a48ba792e42439e6bff5413b
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
 
-PODFILE CHECKSUM: abda42da3f7ad48522316343d761d4f492ba0059
+PODFILE CHECKSUM: fad0f5d406fb35092d7f10d03c26fef294781050
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.7.5

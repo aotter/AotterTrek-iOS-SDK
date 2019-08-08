@@ -48,9 +48,9 @@
 }
 
 
--(void)initialWithATAdNative:(ATAdNative *)nativeAd{
-    [nativeAd ATsetTrackingView:self];
-    [nativeAd ATsetTrackingActionButton:self.buttonAction];
+-(void)initialWithATAdNative:(TKNativeAd *)nativeAd{
+    [nativeAd setTrackingView:self];
+    [nativeAd setTrackingActionButton:self.buttonAction];
     
     NSDictionary *adData =  nativeAd.AdData;
     NSString *imgUrl = adData[@"img_icon"];

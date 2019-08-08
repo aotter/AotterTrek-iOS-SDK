@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="110" id="KGk-i7-Jjw" customClass="CommonPostTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="428" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="428" height="109.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pWf-ra-XFU">
+                        <rect key="frame" x="6" y="6" width="416" height="97.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MiF-kP-ZEJ">
+                                <rect key="frame" x="12" y="6" width="84" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="MiF-kP-ZEJ" secondAttribute="height" multiplier="1:1" id="SxS-2N-dZd"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKe-4x-q3F">
+                                <rect key="frame" x="100" y="6" width="312" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.23529411852359772" green="0.23529411852359772" blue="0.23529411852359772" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t4q-hQ-zrj">
+                                <rect key="frame" x="100" y="36" width="55.5" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509804248809814" green="0.94509804248809814" blue="0.94509804248809814" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="MiF-kP-ZEJ" firstAttribute="top" secondItem="pWf-ra-XFU" secondAttribute="top" constant="6" id="6WH-17-e4d"/>
+                            <constraint firstItem="lKe-4x-q3F" firstAttribute="leading" secondItem="MiF-kP-ZEJ" secondAttribute="trailing" constant="4" id="ACP-Dn-RgD"/>
+                            <constraint firstItem="lKe-4x-q3F" firstAttribute="top" secondItem="MiF-kP-ZEJ" secondAttribute="top" id="ELi-sR-xDa"/>
+                            <constraint firstItem="MiF-kP-ZEJ" firstAttribute="centerY" secondItem="pWf-ra-XFU" secondAttribute="centerY" id="IHh-VM-4hb"/>
+                            <constraint firstItem="t4q-hQ-zrj" firstAttribute="top" secondItem="lKe-4x-q3F" secondAttribute="bottom" constant="12" id="Uu8-kk-3W7"/>
+                            <constraint firstAttribute="trailing" secondItem="lKe-4x-q3F" secondAttribute="trailing" constant="4" id="UyG-jo-NKL"/>
+                            <constraint firstItem="t4q-hQ-zrj" firstAttribute="leading" secondItem="lKe-4x-q3F" secondAttribute="leading" id="c1Z-zD-isw"/>
+                            <constraint firstItem="MiF-kP-ZEJ" firstAttribute="leading" secondItem="pWf-ra-XFU" secondAttribute="leading" constant="12" id="saH-R8-B7k"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="pWf-ra-XFU" secondAttribute="bottom" constant="6" id="38V-RR-ciT"/>
+                    <constraint firstItem="pWf-ra-XFU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="dYx-q2-3qV"/>
+                    <constraint firstAttribute="trailing" secondItem="pWf-ra-XFU" secondAttribute="trailing" constant="6" id="vJA-GO-76M"/>
+                    <constraint firstItem="pWf-ra-XFU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="zHy-zB-JxH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageViewCover" destination="MiF-kP-ZEJ" id="CDZ-Bv-5gd"/>
+                <outlet property="labelSummary" destination="t4q-hQ-zrj" id="5u8-wF-3ca"/>
+                <outlet property="labelTitle" destination="lKe-4x-q3F" id="3Iv-En-QSz"/>
+                <outlet property="viewContentBackground" destination="pWf-ra-XFU" id="BwD-Yy-4bn"/>
+            </connections>
+            <point key="canvasLocation" x="40" y="54"/>
+        </tableViewCell>
+    </objects>
+</document>

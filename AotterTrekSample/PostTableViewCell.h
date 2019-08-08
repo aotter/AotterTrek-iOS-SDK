@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AotterService/AotterService.h>
+#import <AotterTrek-iOS-SDK/AotterTrek-iOS-SDK.h>
+
 
 
 @interface PostTableViewCell : UITableViewCell
 -(void)initialWithPost:(NSDictionary *)post;
--(void)initialWithATAdNative:(ATAdNative *)nativeAd;
+-(void)initialWithATAdNative:(TKNativeAd *)nativeAd;
 @end

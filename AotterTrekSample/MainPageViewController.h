@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AotterService/AotterService.h>
+
 
 @interface MainPageViewController : UIViewController
 

@@ -9,6 +9,7 @@
 #import "TrackerViewController.h"
 #import "PostTableViewCell.h"
 #import "TrackerDetailViewController.h"
+#import <AotterTrek-iOS-SDK/AotterTrek-iOS-SDK.h>
 
 @interface TrackerViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *mainTableView;
@@ -63,9 +64,9 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSDictionary *selectedPost = self.arrayOfPosts[indexPath.row];
-    NSDictionary *entityObject = [ATTracker helper_entityObjectWithTypePOST:selectedPost[@"postId"] title:selectedPost[@"title"] url:selectedPost[@"url"] tags:nil categories:@[@"news", @"tech"] reference:selectedPost[@"reference"] publishedDate:[NSDate date] imageUrl:selectedPost[@"imgUrl"] author:nil meta:nil];
-    [[ATTracker sharedAPI] ATTrackerEngageItemWithType:kATTTypeREAD_POST userObject:nil entityObject:entityObject locationObject:nil];
-    [[ATTracker sharedAPI] ATTrackerSendItems];
+    NSDictionary *entityObject = [TKTracker helper_entityObjectWithTypePOST:selectedPost[@"postId"] title:selectedPost[@"title"] url:selectedPost[@"url"] tags:nil categories:@[@"news", @"tech"] reference:selectedPost[@"reference"] publishedDate:[NSDate date] imageUrl:selectedPost[@"imgUrl"] author:nil meta:nil];
+    [[TKTracker sharedAPI] trackerEngageItemWithType:kTKTTypeREAD_POST userObject:nil entityObject:entityObject locationObject:nil];
+    [[TKTracker sharedAPI] trackerSendItems];
     
     
     TrackerDetailViewController *detailVC = [self.storyboard instantiateViewControllerWithIdentifier:@"trackerDetailViewController"];
