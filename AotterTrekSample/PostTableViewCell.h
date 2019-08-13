@@ -13,5 +13,5 @@
 
 @interface PostTableViewCell : UITableViewCell
 -(void)initialWithPost:(NSDictionary *)post;
--(void)initialWithATAdNative:(TKNativeAd *)nativeAd;
+-(void)initialWithATAdNative:(TKAdNative *)nativeAd;
 @end

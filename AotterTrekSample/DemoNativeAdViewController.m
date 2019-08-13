@@ -12,9 +12,9 @@
 
 
 
-@interface DemoNativeAdViewController ()<UITableViewDataSource, UITableViewDelegate>
+@interface DemoNativeAdViewController ()<UITableViewDataSource, UITableViewDelegate, TKAdNativeDelegate>
 @property UITableView *mainTableView;
-@property TKNativeAd *nativeAd;
+@property TKAdNative *nativeAd;
 
 @end
 
@@ -65,21 +65,10 @@
 }
 
 -(void)initialATNativeAd{
-    self.nativeAd = [[TKNativeAd alloc] init];
-    [self.nativeAd initWithPlace:@"post_third" category:@[@"testCategory"]];
-    [self.nativeAd setPresnetingViewController:self];
-    [self.nativeAd fetchAd:^(NSDictionary *adData) {
-        if(adData){
-            NSLog(@"[Demo-ATAdNative] fetchAd successed: %@", adData);
-            dispatch_async(dispatch_get_main_queue(), ^{
-                [self.mainTableView reloadData];
-            });
-        }
-        else{
-            NSLog(@"fetch no Ad");
-        }
-        
-    }];
+    self.nativeAd = [[TKAdNative alloc] initWithPlace:@"post_third" category:@"testCategory"];
+    self.nativeAd.delegate = self;
+    [self.nativeAd registerPresentingViewController:self];
+    [self.nativeAd fetchAd];
 }
 
 #define indexOfNativeAd 5
@@ -97,7 +86,7 @@
         if(self.nativeAd){
             CommonPostTableViewCell *cell = [self.mainTableView dequeueReusableCellWithIdentifier:@"cell"];
             [cell initialATAdNative:self.nativeAd.AdData];
-            [self.nativeAd setTrackingView:cell];
+            [self.nativeAd registerAdView:cell.contentView];
             return cell;
         }
     }
@@ -107,4 +96,12 @@
     return cell;
 }
 
+#pragma mark - TKAdNative delegate
+-(void)TKAdNative:(TKAdNative *)ad fetchError:(TKAdError *)error{
+    NSLog(@"TKAdNative fetch error: %@", error.message);
+}
+
+-(void)TKAdNative:(TKAdNative *)ad didReceivedAdWithData:(NSDictionary *)adData{
+    [self.mainTableView reloadData];
+}
 @end

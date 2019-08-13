@@ -8,6 +8,7 @@
 
 #import "CommonPostTableViewCell.h"
 #import "UIImageView+WebCache.h"
+#import <AotterTrek-iOS-SDK/TKNativeAdConstant.h>
 
 @implementation CommonPostTableViewCell
 
@@ -34,9 +35,9 @@
 }
 
 -(void)initialATAdNative:(NSDictionary *)ATNativeAdData{
-    NSString *titleString = ATNativeAdData[@"title"];
-    NSString *textString = ATNativeAdData[@"text"];
-    NSString *img_icon = ATNativeAdData[@"img_icon"];
+    NSString *titleString = ATNativeAdData[kTKAdTitleKey];
+    NSString *textString = ATNativeAdData[kTKAdTextKey];
+    NSString *img_icon = ATNativeAdData[kTKAdImage_iconKey];
     [self.imageViewCover sd_setImageWithURL:[NSURL URLWithString:img_icon]];
     self.labelTitle.text = titleString;
     self.labelSummary.text = textString;

@@ -9,9 +9,9 @@
 #import "DemoSuprAdViewController.h"
 #import <AotterTrek-iOS-SDK/AotterTrek-iOS-SDK.h>
 
-@interface DemoSuprAdViewController ()<UITableViewDelegate, UITableViewDataSource, TKSuprAdDelegate>
+@interface DemoSuprAdViewController ()<UITableViewDelegate, UITableViewDataSource, TKAdSuprAdDelegate>
 @property (nonatomic, strong) UITableView *mainTableView;
-@property (nonatomic, strong) TKSuprAd *suprAd;
+@property (nonatomic, strong) TKAdSuprAd *suprAd;
 @property (atomic, strong) UITableViewCell *adCell;
 @end
 
@@ -23,15 +23,19 @@
 
     [self initialTableView];
     [self initialSuprAd];
-
 }
+
+-(void)viewWillDisappear:(BOOL)animated{
+    [self.suprAd destroy];
+}
+
 -(IBAction)done:(id)sender{
     [self.navigationController dismissViewControllerAnimated:YES completion:nil];
 }
 -(void)initialSuprAd{
     self.adCell = [self.mainTableView dequeueReusableCellWithIdentifier:@"adCell"];
     self.adCell.contentView.backgroundColor = [UIColor greenColor];
-    self.suprAd = [[TKSuprAd alloc] initWithPlace:@"somewhere"];
+    self.suprAd = [[TKAdSuprAd alloc] initWithPlace:@"somewhere"];
     self.suprAd.delegate = self;
 //    [self.suprAd registAdContainer:self.adCell.contentView];
 //    [self.suprAd registPresentingViewController:self];
@@ -107,18 +111,19 @@
 
 
 #pragma mark - ATSuprAd delegate
--(void)TKSuprAd:(TKSuprAd *)suprAd didReceiveAdWithSize:(CGSize)size{
-    [self.suprAd registAdContainer:self.adCell.contentView];
-    [self.suprAd registPresentingViewController:self];
+-(void)TKAdSuprAd:(TKAdSuprAd *)suprAd didReceivedAdWithAdData:(NSDictionary *)adData preferecdMediaViewSize:(CGSize)size{
+    [self.suprAd registerTKMediaView:self.adCell.contentView];
+    [self.suprAd registerAdView:self.adCell.contentView];
+    [self.suprAd registerPresentingViewController:self];
     [self.suprAd loadAd];
 }
 
--(void)TKSuprAdDidLoaded:(TKSuprAd *)suprAd{
+-(void)TKAdSuprAdDidLoaded:(TKAdSuprAd *)suprAd{
     [self.adCell setNeedsLayout];
     [self.mainTableView reloadData];
 }
 
--(void)TKSuprAd:(TKSuprAd *)suprAd loadFailed:(TKSuprAdError *)error{
+-(void)TKAdSuprAd:(TKAdSuprAd *)suprAd loadFailed:(TKAdError *)error{
     NSLog(@"SuprAd failed: %@", error.message);
 }
 
