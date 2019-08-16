@@ -146,7 +146,7 @@
 				11E4EC5D22FC186E00BD194E /* CommonPostTableViewCell.h */,
 				11E4EC5E22FC186E00BD194E /* CommonPostTableViewCell.m */,
 				11E4EC5F22FC186F00BD194E /* CommonPostTableViewCell.xib */,
-				11F30D2B2306A98B00F97628 /* Mopub meidation intergarion */,
+				11F30D2B2306A98B00F97628 /* Mopub-meidation-intergarion */,
 				11B463A81D51C962007591CE /* Assets.xcassets */,
 				11B463AA1D51C962007591CE /* LaunchScreen.storyboard */,
 				11B463AD1D51C962007591CE /* Info.plist */,
@@ -163,7 +163,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		11F30D2B2306A98B00F97628 /* Mopub meidation intergarion */ = {
+		11F30D2B2306A98B00F97628 /* Mopub-meidation-intergarion */ = {
 			isa = PBXGroup;
 			children = (
 				11F30D2E2306A9AC00F97628 /* AotterTrekNativeAdAdapter.h */,
@@ -173,7 +173,7 @@
 				11F30D312306A9AC00F97628 /* AotterTrekNativeCustomEvent.h */,
 				11F30D2C2306A9AC00F97628 /* AotterTrekNativeCustomEvent.m */,
 			);
-			path = "Mopub meidation intergarion";
+			path = "Mopub-meidation-intergarion";
 			sourceTree = "<group>";
 		};
 		2D21BBD5518CC0F758B706A9 /* Pods */ = {
