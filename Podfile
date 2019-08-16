@@ -5,6 +5,10 @@ target 'AotterTrekSample' do
 	pod 'AFNetworking'
 	pod 'MBProgressHUD'
 	pod 'SDWebImage'
-    pod 'GoogleAds-IMA-iOS-SDK', '~> 3.9'
+  
+  pod 'GoogleAds-IMA-iOS-SDK', '~> 3.9'
+  pod 'mopub-ios-sdk', '~> 5.4.1'
+  
+  
 end
 
