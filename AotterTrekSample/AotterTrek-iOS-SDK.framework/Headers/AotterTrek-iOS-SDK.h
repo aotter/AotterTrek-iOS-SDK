@@ -8,6 +8,7 @@
 #import <AotterTrek-iOS-SDK/TKEnumHeaders.h>
 #import <AotterTrek-iOS-SDK/TKAdSuprAd.h>
 #import <AotterTrek-iOS-SDK/TKAdError.h>
+#import <AotterTrek-iOS-SDK/TKNativeAdConstant.h>
 
 //! Project version number for AotterService.
 FOUNDATION_EXPORT double AotterServiceVersionNumber;
