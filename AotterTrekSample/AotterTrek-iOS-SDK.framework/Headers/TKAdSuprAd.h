@@ -14,25 +14,16 @@
 @protocol TKAdSuprAdDelegate <NSObject>
 
 
-/**
- * Tell when the SuprAd fetch fails.
- * check error.message for more details.
- */
-@optional
--(void)TKAdSuprAd:(TKAdSuprAd *)suprAd fetchError:(TKAdError *)error;
-
-
 
 /**
  * While the SuprAd finishes fetching the ad, it will return prefered ad size.
  * Developer could set adContainer and presentingViewController in this callback.
  *
- * WARNING: If you implement it, you should call SuprAd.loadAd() manually.
  * @param  size    preferred media view size for this ad.
  * @param  adData  ad data
  */
 @optional
--(void)TKAdSuprAd:(TKAdSuprAd *)suprAd didReceivedAdWithAdData:(NSDictionary *)adData preferecdMediaViewSize:(CGSize)size;
+-(void)TKAdSuprAd:(TKAdSuprAd *)suprAd didReceivedAdWithAdData:(NSDictionary *)adData preferedMediaViewSize:(CGSize)size;
 
 
 
@@ -40,16 +31,17 @@
  * Tell when the SuprAd finishes loading and the ad is ready to display on screen.
  */
 @optional
--(void)TKAdSuprAdDidLoaded:(TKAdSuprAd *)suprAd;
+-(void)TKAdSuprAdCompleted:(TKAdSuprAd *)suprAd;
 
 
 
 /**
- * Tell when the SuprAd loading fails.
+ * Tell when the SuprAd get error when fetching/loading.
  * check error.message for more details.
  */
 @optional
--(void)TKAdSuprAd:(TKAdSuprAd *)suprAd loadError:(TKAdError *)error;
+-(void)TKAdSuprAd:(TKAdSuprAd *)suprAd adError:(TKAdError *)error;
+
 
 @end
 
@@ -107,18 +99,9 @@
 /**
  * Fetch suprAd.
  * The ad place is required.
- * TKSuprAd:didReceiveAdWithSize: or TKSuprAd:fetchFailed: will get called after fetching the ad.
+ * TKSuprAd:didReceiveAdWithSize: or TKSuprAd:adError: will get called after fetching the ad.
  */
 -(void)fetchAd;
-
-/**
- * Load ad content. 
- * When the ad loading is completed. TKSuprAdDidLoaded: will get called.
- *
- * IMPORTANT: the AdContainer is required before calling this method.
- * IMPORTANT: if TKSuprAd:didReceiveAdWithSize: is not implemented, the SuprAd.loadAd() will automatically be triggered after fetching the ad completely.
- */
--(void)loadAd;
 
 
 

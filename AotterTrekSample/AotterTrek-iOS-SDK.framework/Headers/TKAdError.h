@@ -21,9 +21,6 @@ typedef NS_ENUM(NSInteger, TKAdErrorCode){
     //Unknown error
     kTKAdError_UNKNOWN_ERROR = 900,
     
-    //Wrong player type when SuprAd is fetched. It's internal error, please contact us.
-    kTKAdError_UNKNOWN_PLAYERTYPE = 901,
-    
     //The ad place is required for ad fetching.
     kTKAdError_AD_PLACE_REQURED = 1000,
     
@@ -36,6 +33,11 @@ typedef NS_ENUM(NSInteger, TKAdErrorCode){
     //If the ad cache pool is enabled, the first request of the ad will fail immediately.
     kTKAdError_FAILED_BY_CACHE_EANBLED = 801,
     
+    //Wrong player type when SuprAd is fetched. It's internal error, please contact us.
+    kTKAdError_SUPRAD_UNKNOWN_PLAYERTYPE = 1101,
+    
+    //Error when VAST video try to fetch/load.
+    kTKAdError_SUPRAD_VIDEO_PLAY_ERROR = 1102,
     
 };
 

@@ -111,20 +111,20 @@
 
 
 #pragma mark - ATSuprAd delegate
--(void)TKAdSuprAd:(TKAdSuprAd *)suprAd didReceivedAdWithAdData:(NSDictionary *)adData preferecdMediaViewSize:(CGSize)size{
+-(void)TKAdSuprAd:(TKAdSuprAd *)suprAd didReceivedAdWithAdData:(NSDictionary *)adData preferedMediaViewSize:(CGSize)size{
     [self.suprAd registerTKMediaView:self.adCell.contentView];
     [self.suprAd registerAdView:self.adCell.contentView];
     [self.suprAd registerPresentingViewController:self];
-    [self.suprAd loadAd];
 }
 
--(void)TKAdSuprAdDidLoaded:(TKAdSuprAd *)suprAd{
+-(void)TKAdSuprAdCompleted:(TKAdSuprAd *)suprAd{
     [self.adCell setNeedsLayout];
     [self.mainTableView reloadData];
 }
 
--(void)TKAdSuprAd:(TKAdSuprAd *)suprAd loadFailed:(TKAdError *)error{
+-(void)TKAdSuprAd:(TKAdSuprAd *)suprAd adError:(TKAdError *)error{
     NSLog(@"SuprAd failed: %@", error.message);
 }
+
 
 @end

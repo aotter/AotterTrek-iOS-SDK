@@ -157,7 +157,6 @@
         [self.suprAd registerAdView:view];
         [self.suprAd registerPresentingViewController:[self.delegate viewControllerForPresentingModalView]];
         [_suprAd registerTKMediaView:self.mediaView];
-        [_suprAd loadAd];
     }
 }
 
