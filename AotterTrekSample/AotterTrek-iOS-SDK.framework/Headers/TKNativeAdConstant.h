@@ -22,3 +22,4 @@ extern NSString *const kTKAdImgs_labelKey;
 extern NSString *const kTKAdImgs_srcKey;
 extern NSString *const kTKAdImgs_widthKey;
 extern NSString *const kTKAdImgs_heightKey;
+extern NSString *const kTKAdSponser;

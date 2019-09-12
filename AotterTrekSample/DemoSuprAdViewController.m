@@ -26,10 +26,10 @@
 }
 
 -(void)viewWillDisappear:(BOOL)animated{
-    [self.suprAd destroy];
 }
 
 -(IBAction)done:(id)sender{
+    [self.suprAd destroy];
     [self.navigationController dismissViewControllerAnimated:YES completion:nil];
 }
 -(void)initialSuprAd{

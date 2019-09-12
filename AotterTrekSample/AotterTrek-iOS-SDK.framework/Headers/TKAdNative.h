@@ -69,6 +69,14 @@
  */
 -(void)fetchAd;
 
+/**
+ * Fetch ad.
+ * The ad place is required.
+ * @param adData ad data
+ * @param adError check error.message for more details
+ */
+-(void)fetchAdWithCallback:(void(^)(NSDictionary *adData, TKAdError *adError))callback;
+
 
 /**
  * Release the ad and its related views, container, and players.

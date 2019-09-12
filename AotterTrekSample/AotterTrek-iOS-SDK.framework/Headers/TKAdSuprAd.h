@@ -104,6 +104,16 @@
 -(void)fetchAd;
 
 
+/**
+ * Fetch suprAd.
+ * The ad place is required.
+ * @param adData ad data
+ * @param preferedAdSize preferred media view size for this ad.
+ * @param adError check error.message for more details
+ * @param loadAd implement this method when your ad settings done. If not implement this method, the ad will not going to load.
+ */
+-(void)fetchAdWithCallback:(void(^)(NSDictionary *adData, CGSize preferedAdSize, TKAdError *adError, void(^loadAd)(void) ))callback;
+
 
 /**
  * Release the ad and its related views, container, and players.

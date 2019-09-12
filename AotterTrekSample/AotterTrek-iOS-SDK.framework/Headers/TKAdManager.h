@@ -22,7 +22,7 @@
  * @param place     ad place
  * @param category  ad category
  */
--(void)prefetchNativeAdForPlace:(NSString *)place categories:(NSString *)category;
+-(void)prefetchNativeAdForPlace:(NSString *)place category:(NSString *)category;
 
 /**
  * Prefetch TKSuprAd with specific ad place and ad category
@@ -35,7 +35,7 @@
  @param place     ad place
  @param category  ad category
  */
--(void)prefetchSuprAdForPlace:(NSString *)place categories:(NSString *)category;;
+-(void)prefetchSuprAdForPlace:(NSString *)place category:(NSString *)category;;
 
 #pragma mark - Cache Pool Size
 /**
@@ -67,7 +67,7 @@
  @param place     ad place
  @param category  ad category
  */
--(void)clearCacheForNativeAdWithPlace:(NSString *)place categories:(NSString *)category;
+-(void)clearCacheForNativeAdWithPlace:(NSString *)place category:(NSString *)category;
 
 /**
  * Clear cache for all TKSuprAd with specific ad place.
@@ -80,5 +80,5 @@
  @param place     ad place
  @param category  ad category
  */
--(void)clearCahceForSuprAdWithPlace:(NSString *)place categories:(NSString *)category;;
+-(void)clearCahceForSuprAdWithPlace:(NSString *)place category:(NSString *)category;;
 @end
