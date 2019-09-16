@@ -104,4 +104,8 @@
 -(void)TKAdNative:(TKAdNative *)ad didReceivedAdWithData:(NSDictionary *)adData{
     [self.mainTableView reloadData];
 }
+
+-(void)TKMyAppAdNativeOnClicked:(TKMyAppAdNative *)ad{
+    NSLog(@">> MyApp Native ad on clicked: %@", ad.AdData);
+}
 @end

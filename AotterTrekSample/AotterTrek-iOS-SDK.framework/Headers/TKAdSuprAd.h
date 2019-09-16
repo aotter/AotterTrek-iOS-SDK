@@ -11,6 +11,7 @@
 #import "TKAdError.h"
 
 @class TKAdSuprAd;
+@class TKMyAppAdSuprAd;
 @protocol TKAdSuprAdDelegate <NSObject>
 
 
@@ -42,6 +43,13 @@
 @optional
 -(void)TKAdSuprAd:(TKAdSuprAd *)suprAd adError:(TKAdError *)error;
 
+
+/**
+ only avaiable for MyApp ads.
+ implement this function will prevent default click event(open url)
+ */
+@optional
+-(void)TKMyAppAdSuprAdOnClicked:(TKMyAppAdSuprAd *)ad;
 
 @end
 
@@ -103,6 +111,13 @@
  */
 -(void)fetchAd;
 
+/**
+ * Fetch MyApp suprAd.
+ * The ad place is required.
+ * TKSuprAd:didReceiveAdWithSize: or TKSuprAd:adError: will get called after fetching the ad.
+ */
+-(void)fetchMyAppAd;
+
 
 /**
  * Fetch suprAd.
@@ -116,8 +131,24 @@
 
 
 /**
+ * Fetch MyApp suprAd.
+ * The ad place is required.
+ * @param adData ad data
+ * @param preferedAdSize preferred media view size for this ad.
+ * @param adError check error.message for more details
+ * @param loadAd implement this method when your ad settings done. If not implement this method, the ad will not going to load.
+ */
+-(void)fetchMyAppAdWithCallback:(void(^)(NSDictionary *adData, CGSize preferedAdSize, TKAdError *adError, void(^loadAd)(void) ))callback;
+
+
+/**
  * Release the ad and its related views, container, and players.
  */
 -(void)destroy;
+
+@end
+
+
+@interface TKMyAppAdSuprAd : TKAdSuprAd
 
 @end

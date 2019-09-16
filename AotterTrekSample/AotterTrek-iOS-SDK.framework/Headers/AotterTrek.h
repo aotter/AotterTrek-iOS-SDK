@@ -15,8 +15,10 @@ typedef enum {
 
 
 @interface AotterTrek : NSObject
-@property NSString *clientId;
-@property NSString *clientSecret;
+@property NSString *trekClientId;
+@property NSString *trekClientSecret;
+@property NSString *myAppClientId;
+@property NSString *myAppClientSecret;
 @property NSDictionary *currentUser;
 @property TKLoggerLevel loggerLevel;
 
@@ -28,7 +30,27 @@ typedef enum {
  * @param clientSecret  app client secret
  */
 -(void)initTrekServiceWithClientId:(NSString *)clientId
-                        secret:(NSString *)clientSecret;
+                            secret:(NSString *)clientSecret;
+
+
+/**
+ * Initialize MyApp Service with your app client id and client secret
+ * @param clientId      MyApp app client id
+ * @param clientSecret  MyApp app client secret
+ */
+-(void)initMyAppServiceWithClientId:(NSString *)clientId
+                            secret:(NSString *)clientSecret;
+/**
+ * Initialize Trek Service & MyApp Service with your app client id and client secret
+ * @param clientId      app client id
+ * @param clientSecret  app client secret
+ * @param clientId      MyApp app client id
+ * @param clientSecret  MyApp app client secret
+ */
+-(void)initTrekServiceWithClientId:(NSString *)clientId
+                            secret:(NSString *)clientSecret
+                     myAppClientId:(NSString *)myAppClientId
+                 myAppClientSecret:(NSString *)myAppClientSecret;
 
 /**
  * Enable Trek log with specific level.

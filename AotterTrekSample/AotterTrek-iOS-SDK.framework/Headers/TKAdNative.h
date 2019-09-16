@@ -5,6 +5,7 @@
 #import "TKAdError.h"
 
 @class TKAdNative;
+@class TKMyAppAdNative;
 @protocol TKAdNativeDelegate <NSObject>
 
 @optional
@@ -14,10 +15,19 @@
 -(void)TKAdNative:(TKAdNative *)ad fetchError:(TKAdError *)error;
 
 @optional
--(void)TKAdNativeOnImpression:(TKAdNative *)ad;
+-(void)TKAdNativeWillLogImpression:(TKAdNative *)ad;
 
 @optional
--(void)TKAdNativeOnClicked:(TKAdNative *)ad;
+-(void)TKAdNativeWillLogClicked:(TKAdNative *)ad;
+
+
+/**
+ only avaiable for MyApp ads.
+ implement this function will prevent default click event(open url)
+ */
+@optional
+-(void)TKMyAppAdNativeOnClicked:(TKMyAppAdNative *)ad;
+
 @end
 
 
@@ -69,6 +79,8 @@
  */
 -(void)fetchAd;
 
+
+
 /**
  * Fetch ad.
  * The ad place is required.
@@ -78,11 +90,17 @@
 -(void)fetchAdWithCallback:(void(^)(NSDictionary *adData, TKAdError *adError))callback;
 
 
+
 /**
  * Release the ad and its related views, container, and players.
  */
 -(void)destroy;
 
+
+@end
+
+
+@interface TKMyAppAdNative : TKAdNative
 
 @end
 
