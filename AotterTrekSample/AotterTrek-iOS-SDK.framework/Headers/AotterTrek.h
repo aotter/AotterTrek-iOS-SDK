@@ -65,6 +65,12 @@ typedef enum {
  */
 -(BOOL)checkTrekServiceIsInitSuccess;
 
+/**
+ * Check if MyApp service is initialized successfully or not.
+ * @return is successed.
+ */
+-(BOOL)checkMyAppServiceIsInitSuccess;
+
 
 
 #pragma mark - Client user
