@@ -65,7 +65,7 @@
 }
 
 -(void)initialATNativeAd{
-    self.nativeAd = [[TKAdNative alloc] initWithPlace:@"post_third" category:@"testCategory"];
+    self.nativeAd = [[TKMyAppAdNative alloc] initWithPlace:@"post_third" category:@"testCategory"];
     self.nativeAd.delegate = self;
     [self.nativeAd registerPresentingViewController:self];
     [self.nativeAd fetchAd];
