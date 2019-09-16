@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "PostTableViewCell.h"
-#import <AotterService/AotterService.h>
+
 
 @interface TrackerDetailViewController : UIViewController
 @property NSDictionary *currentPost;

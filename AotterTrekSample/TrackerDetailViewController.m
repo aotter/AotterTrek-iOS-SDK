@@ -7,6 +7,7 @@
 //
 
 #import "TrackerDetailViewController.h"
+#import <AotterTrek-iOS-SDK/AotterTrek-iOS-SDK.h>
 
 @interface TrackerDetailViewController ()
 
@@ -25,8 +26,8 @@
 }
 
 -(void)viewDidDisappear:(BOOL)animated{
-    [[ATTracker sharedAPI] ATTrackExitEntityWithId:self.currentPost[@"postId"]];
-    [[ATTracker sharedAPI] ATTrackSend];
+    [[TKTracker sharedAPI] trackerExitItem:self.currentPost[@"postId"]];
+    [[TKTracker sharedAPI] trackerSendItems];
 }
 
 @end

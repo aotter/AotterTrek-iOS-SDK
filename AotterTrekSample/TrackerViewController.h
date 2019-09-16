@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AotterService/AotterService.h>
 
 @interface TrackerViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
