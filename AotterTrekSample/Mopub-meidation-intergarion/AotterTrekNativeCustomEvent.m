@@ -46,12 +46,6 @@
 
 
 #pragma mark - TKAdNative delegates
--(void)TKAdNative:(TKAdNative *)ad fetchError:(TKAdError *)error{
-    if([self.delegate respondsToSelector:@selector(nativeCustomEvent:didFailToLoadAdWithError:)]){
-        NSError *error = [NSError errorWithDomain:@"com.aotter.aotterTrek" code:100 userInfo:@{@"message": @"fetch no ad"}];
-        [self.delegate nativeCustomEvent:self didFailToLoadAdWithError:error];
-    }
-}
 
 -(void)TKAdNative:(TKAdNative *)ad didReceivedAdWithData:(NSDictionary *)adData{
     if(adData){
@@ -65,32 +59,41 @@
     }
 }
 
--(void)TKAdNativeOnImpression:(TKAdNative *)ad{
+-(void)TKAdNative:(TKAdNative *)ad fetchError:(TKAdError *)error{
+    if([self.delegate respondsToSelector:@selector(nativeCustomEvent:didFailToLoadAdWithError:)]){
+        NSError *error = [NSError errorWithDomain:@"com.aotter.aotterTrek" code:100 userInfo:@{@"message": @"fetch no ad"}];
+        [self.delegate nativeCustomEvent:self didFailToLoadAdWithError:error];
+    }
+}
+
+-(void)TKAdNativeWillLogImpression:(TKAdNative *)ad{
     if(self.adapter){
         [self.adapter onLogImression];
     }
 }
 
+
 #pragma mark - TKAdSuprAd delegates
--(void)TKAdSuprAd:(TKAdSuprAd *)suprAd loadError:(TKAdError *)error{
-    
-}
 
--(void)TKAdSuprAd:(TKAdSuprAd *)suprAd fetchError:(TKAdError *)error{
-    
-}
-
--(void)TKAdSuprAd:(TKAdSuprAd *)suprAd didReceivedAdWithAdData:(NSDictionary *)adData preferecdMediaViewSize:(CGSize)size{
+-(void)TKAdSuprAd:(TKAdSuprAd *)suprAd didReceivedAdWithAdData:(NSDictionary *)adData preferedMediaViewSize:(CGSize)size{
     if(adData){
         self.adapter = [[AotterTrekNativeAdAdapter alloc] initWithTKSuprAd:self.suprAd adProperties:nil];
+        [self.suprAd registerTKMediaView:self.adapter.mainMediaView];
         MPNativeAd *interfaceAd = [[MPNativeAd alloc] initWithAdAdapter:self.adapter];
         [self.delegate nativeCustomEvent:self didLoadAd:interfaceAd];
     }
 }
 
--(void)TKAdSuprAdDidLoaded:(TKAdSuprAd *)suprAd{
+
+-(void)TKAdSuprAdCompleted:(TKAdSuprAd *)suprAd{
     
 }
+
+-(void)TKAdSuprAd:(TKAdSuprAd *)suprAd adError:(TKAdError *)error{
+    
+}
+
+
 
 
 
