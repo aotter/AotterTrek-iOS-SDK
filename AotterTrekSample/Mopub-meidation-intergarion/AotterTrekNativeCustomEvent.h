@@ -8,17 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-#if __has_include(<MoPub/MoPub.h>)
-    #import <MoPub/MoPub.h>
-#elif __has_include(<MoPubSDKFramework/MoPub.h>)
-    #import <MoPubSDKFramework/MoPub.h>
-#else
-    #import "MPNativeCustomEvent.h"
-    #import "MPNativeAd.h"
-#endif
-
-
-
+#import "MPNativeCustomEvent.h"
+#import "MPNativeAd.h"
 #import <AotterTrek-iOS-SDK/AotterTrek-iOS-SDK.h>
 
 @interface AotterTrekNativeCustomEvent : MPNativeCustomEvent<TKAdNativeDelegate>
