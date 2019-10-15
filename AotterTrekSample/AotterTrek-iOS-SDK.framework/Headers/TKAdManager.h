@@ -37,17 +37,6 @@
  */
 -(void)prefetchSuprAdForPlace:(NSString *)place category:(NSString *)category;;
 
-#pragma mark - Cache Pool Size
-/**
- * Disable cache pool, all ad fetching events will take some time to get callback.
- */
--(void)disableAdCachePool;
-
-/**
- * Enable cache pool for saving ads into local memory.
- @param size   pool size for every ad key 1~10
- */
--(void)enableAdCachePoolWithIndiviaulPoolSize:(int)size;
 
 
 #pragma mark - clean Cache

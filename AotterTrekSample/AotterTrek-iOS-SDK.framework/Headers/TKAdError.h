@@ -2,7 +2,7 @@
 
 #import <Foundation/Foundation.h>
 
-#pragma mark - ATSuprAdErrorType
+#pragma mark - Ad Error Type
 
 typedef NS_ENUM(NSInteger, TKAdErrorType){
     //Unknown error
@@ -15,11 +15,17 @@ typedef NS_ENUM(NSInteger, TKAdErrorType){
     kTKAdErrorType_PLAYING_ERROR,
 };
 
-#pragma mark - ATSuprAdErrorCode
+#pragma mark - Ad Error Code
 
 typedef NS_ENUM(NSInteger, TKAdErrorCode){
     //Unknown error
     kTKAdError_UNKNOWN_ERROR = 900,
+    
+    //Trek service is not initialed.
+    kTKAdError_TREKSERVICE_NOT_INITIALED = 901,
+    
+    //MyApp service is not initialed.
+    kTKAdError_MYAPPSERVICE_NOT_INITIALED = 902,
     
     //The ad place is required for ad fetching.
     kTKAdError_AD_PLACE_REQURED = 1000,

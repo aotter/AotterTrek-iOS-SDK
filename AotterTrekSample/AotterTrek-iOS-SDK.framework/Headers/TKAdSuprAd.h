@@ -111,12 +111,6 @@
  */
 -(void)fetchAd;
 
-/**
- * Fetch MyApp suprAd.
- * The ad place is required.
- * TKSuprAd:didReceiveAdWithSize: or TKSuprAd:adError: will get called after fetching the ad.
- */
--(void)fetchMyAppAd;
 
 
 /**
@@ -130,15 +124,6 @@
 -(void)fetchAdWithCallback:(void(^)(NSDictionary *adData, CGSize preferedAdSize, TKAdError *adError, void(^loadAd)(void) ))callback;
 
 
-/**
- * Fetch MyApp suprAd.
- * The ad place is required.
- * @param adData ad data
- * @param preferedAdSize preferred media view size for this ad.
- * @param adError check error.message for more details
- * @param loadAd implement this method when your ad settings done. If not implement this method, the ad will not going to load.
- */
--(void)fetchMyAppAdWithCallback:(void(^)(NSDictionary *adData, CGSize preferedAdSize, TKAdError *adError, void(^loadAd)(void) ))callback;
 
 
 /**
