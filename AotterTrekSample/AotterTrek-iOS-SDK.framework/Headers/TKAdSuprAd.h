@@ -124,6 +124,11 @@
 -(void)fetchAdWithCallback:(void(^)(NSDictionary *adData, CGSize preferedAdSize, TKAdError *adError, void(^loadAd)(void) ))callback;
 
 
+/**
+ load Ad manually
+ :nodoc:
+ */
+-(void)loadAd;
 
 
 /**
