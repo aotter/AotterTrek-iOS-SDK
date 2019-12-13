@@ -34,7 +34,7 @@
 }
 -(void)initialSuprAd{
     self.adCell = [self.mainTableView dequeueReusableCellWithIdentifier:@"adCell"];
-    self.adCell.contentView.backgroundColor = [UIColor greenColor];
+//    self.adCell.contentView.backgroundColor = [UIColor greenColor];
     self.suprAd = [[TKAdSuprAd alloc] initWithPlace:@"somewhere"];
     self.suprAd.delegate = self;
 //    [self.suprAd registAdContainer:self.adCell.contentView];
