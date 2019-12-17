@@ -57,12 +57,14 @@
 -(IBAction)buttonClickDemoNativeAd:(id)sender{
     DemoNativeAdViewController *vc = [[DemoNativeAdViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    nav.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:nav animated:YES completion:nil];
 }
 
 -(IBAction)buttonClickDemoSuprAd:(id)sender{
     DemoSuprAdViewController *vc = [[DemoSuprAdViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    nav.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:nav animated:YES completion:nil];
 }
 
