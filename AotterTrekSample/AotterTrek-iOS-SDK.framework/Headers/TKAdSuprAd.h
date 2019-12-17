@@ -92,7 +92,7 @@
  * Register ad media view for SuprAd view displaying.
  * adView and TKMediaView could be the same.
  */
--(void)registerTKMediaView:(UIView *)adMediaView;
+-(void)registerTKMediaView:(UIView *)tkMediaView;
 
 
 /**
@@ -122,14 +122,6 @@
  * @param loadAd implement this method when your ad settings done. If not implement this method, the ad will not going to load.
  */
 -(void)fetchAdWithCallback:(void(^)(NSDictionary *adData, CGSize preferedAdSize, TKAdError *adError, void(^loadAd)(void) ))callback;
-
-
-/**
- load Ad manually
- :nodoc:
- */
--(void)loadAd;
-
 
 /**
  * Release the ad and its related views, container, and players.
