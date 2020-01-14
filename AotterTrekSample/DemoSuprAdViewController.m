@@ -109,6 +109,12 @@
     return 50;
 }
 
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    if(self.suprAd){
+        [self.suprAd notifyAdScrolled];
+    }
+}
+
 
 #pragma mark - ATSuprAd delegate
 -(void)TKAdSuprAd:(TKAdSuprAd *)suprAd didReceivedAdWithAdData:(NSDictionary *)adData preferedMediaViewSize:(CGSize)size{

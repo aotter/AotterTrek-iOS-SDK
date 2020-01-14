@@ -128,6 +128,13 @@
  */
 -(void)destroy;
 
+
+/**
+    if you render the ad in your scrollView/TableView/CollectionView or anything may have vertical scroll behavior, please call this fuction when the scrollView scrolled.
+    such as -(void)scrollViewDidScroll:(UIScrollView *)scrollView;
+ */
+-(void)notifyAdScrolled;
+
 @end
 
 
