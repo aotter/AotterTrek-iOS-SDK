@@ -29,6 +29,8 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
+    <key>NSUserTrackingUsageDescription</key>
+      <string>enable Tracking to get your IDFA.</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>

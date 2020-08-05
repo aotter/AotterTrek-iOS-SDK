@@ -10,10 +10,11 @@
 		116F19DC22E8645700678B50 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19DB22E8645700678B50 /* SystemConfiguration.framework */; };
 		116F19DE22E8648200678B50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19DD22E8648200678B50 /* Foundation.framework */; };
 		116F19E022E8648B00678B50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19DF22E8648B00678B50 /* UIKit.framework */; };
-		1185EB2123FCE1FB00F25E9B /* AotterTrek-iOS-SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1185EB2023FCE1FB00F25E9B /* AotterTrek-iOS-SDK.framework */; };
 		118EC6A223387DAC0019BEF1 /* AotterTrekNativeCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 118EC69D23387DAB0019BEF1 /* AotterTrekNativeCustomEvent.m */; };
 		118EC6A323387DAC0019BEF1 /* AotterTrekNativeAdRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 118EC69E23387DAB0019BEF1 /* AotterTrekNativeAdRenderer.m */; };
 		118EC6A423387DAC0019BEF1 /* AotterTrekNativeAdAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 118EC69F23387DAC0019BEF1 /* AotterTrekNativeAdAdapter.m */; };
+		118F79A424DACE22003F2EC5 /* AotterTrek-iOS-SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118F79A324DACE22003F2EC5 /* AotterTrek-iOS-SDK.framework */; };
+		118F79A624DACE5F003F2EC5 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118F79A524DACE5F003F2EC5 /* AppTrackingTransparency.framework */; };
 		1193018F23557B270065F3E9 /* OMSDK_Aotternet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1193018E23557B270065F3E9 /* OMSDK_Aotternet.framework */; };
 		1197132E1D645B2B0094D71C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1197132D1D645B2B0094D71C /* CoreTelephony.framework */; };
 		11B4639E1D51C962007591CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B4639D1D51C962007591CE /* main.m */; };
@@ -42,13 +43,14 @@
 		116F19DB22E8645700678B50 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		116F19DD22E8648200678B50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		116F19DF22E8648B00678B50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		1185EB2023FCE1FB00F25E9B /* AotterTrek-iOS-SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "AotterTrek-iOS-SDK.framework"; sourceTree = "<group>"; };
 		118EC69C23387DAB0019BEF1 /* AotterTrekNativeAdAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AotterTrekNativeAdAdapter.h; sourceTree = "<group>"; };
 		118EC69D23387DAB0019BEF1 /* AotterTrekNativeCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AotterTrekNativeCustomEvent.m; sourceTree = "<group>"; };
 		118EC69E23387DAB0019BEF1 /* AotterTrekNativeAdRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AotterTrekNativeAdRenderer.m; sourceTree = "<group>"; };
 		118EC69F23387DAC0019BEF1 /* AotterTrekNativeAdAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AotterTrekNativeAdAdapter.m; sourceTree = "<group>"; };
 		118EC6A023387DAC0019BEF1 /* AotterTrekNativeAdRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AotterTrekNativeAdRenderer.h; sourceTree = "<group>"; };
 		118EC6A123387DAC0019BEF1 /* AotterTrekNativeCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AotterTrekNativeCustomEvent.h; sourceTree = "<group>"; };
+		118F79A324DACE22003F2EC5 /* AotterTrek-iOS-SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "AotterTrek-iOS-SDK.framework"; sourceTree = "<group>"; };
+		118F79A524DACE5F003F2EC5 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
 		1193018E23557B270065F3E9 /* OMSDK_Aotternet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OMSDK_Aotternet.framework; sourceTree = "<group>"; };
 		1197132D1D645B2B0094D71C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		11B463991D51C962007591CE /* AotterTrekSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AotterTrekSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,7 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1185EB2123FCE1FB00F25E9B /* AotterTrek-iOS-SDK.framework in Frameworks */,
+				118F79A424DACE22003F2EC5 /* AotterTrek-iOS-SDK.framework in Frameworks */,
+				118F79A624DACE5F003F2EC5 /* AppTrackingTransparency.framework in Frameworks */,
 				116F19E022E8648B00678B50 /* UIKit.framework in Frameworks */,
 				116F19DE22E8648200678B50 /* Foundation.framework in Frameworks */,
 				116F19DC22E8645700678B50 /* SystemConfiguration.framework in Frameworks */,
@@ -130,7 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				1193018E23557B270065F3E9 /* OMSDK_Aotternet.framework */,
-				1185EB2023FCE1FB00F25E9B /* AotterTrek-iOS-SDK.framework */,
+				118F79A324DACE22003F2EC5 /* AotterTrek-iOS-SDK.framework */,
 				11B4639F1D51C962007591CE /* AppDelegate.h */,
 				11B463A01D51C962007591CE /* AppDelegate.m */,
 				11B463C21D51D312007591CE /* MainPageViewController.h */,
@@ -192,6 +195,7 @@
 		A1C32F73D798C04D59CB4DAE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				118F79A524DACE5F003F2EC5 /* AppTrackingTransparency.framework */,
 				116F19DF22E8648B00678B50 /* UIKit.framework */,
 				116F19DD22E8648200678B50 /* Foundation.framework */,
 				116F19DB22E8645700678B50 /* SystemConfiguration.framework */,
