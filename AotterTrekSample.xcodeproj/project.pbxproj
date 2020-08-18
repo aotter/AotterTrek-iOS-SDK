@@ -35,6 +35,10 @@
 		11E4EC5C22FC17E500BD194E /* DemoSuprAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E4EC5A22FC17E400BD194E /* DemoSuprAdViewController.m */; };
 		11E4EC6022FC186F00BD194E /* CommonPostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E4EC5E22FC186E00BD194E /* CommonPostTableViewCell.m */; };
 		11E4EC6122FC186F00BD194E /* CommonPostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E4EC5F22FC186F00BD194E /* CommonPostTableViewCell.xib */; };
+		11E517E824EB819A0006FC60 /* DemoAdMobMedationNativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E517E624EB819A0006FC60 /* DemoAdMobMedationNativeAdViewController.m */; };
+		11E517E924EB819A0006FC60 /* DemoAdMobMedationNativeAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E517E724EB819A0006FC60 /* DemoAdMobMedationNativeAdViewController.xib */; };
+		11E517EC24EB87A10006FC60 /* GoogleUnifiedNativeAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E517EB24EB87A10006FC60 /* GoogleUnifiedNativeAdView.m */; };
+		11E517EE24EB87BC0006FC60 /* GoogleUnifiedNativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E517ED24EB87BC0006FC60 /* GoogleUnifiedNativeAdView.xib */; };
 		3FD6BB292214154200E332B7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD6BB282214154200E332B7 /* WebKit.framework */; };
 		D45D86950F2F0D784A36C5FF /* libPods-AotterTrekSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5AE59297CF861213ED13E7 /* libPods-AotterTrekSample.a */; };
 /* End PBXBuildFile section */
@@ -81,6 +85,12 @@
 		11E4EC5D22FC186E00BD194E /* CommonPostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonPostTableViewCell.h; sourceTree = "<group>"; };
 		11E4EC5E22FC186E00BD194E /* CommonPostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonPostTableViewCell.m; sourceTree = "<group>"; };
 		11E4EC5F22FC186F00BD194E /* CommonPostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonPostTableViewCell.xib; sourceTree = "<group>"; };
+		11E517E524EB819A0006FC60 /* DemoAdMobMedationNativeAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAdMobMedationNativeAdViewController.h; sourceTree = "<group>"; };
+		11E517E624EB819A0006FC60 /* DemoAdMobMedationNativeAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAdMobMedationNativeAdViewController.m; sourceTree = "<group>"; };
+		11E517E724EB819A0006FC60 /* DemoAdMobMedationNativeAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoAdMobMedationNativeAdViewController.xib; sourceTree = "<group>"; };
+		11E517EA24EB87A10006FC60 /* GoogleUnifiedNativeAdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleUnifiedNativeAdView.h; sourceTree = "<group>"; };
+		11E517EB24EB87A10006FC60 /* GoogleUnifiedNativeAdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleUnifiedNativeAdView.m; sourceTree = "<group>"; };
+		11E517ED24EB87BC0006FC60 /* GoogleUnifiedNativeAdView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoogleUnifiedNativeAdView.xib; sourceTree = "<group>"; };
 		3A5AE59297CF861213ED13E7 /* libPods-AotterTrekSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AotterTrekSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD6BB282214154200E332B7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		6B8BDF08FB07EED7D622754F /* Pods-AotterTrekSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AotterTrekSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AotterTrekSample/Pods-AotterTrekSample.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,10 +156,16 @@
 				11E4EC5722FC17E400BD194E /* DemoNativeAdViewController.m */,
 				11E4EC5822FC17E400BD194E /* DemoSuprAdViewController.h */,
 				11E4EC5A22FC17E400BD194E /* DemoSuprAdViewController.m */,
+				11E517E524EB819A0006FC60 /* DemoAdMobMedationNativeAdViewController.h */,
+				11E517E624EB819A0006FC60 /* DemoAdMobMedationNativeAdViewController.m */,
+				11E517E724EB819A0006FC60 /* DemoAdMobMedationNativeAdViewController.xib */,
 				11B463A51D51C962007591CE /* Main.storyboard */,
 				11B463B31D51CAEB007591CE /* PostTableViewCell.h */,
 				11B463B41D51CAEB007591CE /* PostTableViewCell.m */,
 				11B463B51D51CAEB007591CE /* PostTableViewCell.xib */,
+				11E517EA24EB87A10006FC60 /* GoogleUnifiedNativeAdView.h */,
+				11E517EB24EB87A10006FC60 /* GoogleUnifiedNativeAdView.m */,
+				11E517ED24EB87BC0006FC60 /* GoogleUnifiedNativeAdView.xib */,
 				11E4EC5D22FC186E00BD194E /* CommonPostTableViewCell.h */,
 				11E4EC5E22FC186E00BD194E /* CommonPostTableViewCell.m */,
 				11E4EC5F22FC186F00BD194E /* CommonPostTableViewCell.xib */,
@@ -274,8 +290,10 @@
 			files = (
 				11E4EC6122FC186F00BD194E /* CommonPostTableViewCell.xib in Resources */,
 				11B463AC1D51C962007591CE /* LaunchScreen.storyboard in Resources */,
+				11E517E924EB819A0006FC60 /* DemoAdMobMedationNativeAdViewController.xib in Resources */,
 				11B463A91D51C962007591CE /* Assets.xcassets in Resources */,
 				11B463A71D51C962007591CE /* Main.storyboard in Resources */,
+				11E517EE24EB87BC0006FC60 /* GoogleUnifiedNativeAdView.xib in Resources */,
 				11B463B71D51CAEB007591CE /* PostTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +404,7 @@
 			files = (
 				118EC6A423387DAC0019BEF1 /* AotterTrekNativeAdAdapter.m in Sources */,
 				118EC6A323387DAC0019BEF1 /* AotterTrekNativeAdRenderer.m in Sources */,
+				11E517EC24EB87A10006FC60 /* GoogleUnifiedNativeAdView.m in Sources */,
 				11B463C41D51D312007591CE /* MainPageViewController.m in Sources */,
 				118EC6A223387DAC0019BEF1 /* AotterTrekNativeCustomEvent.m in Sources */,
 				11B463CA1D51D464007591CE /* TrackerDetailViewController.m in Sources */,
@@ -395,6 +414,7 @@
 				11B4639E1D51C962007591CE /* main.m in Sources */,
 				11B463B61D51CAEB007591CE /* PostTableViewCell.m in Sources */,
 				11E4EC5C22FC17E500BD194E /* DemoSuprAdViewController.m in Sources */,
+				11E517E824EB819A0006FC60 /* DemoAdMobMedationNativeAdViewController.m in Sources */,
 				11E4EC5B22FC17E500BD194E /* DemoNativeAdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

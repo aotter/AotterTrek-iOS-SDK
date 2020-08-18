@@ -10,6 +10,7 @@
 #import <AotterTrek-iOS-SDK/AotterTrek-iOS-SDK.h>
 #import "DemoNativeAdViewController.h"
 #import "DemoSuprAdViewController.h"
+#import "DemoAdMobMedationNativeAdViewController.h"
 
 @interface MainPageViewController ()
 @property (weak, nonatomic) IBOutlet UIStackView *mainStackView;
@@ -46,6 +47,12 @@
     [suprAdButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [self.mainStackView addArrangedSubview:suprAdButton];
     
+    UIButton *adMobMedaionBtn = [[UIButton alloc] init];
+    [adMobMedaionBtn setTitle:@"AdMob(google) mediation sample" forState:UIControlStateNormal];
+    [adMobMedaionBtn addTarget:self action:@selector(buttonClickDemoAdMobMediaion:) forControlEvents:UIControlEventTouchUpInside];
+    [adMobMedaionBtn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [self.mainStackView addArrangedSubview:adMobMedaionBtn];
+    
 //    [self.view setNeedsLayout];
 //    [self.view layoutIfNeeded];
 //    [self.view setNeedsUpdateConstraints];
@@ -68,5 +75,11 @@
     [self presentViewController:nav animated:YES completion:nil];
 }
 
+-(IBAction)buttonClickDemoAdMobMediaion:(id)sender{
+    DemoAdMobMedationNativeAdViewController *vc = [[DemoAdMobMedationNativeAdViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    nav.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:nav animated:YES completion:nil];
+}
 
 @end

@@ -9,6 +9,10 @@ target 'AotterTrekSample' do
   pod 'GoogleAds-IMA-iOS-SDK', '3.12.1'  # '3.11.2'
   # pod 'GoogleAds-IMA-iOS-SDK', '3.9.0'
   
+  # test for AdMob Mediation
+  pod 'Google-Mobile-Ads-SDK'
+  
+
   
   # VAST Video learn more click action error
   #         iOS12/iOS13
