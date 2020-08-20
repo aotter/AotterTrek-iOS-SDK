@@ -25,12 +25,20 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStyleDone target:self action:@selector(done:)];
     [self initialTableView];
     
+    /* some adLoader options may help
+        GADNativeAdImageAdLoaderOptions
+        GADNativeAdMediaAdLoaderOptions
+        GADMultipleAdsAdLoaderOptions
+     */
+    
+    
+    
     //GAD adLoader
     self.adLoader = [[GADAdLoader alloc]
-          initWithAdUnitID:@"ca-app-pub-3940256099942544/3986624511"
+          initWithAdUnitID:@"ca-app-pub-8836593984677243/6738835064"
         rootViewController:self
                    adTypes:@[kGADAdLoaderAdTypeUnifiedNative]
-                   options:@[]];
+                   options:@[  ]];
     self.adLoader.delegate = self;
 
     [self.adLoader loadRequest:[GADRequest request]];

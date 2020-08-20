@@ -109,7 +109,7 @@
                 <outlet property="bodyView" destination="BMz-dc-Cle" id="qZ3-kF-9Qk"/>
                 <outlet property="callToActionView" destination="tAp-Pp-0O2" id="evj-nJ-oFC"/>
                 <outlet property="headlineView" destination="1on-hH-T9Q" id="g7y-rE-Kid"/>
-                <outlet property="iconView" destination="aCn-1L-jKG" id="H0i-X3-JYd"/>
+                <outlet property="iconView" destination="Fo4-2N-4qX" id="diN-yj-L0Y"/>
                 <outlet property="mediaView" destination="L9c-nF-fUy" id="ATT-7v-SKZ"/>
                 <outlet property="priceView" destination="y2Y-6d-7t6" id="BVd-PL-H3r"/>
                 <outlet property="storeView" destination="hs6-oF-ZbM" id="76T-nd-zeN"/>

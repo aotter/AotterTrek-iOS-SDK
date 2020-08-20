@@ -23,8 +23,8 @@
         <key>NSAllowsArbitraryLoads</key>
         <true/>
     </dict>
-    <key>GADApplicationIdentifier</key>
-    <string>ca-app-pub-3940256099942544~1458002511</string>
+  <key>GADApplicationIdentifier</key>
+    <string>ca-app-pub-8836593984677243~5240273815</string>
     <key>SKAdNetworkItems</key>
       <array>
         <dict>
