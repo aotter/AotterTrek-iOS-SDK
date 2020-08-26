@@ -92,7 +92,7 @@
  * Register ad media view for SuprAd view displaying.
  * adView and TKMediaView could be the same.
  */
--(void)registerTKMediaView:(UIView *)adMediaView;
+-(void)registerTKMediaView:(UIView *)tkMediaView;
 
 
 /**
@@ -123,13 +123,17 @@
  */
 -(void)fetchAdWithCallback:(void(^)(NSDictionary *adData, CGSize preferedAdSize, TKAdError *adError, void(^loadAd)(void) ))callback;
 
-
-
-
 /**
  * Release the ad and its related views, container, and players.
  */
 -(void)destroy;
+
+
+/**
+    if you render the ad in your scrollView/TableView/CollectionView or anything may have vertical scroll behavior, please call this fuction when the scrollView scrolled.
+    such as -(void)scrollViewDidScroll:(UIScrollView *)scrollView;
+ */
+-(void)notifyAdScrolled;
 
 @end
 
