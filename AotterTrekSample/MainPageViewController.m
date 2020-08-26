@@ -10,6 +10,8 @@
 #import <AotterTrek-iOS-SDK/AotterTrek-iOS-SDK.h>
 #import "DemoNativeAdViewController.h"
 #import "DemoSuprAdViewController.h"
+#import <AppTrackingTransparency/AppTrackingTransparency.h>
+#import <AdSupport/AdSupport.h>
 
 @interface MainPageViewController ()
 @property (weak, nonatomic) IBOutlet UIStackView *mainStackView;
@@ -46,6 +48,15 @@
     [suprAdButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [self.mainStackView addArrangedSubview:suprAdButton];
     
+    if (@available(iOS 14, *)) {
+        [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+            // Tracking authorization completed. Start loading ads here.
+            // [self loadAd];
+        }];
+    } else {
+        // Fallback on earlier versions
+    }
+
 //    [self.view setNeedsLayout];
 //    [self.view layoutIfNeeded];
 //    [self.view setNeedsUpdateConstraints];
