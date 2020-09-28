@@ -10,7 +10,7 @@
 
 @interface AotterTrekGADMediatedSuprAd ()<TKAdSuprAdDelegate>
 @property TKAdSuprAd *suprAd;
-@property(nonatomic, copy) NSDictionary *extras;
+@property(nonatomic, copy) NSMutableDictionary *extras;
 @property(nonatomic, strong) GADNativeAdImage *mappedIcon;
 @property(nonatomic, strong) UIView *mediaView;
 
@@ -26,10 +26,11 @@
     if (self) {
         _suprAd = suprAd;
         _suprAd.delegate = self;
-        _extras = @{};
+        _extras = [[NSMutableDictionary alloc] init];
+        [_extras setObject:suprAd forKey:@"trekAd"];
         
         NSString *imageUrl = _suprAd.adData[kTKAdImage_iconKey];
-        NSURL *imageURL = [[NSURL alloc] initFileURLWithPath:imageUrl];
+        NSURL *imageURL = [[NSURL alloc] initWithString:imageUrl];
         _mappedIcon = [[GADNativeAdImage alloc] initWithURL:imageURL scale:1];
         
     
@@ -95,6 +96,7 @@
 
 -(void)didRenderInView:(UIView *)view clickableAssetViews:(NSDictionary<GADUnifiedNativeAssetIdentifier,UIView *> *)clickableAssetViews nonclickableAssetViews:(NSDictionary<GADUnifiedNativeAssetIdentifier,UIView *> *)nonclickableAssetViews viewController:(UIViewController *)viewController{
     [_suprAd registerAdView:view];
+    [_suprAd registerPresentingViewController:viewController];
 }
 
 -(void)TKMyAppAdSuprAdOnClicked:(TKMyAppAdSuprAd *)ad{

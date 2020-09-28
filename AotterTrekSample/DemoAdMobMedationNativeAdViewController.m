@@ -9,6 +9,8 @@
 #import "DemoAdMobMedationNativeAdViewController.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
 #import "GoogleUnifiedNativeAdView.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <AotterTrek-iOS-SDK/TKAdSuprAd.h>
 
 @interface DemoAdMobMedationNativeAdViewController ()<UITableViewDelegate, UITableViewDataSource, GADUnifiedNativeAdLoaderDelegate>
 @property (nonatomic, strong) UITableView *mainTableView;
@@ -35,7 +37,7 @@
     
     //GAD adLoader
     self.adLoader = [[GADAdLoader alloc]
-          initWithAdUnitID:@"ca-app-pub-8836593984677243/6738835064"
+          initWithAdUnitID:@"<your adUnit Id>"
         rootViewController:self
                    adTypes:@[kGADAdLoaderAdTypeUnifiedNative]
                    options:@[  ]];
@@ -95,7 +97,7 @@
 #pragma mark - GAD adLoader
 - (void)adLoader:(GADAdLoader *)adLoader didReceiveUnifiedNativeAd:(GADUnifiedNativeAd *)nativeAd{
     NSLog(@"[GAD adLoader] didReceiveUnifiedNativeAd: %@", nativeAd);
-    GADUnifiedNativeAdView *nativeAdView = [[NSBundle mainBundle] loadNibNamed:@"GoogleUnifiedNativeAdView" owner:nil options:nil].firstObject;
+    GoogleUnifiedNativeAdView *nativeAdView = [[NSBundle mainBundle] loadNibNamed:@"GoogleUnifiedNativeAdView" owner:nil options:nil].firstObject;
     [self setAdView:nativeAdView];
     
     // Set the mediaContent on the GADMediaView to populate it with available
@@ -115,8 +117,13 @@
                                                 forState:UIControlStateNormal];
     nativeAdView.callToActionView.hidden = nativeAd.callToAction ? NO : YES;
 
-      ((UIImageView *)nativeAdView.iconView).image = nativeAd.icon.image;
-    nativeAdView.iconView.hidden = nativeAd.icon ? NO : YES;
+    if(nativeAd.icon.image){
+        ((UIImageView *)nativeAdView.iconView).image = nativeAd.icon.image;
+    }
+    else if (nativeAd.icon.imageURL){
+        [((UIImageView *)nativeAdView.iconView) sd_setImageWithURL:nativeAd.icon.imageURL];
+    }
+    nativeAdView.iconView.hidden = NO;
 
 
     ((UILabel *)nativeAdView.storeView).text = nativeAd.store;

@@ -10,7 +10,7 @@
 
 @interface AotterTrekGADMediatedNativeAd()<TKAdNativeDelegate>
 @property TKAdNative *nativeAd;
-@property(nonatomic, copy) NSDictionary *extras;
+@property(nonatomic, copy) NSMutableDictionary *extras;
 @property(nonatomic, strong) GADNativeAdImage *mappedIcon;
 
 
@@ -27,12 +27,11 @@
     if (self) {
         _nativeAd = nativeAd;
         _nativeAd.delegate = self;
-        _extras = @{};
+        _extras = [[NSMutableDictionary alloc] init];
         
         NSString *imageUrl = _nativeAd.AdData[kTKAdImage_iconKey];
-        NSURL *imageURL = [[NSURL alloc] initFileURLWithPath:imageUrl];
+        NSURL *imageURL = [[NSURL alloc] initWithString:imageUrl];
         _mappedIcon = [[GADNativeAdImage alloc] initWithURL:imageURL scale:1.0];
-        
     }
     return self;
 }
@@ -92,6 +91,7 @@
 
 -(void)didRenderInView:(UIView *)view clickableAssetViews:(NSDictionary<GADUnifiedNativeAssetIdentifier,UIView *> *)clickableAssetViews nonclickableAssetViews:(NSDictionary<GADUnifiedNativeAssetIdentifier,UIView *> *)nonclickableAssetViews viewController:(UIViewController *)viewController{
     [_nativeAd registerAdView:view];
+    [_nativeAd registerPresentingViewController:viewController];
 }
 
 -(void)TKAdNativeWillLogClicked:(TKAdNative *)ad{

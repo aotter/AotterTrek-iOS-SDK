@@ -14,9 +14,9 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - GoogleAds-IMA-iOS-SDK (3.12.1)
   - Google-Mobile-Ads-SDK (7.62.0):
     - GoogleAppMeasurement (~> 6.0)
+  - GoogleAds-IMA-iOS-SDK (3.12.1)
   - GoogleAppMeasurement (6.6.2):
     - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
     - GoogleUtilities/MethodSwizzler (~> 6.0)
@@ -64,8 +64,8 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - GoogleAds-IMA-iOS-SDK (= 3.12.1)
   - Google-Mobile-Ads-SDK
+  - GoogleAds-IMA-iOS-SDK (= 3.12.1)
   - MBProgressHUD
   - mopub-ios-sdk (~> 5.4.1)
   - SDWebImage
@@ -85,8 +85,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  GoogleAds-IMA-iOS-SDK: 3c01b8db7d01de6b4a3b1d58744d4bc426a2d821
   Google-Mobile-Ads-SDK: c92c27666fbf684c964259785a6b3cdd3068e06f
+  GoogleAds-IMA-iOS-SDK: 3c01b8db7d01de6b4a3b1d58744d4bc426a2d821
   GoogleAppMeasurement: 8cd1f289d60e629cf16ab03363b9e89c776b9651
   GoogleUtilities: 39530bc0ad980530298e9c4af8549e991fd033b1
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
@@ -95,6 +95,6 @@ SPEC CHECKSUMS:
   PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
 
-PODFILE CHECKSUM: 8f6f838f8943cb6b6721dc3126df6f07fa615052
+PODFILE CHECKSUM: 5296464cac9790c22c92a44e1adb3b4de7e99967
 
 COCOAPODS: 1.10.0.rc.1

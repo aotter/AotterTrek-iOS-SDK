@@ -50,19 +50,18 @@ static NSString *const customEventErrorDomain = @"com.aotter.AotterTrek.GADCusto
         adPlace = [paramJson objectForKey:@"adPlace"];
     }
     
-    //adType = @"suprAdsddd";
     if([adType isEqualToString:@"nativeAd"]){
         TKAdNative *adNatve = [[TKAdNative alloc] initWithPlace:adPlace];
         [adNatve fetchAdWithCallback:^(NSDictionary *adData, TKAdError *adError) {
             if(adError){
-                NSLog(@"TKAdNative fetched Ad error: %@", adError.message);
+                NSLog(@"[AotterTrek-iOS-SDK: adMob mediation] TKAdNative fetched Ad error: %@", adError.message);
                 NSString *errorDescription = adError.message;
                 NSDictionary *userInfo = @{NSLocalizedDescriptionKey : errorDescription, NSLocalizedFailureReasonErrorKey : errorDescription};
                 NSError *err = [NSError errorWithDomain:customEventErrorDomain code:0 userInfo:userInfo];
                 [self.delegate customEventNativeAd:self didFailToLoadWithError:err];
             }
             else{
-                NSLog(@"TKAdNative fetched Ad");
+                NSLog(@"[AotterTrek-iOS-SDK: adMob mediation] TKAdNative fetched Ad");
                 AotterTrekGADMediatedNativeAd *mediatedAd = [[AotterTrekGADMediatedNativeAd alloc] initWithTKNativeAd:adNatve];
                 [self.delegate customEventNativeAd:self didReceiveMediatedUnifiedNativeAd:mediatedAd];
             }
@@ -72,14 +71,14 @@ static NSString *const customEventErrorDomain = @"com.aotter.AotterTrek.GADCusto
         TKAdSuprAd *suprAd = [[TKAdSuprAd alloc] initWithPlace:adPlace];
         [suprAd fetchAdWithCallback:^(NSDictionary *adData, CGSize preferedAdSize, TKAdError *adError, void (^loadAd)(void)) {
             if(adError){
-                NSLog(@"TKAdSuprAd fetched Ad error: %@", adError.message);
+                NSLog(@"[AotterTrek-iOS-SDK: adMob mediation] TKAdSuprAd fetched Ad error: %@", adError.message);
                 NSString *errorDescription = adError.message;
                 NSDictionary *userInfo = @{NSLocalizedDescriptionKey : errorDescription, NSLocalizedFailureReasonErrorKey : errorDescription};
                 NSError *err = [NSError errorWithDomain:customEventErrorDomain code:0 userInfo:userInfo];
                 [self.delegate customEventNativeAd:self didFailToLoadWithError:err];
             }
             else{
-                NSLog(@"TKAdSuprAd fetched Ad");
+                NSLog(@"[AotterTrek-iOS-SDK: adMob mediation] TKAdSuprAd fetched Ad");
                 AotterTrekGADMediatedSuprAd *mediatedAd = [[AotterTrekGADMediatedSuprAd alloc] initWithTKSuprAd:suprAd];
                 [self.delegate customEventNativeAd:self didReceiveMediatedUnifiedNativeAd:mediatedAd];
             }
