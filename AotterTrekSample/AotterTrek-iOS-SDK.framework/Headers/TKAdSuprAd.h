@@ -51,6 +51,10 @@
 @optional
 -(void)TKMyAppAdSuprAdOnClicked:(TKMyAppAdSuprAd *)ad;
 
+
+@optional
+-(void)TKAdSuprAdWillLogImpressionWithWebViewType:(TKAdSuprAd *)ad;
+
 @end
 
 
