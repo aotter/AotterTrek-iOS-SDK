@@ -80,7 +80,7 @@
 #define adIndex 10
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    if(indexPath.row == adIndex && self.suprAd && self.suprAd.adLoaded){
+    if(indexPath.row == adIndex && self.suprAd && self.suprAd.adLoaded && ![self.suprAd isExpired]){
 //    if(indexPath.row == adIndex && self.suprAd){
         if(!CGSizeEqualToSize(self.suprAd.preferedContainerSize, CGSizeZero)){
             return (self.suprAd.preferedContainerSize.height / self.suprAd.preferedContainerSize.width) * self.view.frame.size.width;
@@ -94,7 +94,7 @@
     }
 }
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
-    if(indexPath.row == adIndex && self.suprAd && self.suprAd.adLoaded){
+    if(indexPath.row == adIndex && self.suprAd && self.suprAd.adLoaded && ![self.suprAd isExpired]){
 //    if(indexPath.row == adIndex && self.suprAd){
         return self.adCell;
     }
@@ -117,7 +117,8 @@
 
 
 #pragma mark - ATSuprAd delegate
--(void)TKAdSuprAd:(TKAdSuprAd *)suprAd didReceivedAdWithAdData:(NSDictionary *)adData preferedMediaViewSize:(CGSize)size{
+-(void)TKAdSuprAd:(TKAdSuprAd *)suprAd didReceivedAdWithAdData:(NSDictionary *)adData preferedMediaViewSize:(CGSize)size isVideoAd:(BOOL)isVideoAd{
+    NSLog(@"TKAdSuprAd did received ad. isVideoAd: %d", isVideoAd);
     [self.suprAd registerTKMediaView:self.adCell.contentView];
     [self.suprAd registerAdView:self.adCell.contentView];
     [self.suprAd registerPresentingViewController:self];
