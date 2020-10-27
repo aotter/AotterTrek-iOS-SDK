@@ -1,4 +1,4 @@
-platform :ios, '9.0'
+platform :ios, '10.0'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'AotterTrekSample' do
@@ -6,7 +6,7 @@ target 'AotterTrekSample' do
 	pod 'MBProgressHUD'
 	pod 'SDWebImage'
   
-  pod 'GoogleAds-IMA-iOS-SDK', '3.11.2'
+  pod 'GoogleAds-IMA-iOS-SDK', '3.12.1'  # '3.11.2'
   # pod 'GoogleAds-IMA-iOS-SDK', '3.9.0'
   
   

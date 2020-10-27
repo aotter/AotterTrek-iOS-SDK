@@ -26,6 +26,17 @@
 @optional
 -(void)TKAdSuprAd:(TKAdSuprAd *)suprAd didReceivedAdWithAdData:(NSDictionary *)adData preferedMediaViewSize:(CGSize)size;
 
+/**
+ * While the SuprAd finishes fetching the ad, it will return prefered ad size.
+ * Developer could set adContainer and presentingViewController in this callback.
+ *
+ * @param  size        preferred media view size for this ad.
+ * @param  adData      ad data
+ * @param  isVideoAd   determine this suprAd is video type or not
+ */
+@optional
+-(void)TKAdSuprAd:(TKAdSuprAd *)suprAd didReceivedAdWithAdData:(NSDictionary *)adData preferedMediaViewSize:(CGSize)size isVideoAd:(BOOL)isVideoAd;
+
 
 
 /**
@@ -50,6 +61,22 @@
  */
 @optional
 -(void)TKMyAppAdSuprAdOnClicked:(TKMyAppAdSuprAd *)ad;
+
+
+/**
+ * only available for non-video type ad
+ * check Video type through isVideoAd function
+ */
+@optional
+-(void)TKAdSuprAdWillLogImpression:(TKAdSuprAd *)ad;
+
+/**
+ * only available for non-video type ad
+ * check Video type through isVideoAd function
+ */
+@optional
+-(void)TKAdSuprAdWillLogClick:(TKAdSuprAd *)ad;
+
 
 @end
 
@@ -112,6 +139,12 @@
 -(void)fetchAd;
 
 
+/*
+  no doc.
+ */
+-(void)loadAd;
+
+
 
 /**
  * Fetch suprAd.
@@ -121,7 +154,15 @@
  * @param adError check error.message for more details
  * @param loadAd implement this method when your ad settings done. If not implement this method, the ad will not going to load.
  */
--(void)fetchAdWithCallback:(void(^)(NSDictionary *adData, CGSize preferedAdSize, TKAdError *adError, void(^loadAd)(void) ))callback;
+-(void)fetchAdWithCallback:(void(^)(NSDictionary *adData, CGSize preferedAdSize, TKAdError *adError, BOOL isVideoAd, void(^loadAd)(void)))callback;
+
+
+//check the ad is still valid
+-(BOOL)isExpired;
+
+//check this supr ad is video type
+-(BOOL)isVideoAd;
+
 
 /**
  * Release the ad and its related views, container, and players.

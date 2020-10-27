@@ -8,7 +8,8 @@
 
 #import "AppDelegate.h"
 #import <AotterTrek-iOS-SDK/AotterTrek-iOS-SDK.h>
-
+#import <AppTrackingTransparency/AppTrackingTransparency.h>
+#import <AdSupport/AdSupport.h>
 
 @interface AppDelegate ()
 
@@ -21,6 +22,13 @@
     // Override point for customization after application launch.
     
     [[AotterTrek sharedAPI] initTrekServiceWithClientId:@"21tgwWwuzFYiD4ko5Klr" secret:@"fD8P20gzWYrlbuwWklRkicYcNwlWZSZwV+iHj3TzGSzzyfgTWmVR5trs5F1Dp+x9tX2jxq44"];
+    if (@available(iOS 14, *)) {
+        [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+        }];
+    } else {
+        // Fallback on earlier versions
+    }
+    
     [[AotterTrek sharedAPI] enableLoggerWithLevel:TKLoggerLevelDetail];
     
     return YES;

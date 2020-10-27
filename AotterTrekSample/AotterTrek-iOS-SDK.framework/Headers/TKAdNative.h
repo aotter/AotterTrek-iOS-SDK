@@ -90,6 +90,8 @@
 -(void)fetchAdWithCallback:(void(^)(NSDictionary *adData, TKAdError *adError))callback;
 
 
+//check the ad is still valid
+-(BOOL)isExpired;
 
 /**
  * Release the ad and its related views, container, and players.
