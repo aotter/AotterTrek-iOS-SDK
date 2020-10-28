@@ -30,7 +30,7 @@
 		11B463C41D51D312007591CE /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B463C31D51D312007591CE /* MainPageViewController.m */; };
 		11B463C71D51D33A007591CE /* TrackerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B463C61D51D33A007591CE /* TrackerViewController.m */; };
 		11B463CA1D51D464007591CE /* TrackerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B463C91D51D464007591CE /* TrackerDetailViewController.m */; };
-		11B71EAB2549756F007BB1E0 /* AotterTrek-iOS-SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B71EAA2549756F007BB1E0 /* AotterTrek-iOS-SDK.framework */; };
+		11B71ECA254978AA007BB1E0 /* AotterTrek-iOS-SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B71EC9254978AA007BB1E0 /* AotterTrek-iOS-SDK.framework */; };
 		11E4EC5B22FC17E500BD194E /* DemoNativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E4EC5722FC17E400BD194E /* DemoNativeAdViewController.m */; };
 		11E4EC5C22FC17E500BD194E /* DemoSuprAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E4EC5A22FC17E400BD194E /* DemoSuprAdViewController.m */; };
 		11E4EC6022FC186F00BD194E /* CommonPostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E4EC5E22FC186E00BD194E /* CommonPostTableViewCell.m */; };
@@ -73,7 +73,7 @@
 		11B463C61D51D33A007591CE /* TrackerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackerViewController.m; sourceTree = "<group>"; };
 		11B463C81D51D464007591CE /* TrackerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerDetailViewController.h; sourceTree = "<group>"; };
 		11B463C91D51D464007591CE /* TrackerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackerDetailViewController.m; sourceTree = "<group>"; };
-		11B71EAA2549756F007BB1E0 /* AotterTrek-iOS-SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "AotterTrek-iOS-SDK.framework"; sourceTree = "<group>"; };
+		11B71EC9254978AA007BB1E0 /* AotterTrek-iOS-SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "AotterTrek-iOS-SDK.framework"; sourceTree = "<group>"; };
 		11E4EC5722FC17E400BD194E /* DemoNativeAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoNativeAdViewController.m; sourceTree = "<group>"; };
 		11E4EC5822FC17E400BD194E /* DemoSuprAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSuprAdViewController.h; sourceTree = "<group>"; };
 		11E4EC5922FC17E400BD194E /* DemoNativeAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoNativeAdViewController.h; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 				116F19DC22E8645700678B50 /* SystemConfiguration.framework in Frameworks */,
 				3FD6BB292214154200E332B7 /* WebKit.framework in Frameworks */,
 				1197132E1D645B2B0094D71C /* CoreTelephony.framework in Frameworks */,
-				11B71EAB2549756F007BB1E0 /* AotterTrek-iOS-SDK.framework in Frameworks */,
+				11B71ECA254978AA007BB1E0 /* AotterTrek-iOS-SDK.framework in Frameworks */,
 				11B463C11D51D13D007591CE /* CoreMedia.framework in Frameworks */,
 				11B463BF1D51D132007591CE /* AVFoundation.framework in Frameworks */,
 				11B463BD1D51D12B007591CE /* AVKit.framework in Frameworks */,
@@ -133,7 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				1193018E23557B270065F3E9 /* OMSDK_Aotternet.framework */,
-				11B71EAA2549756F007BB1E0 /* AotterTrek-iOS-SDK.framework */,
+				11B71EC9254978AA007BB1E0 /* AotterTrek-iOS-SDK.framework */,
 				11B4639F1D51C962007591CE /* AppDelegate.h */,
 				11B463A01D51C962007591CE /* AppDelegate.m */,
 				11B463C21D51D312007591CE /* MainPageViewController.h */,
