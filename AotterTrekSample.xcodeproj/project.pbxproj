@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		115AF94D25639E1F005442E0 /* AotterTrek-iOS-SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115AF94C25639E1F005442E0 /* AotterTrek-iOS-SDK.framework */; };
+		1101523825ABF2D900569A60 /* AotterTrek-iOS-SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1101523725ABF2D900569A60 /* AotterTrek-iOS-SDK.framework */; };
 		115AF94F25639E2B005442E0 /* OMSDK_Aotternet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115AF94E25639E2B005442E0 /* OMSDK_Aotternet.framework */; };
 		116F19DC22E8645700678B50 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19DB22E8645700678B50 /* SystemConfiguration.framework */; };
 		116F19DE22E8648200678B50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19DD22E8648200678B50 /* Foundation.framework */; };
@@ -40,7 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		115AF94C25639E1F005442E0 /* AotterTrek-iOS-SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "AotterTrek-iOS-SDK.framework"; sourceTree = "<group>"; };
+		1101523725ABF2D900569A60 /* AotterTrek-iOS-SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "AotterTrek-iOS-SDK.framework"; sourceTree = "<group>"; };
 		115AF94E25639E2B005442E0 /* OMSDK_Aotternet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OMSDK_Aotternet.framework; sourceTree = "<group>"; };
 		116F19DB22E8645700678B50 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		116F19DD22E8648200678B50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,13 +92,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				115AF94D25639E1F005442E0 /* AotterTrek-iOS-SDK.framework in Frameworks */,
 				11A784E325136839009E6712 /* AppTrackingTransparency.framework in Frameworks */,
 				116F19E022E8648B00678B50 /* UIKit.framework in Frameworks */,
 				116F19DE22E8648200678B50 /* Foundation.framework in Frameworks */,
 				116F19DC22E8645700678B50 /* SystemConfiguration.framework in Frameworks */,
 				3FD6BB292214154200E332B7 /* WebKit.framework in Frameworks */,
 				1197132E1D645B2B0094D71C /* CoreTelephony.framework in Frameworks */,
+				1101523825ABF2D900569A60 /* AotterTrek-iOS-SDK.framework in Frameworks */,
 				11B463C11D51D13D007591CE /* CoreMedia.framework in Frameworks */,
 				11B463BF1D51D132007591CE /* AVFoundation.framework in Frameworks */,
 				11B463BD1D51D12B007591CE /* AVKit.framework in Frameworks */,
@@ -133,7 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				115AF94E25639E2B005442E0 /* OMSDK_Aotternet.framework */,
-				115AF94C25639E1F005442E0 /* AotterTrek-iOS-SDK.framework */,
+				1101523725ABF2D900569A60 /* AotterTrek-iOS-SDK.framework */,
 				11B4639F1D51C962007591CE /* AppDelegate.h */,
 				11B463A01D51C962007591CE /* AppDelegate.m */,
 				11B463C21D51D312007591CE /* MainPageViewController.h */,
