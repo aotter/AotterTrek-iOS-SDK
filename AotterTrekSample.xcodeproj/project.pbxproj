@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0828A6E7261472C90094D6FC /* DemoBannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0828A6E5261472C90094D6FC /* DemoBannerAdViewController.m */; };
+		0828A6E8261472C90094D6FC /* DemoBannerAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0828A6E6261472C90094D6FC /* DemoBannerAdViewController.xib */; };
 		08AB7FD225D13C7C00ACB60B /* AotterTrek-iOS-SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AB7FD125D13C7C00ACB60B /* AotterTrek-iOS-SDK.framework */; };
 		115AF94F25639E2B005442E0 /* OMSDK_Aotternet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115AF94E25639E2B005442E0 /* OMSDK_Aotternet.framework */; };
 		116F19DC22E8645700678B50 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19DB22E8645700678B50 /* SystemConfiguration.framework */; };
@@ -40,6 +42,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0828A6E4261472C90094D6FC /* DemoBannerAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBannerAdViewController.h; sourceTree = "<group>"; };
+		0828A6E5261472C90094D6FC /* DemoBannerAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBannerAdViewController.m; sourceTree = "<group>"; };
+		0828A6E6261472C90094D6FC /* DemoBannerAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoBannerAdViewController.xib; sourceTree = "<group>"; };
 		08AB7FD125D13C7C00ACB60B /* AotterTrek-iOS-SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "AotterTrek-iOS-SDK.framework"; sourceTree = "<group>"; };
 		115AF94E25639E2B005442E0 /* OMSDK_Aotternet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OMSDK_Aotternet.framework; sourceTree = "<group>"; };
 		116F19DB22E8645700678B50 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -146,6 +151,9 @@
 				11E4EC5722FC17E400BD194E /* DemoNativeAdViewController.m */,
 				11E4EC5822FC17E400BD194E /* DemoSuprAdViewController.h */,
 				11E4EC5A22FC17E400BD194E /* DemoSuprAdViewController.m */,
+				0828A6E4261472C90094D6FC /* DemoBannerAdViewController.h */,
+				0828A6E5261472C90094D6FC /* DemoBannerAdViewController.m */,
+				0828A6E6261472C90094D6FC /* DemoBannerAdViewController.xib */,
 				11B463A51D51C962007591CE /* Main.storyboard */,
 				11B463B31D51CAEB007591CE /* PostTableViewCell.h */,
 				11B463B41D51CAEB007591CE /* PostTableViewCell.m */,
@@ -272,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0828A6E8261472C90094D6FC /* DemoBannerAdViewController.xib in Resources */,
 				11E4EC6122FC186F00BD194E /* CommonPostTableViewCell.xib in Resources */,
 				11B463AC1D51C962007591CE /* LaunchScreen.storyboard in Resources */,
 				11B463A91D51C962007591CE /* Assets.xcassets in Resources */,
@@ -392,6 +401,7 @@
 				11E4EC6022FC186F00BD194E /* CommonPostTableViewCell.m in Sources */,
 				11B463A11D51C962007591CE /* AppDelegate.m in Sources */,
 				11B463C71D51D33A007591CE /* TrackerViewController.m in Sources */,
+				0828A6E7261472C90094D6FC /* DemoBannerAdViewController.m in Sources */,
 				11B4639E1D51C962007591CE /* main.m in Sources */,
 				11B463B61D51CAEB007591CE /* PostTableViewCell.m in Sources */,
 				11E4EC5C22FC17E500BD194E /* DemoSuprAdViewController.m in Sources */,

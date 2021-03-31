@@ -10,6 +10,7 @@
 #import <AotterTrek-iOS-SDK/AotterTrek-iOS-SDK.h>
 #import "DemoNativeAdViewController.h"
 #import "DemoSuprAdViewController.h"
+#import "DemoBannerAdViewController.h"
 
 @interface MainPageViewController ()
 @property (weak, nonatomic) IBOutlet UIStackView *mainStackView;
@@ -46,6 +47,12 @@
     [suprAdButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [self.mainStackView addArrangedSubview:suprAdButton];
     
+    UIButton *bannerAdButton = [[UIButton alloc] init];
+    [bannerAdButton setTitle:@"Banner Ad sample" forState:UIControlStateNormal];
+    [bannerAdButton addTarget:self action:@selector(buttonClickDemoBannerAd:) forControlEvents:UIControlEventTouchUpInside];
+    [bannerAdButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [self.mainStackView addArrangedSubview:bannerAdButton];
+    
 //    [self.view setNeedsLayout];
 //    [self.view layoutIfNeeded];
 //    [self.view setNeedsUpdateConstraints];
@@ -56,17 +63,25 @@
 
 -(IBAction)buttonClickDemoNativeAd:(id)sender{
     DemoNativeAdViewController *vc = [[DemoNativeAdViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
-    nav.modalPresentationStyle = UIModalPresentationFullScreen;
-    [self presentViewController:nav animated:YES completion:nil];
+    [self presentVC:vc];
 }
 
 -(IBAction)buttonClickDemoSuprAd:(id)sender{
     DemoSuprAdViewController *vc = [[DemoSuprAdViewController alloc] init];
+    [self presentVC:vc];
+}
+
+-(IBAction)buttonClickDemoBannerAd:(id)sender{
+    DemoBannerAdViewController *vc = [[DemoBannerAdViewController alloc] init];
+    [self presentVC:vc];
+}
+
+#pragma mark - Private Method
+
+- (void)presentVC:(UIViewController *)vc {
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     nav.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:nav animated:YES completion:nil];
 }
-
 
 @end
