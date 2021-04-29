@@ -13,6 +13,8 @@
 		0823B8F4263AAC8D00B12A8F /* TrackerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0823B8F2263AAC8D00B12A8F /* TrackerViewController.xib */; };
 		0823B8FA263AAD6900B12A8F /* TrackerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0823B8F8263AAD6900B12A8F /* TrackerDetailViewController.m */; };
 		0823B8FB263AAD6900B12A8F /* TrackerDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0823B8F9263AAD6900B12A8F /* TrackerDetailViewController.xib */; };
+		0823B902263AB52500B12A8F /* TrekSuprAdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0823B900263AB52500B12A8F /* TrekSuprAdTableViewCell.m */; };
+		0823B903263AB52500B12A8F /* TrekSuprAdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0823B901263AB52500B12A8F /* TrekSuprAdTableViewCell.xib */; };
 		0828A6E7261472C90094D6FC /* DemoBannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0828A6E5261472C90094D6FC /* DemoBannerAdViewController.m */; };
 		0828A6E8261472C90094D6FC /* DemoBannerAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0828A6E6261472C90094D6FC /* DemoBannerAdViewController.xib */; };
 		08AB7FD225D13C7C00ACB60B /* AotterTrek-iOS-SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AB7FD125D13C7C00ACB60B /* AotterTrek-iOS-SDK.framework */; };
@@ -55,6 +57,9 @@
 		0823B8F7263AAD6900B12A8F /* TrackerDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackerDetailViewController.h; sourceTree = "<group>"; };
 		0823B8F8263AAD6900B12A8F /* TrackerDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackerDetailViewController.m; sourceTree = "<group>"; };
 		0823B8F9263AAD6900B12A8F /* TrackerDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackerDetailViewController.xib; sourceTree = "<group>"; };
+		0823B8FF263AB52500B12A8F /* TrekSuprAdTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrekSuprAdTableViewCell.h; sourceTree = "<group>"; };
+		0823B900263AB52500B12A8F /* TrekSuprAdTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrekSuprAdTableViewCell.m; sourceTree = "<group>"; };
+		0823B901263AB52500B12A8F /* TrekSuprAdTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrekSuprAdTableViewCell.xib; sourceTree = "<group>"; };
 		0828A6E4261472C90094D6FC /* DemoBannerAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBannerAdViewController.h; sourceTree = "<group>"; };
 		0828A6E5261472C90094D6FC /* DemoBannerAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBannerAdViewController.m; sourceTree = "<group>"; };
 		0828A6E6261472C90094D6FC /* DemoBannerAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoBannerAdViewController.xib; sourceTree = "<group>"; };
@@ -148,6 +153,9 @@
 				11E4EC5D22FC186E00BD194E /* CommonPostTableViewCell.h */,
 				11E4EC5E22FC186E00BD194E /* CommonPostTableViewCell.m */,
 				11E4EC5F22FC186F00BD194E /* CommonPostTableViewCell.xib */,
+				0823B8FF263AB52500B12A8F /* TrekSuprAdTableViewCell.h */,
+				0823B900263AB52500B12A8F /* TrekSuprAdTableViewCell.m */,
+				0823B901263AB52500B12A8F /* TrekSuprAdTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -366,6 +374,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0823B903263AB52500B12A8F /* TrekSuprAdTableViewCell.xib in Resources */,
 				0828A6E8261472C90094D6FC /* DemoBannerAdViewController.xib in Resources */,
 				0823B8ED263AA2A000B12A8F /* AdItemViewController.xib in Resources */,
 				0823B8FB263AAD6900B12A8F /* TrackerDetailViewController.xib in Resources */,
@@ -491,6 +500,7 @@
 				0823B8EE263AA2A000B12A8F /* AdItemViewController.m in Sources */,
 				11B463A11D51C962007591CE /* AppDelegate.m in Sources */,
 				0823B8FA263AAD6900B12A8F /* TrackerDetailViewController.m in Sources */,
+				0823B902263AB52500B12A8F /* TrekSuprAdTableViewCell.m in Sources */,
 				0828A6E7261472C90094D6FC /* DemoBannerAdViewController.m in Sources */,
 				11B4639E1D51C962007591CE /* main.m in Sources */,
 				11B463B61D51CAEB007591CE /* PostTableViewCell.m in Sources */,

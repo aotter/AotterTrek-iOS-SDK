@@ -32,7 +32,7 @@
     [self.mainTableView addSubview:refresh];
 }
 -(IBAction)done:(id)sender{
-    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 -(void)onRefresh:(UIRefreshControl *)refreshControl{
     [refreshControl endRefreshing];

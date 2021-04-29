@@ -33,7 +33,7 @@
 
 -(IBAction)done:(id)sender{
     [self.suprAd destroy];
-    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 #pragma mark : fetch TKAdSuprAd

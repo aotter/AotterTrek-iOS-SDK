@@ -8,11 +8,13 @@
 
 #import "DemoSuprAdViewController.h"
 #import <AotterTrek-iOS-SDK/AotterTrek-iOS-SDK.h>
+#import "TrekSuprAdTableViewCell.h"
 
 @interface DemoSuprAdViewController ()<UITableViewDelegate, UITableViewDataSource, TKAdSuprAdDelegate>
 @property (nonatomic, strong) UITableView *mainTableView;
 @property (nonatomic, strong) TKAdSuprAd *suprAd;
-@property (atomic, strong) UITableViewCell *adCell;
+//@property (atomic, strong) UITableViewCell *adCell;
+@property (nonatomic, strong) UIView *suprAdView;
 @end
 
 @implementation DemoSuprAdViewController
@@ -22,7 +24,7 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStyleDone target:self action:@selector(done:)];
 
     [self initialTableView];
-    [self initialSuprAd];
+    [self fetchSuprAd];
 }
 
 -(void)viewWillDisappear:(BOOL)animated{
@@ -30,16 +32,11 @@
 
 -(IBAction)done:(id)sender{
     [self.suprAd destroy];
-    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+    [self.navigationController popViewControllerAnimated:YES];
 }
--(void)initialSuprAd{
-    self.adCell = [self.mainTableView dequeueReusableCellWithIdentifier:@"adCell"];
-//    self.adCell.contentView.backgroundColor = [UIColor greenColor];
+-(void)fetchSuprAd{
     self.suprAd = [[TKAdSuprAd alloc] initWithPlace:@"somewhere"];
     self.suprAd.delegate = self;
-//    [self.suprAd registAdContainer:self.adCell.contentView];
-//    [self.suprAd registPresentingViewController:self];
-    
     [self.suprAd fetchAd];
 }
 
@@ -49,13 +46,19 @@
     self.mainTableView.delegate = self;
     self.mainTableView.dataSource = self;
     [self.mainTableView setTranslatesAutoresizingMaskIntoConstraints:NO];
+    
+    // Register Cell
+    [self.mainTableView registerNib:[UINib nibWithNibName:@"TrekSuprAdTableViewCell" bundle:nil] forCellReuseIdentifier:@"TrekSuprAdTableViewCell"];
+    [self.mainTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+    
+    
+    // Setup TableView Layout
     NSDictionary *views = @{@"tableView": self.mainTableView};
     NSArray *arr = @[];
     arr = [arr arrayByAddingObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[tableView]-0-|" options:0 metrics:nil views:views]];
     arr = [arr arrayByAddingObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[tableView]-0-|" options:0 metrics:nil views:views]];
     [NSLayoutConstraint activateConstraints:arr];
-    [self.mainTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"adCell"];
-    [self.mainTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+
     
     UIRefreshControl *refresh = [[UIRefreshControl alloc] init];
     [refresh addTarget:self action:@selector(onRefresh:) forControlEvents:UIControlEventValueChanged];
@@ -64,12 +67,13 @@
 
 -(void)onRefresh:(UIRefreshControl *)refreshControl{
     [refreshControl endRefreshing];
-    self.adCell = nil;
-    [self.suprAd destroy];
+    
     self.suprAd = nil;
+    [self.suprAd destroy];
+    
     [self.mainTableView reloadData];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self initialSuprAd];
+        [self fetchSuprAd];
     });
 }
 
@@ -81,22 +85,17 @@
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     if(indexPath.row == adIndex && self.suprAd && self.suprAd.adLoaded && ![self.suprAd isExpired]){
-//    if(indexPath.row == adIndex && self.suprAd){
-        if(!CGSizeEqualToSize(self.suprAd.preferedContainerSize, CGSizeZero)){
-            return (self.suprAd.preferedContainerSize.height / self.suprAd.preferedContainerSize.width) * self.view.frame.size.width;
-        }
-        else{
-            return (627.0 / 1200.0 ) * self.view.frame.size.width;
-        }
-    }
-    else{
+        return (self.suprAd.preferedContainerSize.height / self.suprAd.preferedContainerSize.width) * self.view.frame.size.width;
+    }else {
         return 44;
     }
 }
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
-    if(indexPath.row == adIndex && self.suprAd && self.suprAd.adLoaded && ![self.suprAd isExpired]){
-//    if(indexPath.row == adIndex && self.suprAd){
-        return self.adCell;
+    if(indexPath.row == adIndex && self.suprAd && self.suprAd.adLoaded && ![self.suprAd isExpired]) {
+        TrekSuprAdTableViewCell *trekSuprAdTableViewCell = [tableView dequeueReusableCellWithIdentifier:@"TrekSuprAdTableViewCell" forIndexPath:indexPath];
+        
+        [trekSuprAdTableViewCell setupSuprAdView:self.suprAdView];
+        return trekSuprAdTableViewCell;
     }
     else{
         UITableViewCell *cell = [self.mainTableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
@@ -119,13 +118,18 @@
 #pragma mark - ATSuprAd delegate
 -(void)TKAdSuprAd:(TKAdSuprAd *)suprAd didReceivedAdWithAdData:(NSDictionary *)adData preferedMediaViewSize:(CGSize)size isVideoAd:(BOOL)isVideoAd{
     NSLog(@"TKAdSuprAd did received ad. isVideoAd: %d", isVideoAd);
-    [self.suprAd registerTKMediaView:self.adCell.contentView];
-    [self.suprAd registerAdView:self.adCell.contentView];
+    
+    CGFloat viewWidth = UIScreen.mainScreen.bounds.size.width;
+    CGFloat viewHeight = viewWidth * size.height/size.width;
+    int adheight = (int)viewHeight;
+    self.suprAdView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, viewWidth, adheight)];
+    
+    [self.suprAd registerTKMediaView:self.suprAdView];
+    [self.suprAd registerAdView:self.suprAdView];
     [self.suprAd registerPresentingViewController:self];
 }
 
 -(void)TKAdSuprAdCompleted:(TKAdSuprAd *)suprAd{
-    [self.adCell setNeedsLayout];
     [self.mainTableView reloadData];
 }
 
