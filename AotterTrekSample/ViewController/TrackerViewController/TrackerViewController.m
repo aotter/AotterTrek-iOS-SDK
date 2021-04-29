@@ -2,8 +2,8 @@
 //  TrackerViewController.m
 //  AotterTrekSample
 //
-//  Created by Aotter on 2016/8/3.
-//  Copyright © 2016年 Aotter. All rights reserved.
+//  Created by JustinTsou on 2021/4/29.
+//  Copyright © 2021 Aotter. All rights reserved.
 //
 
 #import "TrackerViewController.h"
@@ -69,10 +69,12 @@
     [[TKTracker sharedAPI] trackerSendItems];
     
     
-    TrackerDetailViewController *detailVC = [self.storyboard instantiateViewControllerWithIdentifier:@"trackerDetailViewController"];
-    detailVC.currentPost = selectedPost;
+//    TrackerDetailViewController *detailVC = [self.storyboard instantiateViewControllerWithIdentifier:@"trackerDetailViewController"];
+    TrackerDetailViewController *trackerDetailViewController = [[TrackerDetailViewController alloc]init];
     
-    [self.navigationController pushViewController:detailVC animated:YES];
+    trackerDetailViewController.currentPost = selectedPost;
+    
+    [self.navigationController pushViewController:trackerDetailViewController animated:YES];
 }
 
 

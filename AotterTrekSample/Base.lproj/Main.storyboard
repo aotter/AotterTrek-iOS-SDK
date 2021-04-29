@@ -1,106 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="YYj-9y-jS9">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main Page View Controller-->
-        <scene sceneID="aWp-mz-Zpv">
-            <objects>
-                <viewController id="Y3B-MM-N2y" customClass="MainPageViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="yUs-CT-Qsa"/>
-                        <viewControllerLayoutGuide type="bottom" id="c78-bm-GTV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="srt-Du-TDP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="mBU-ot-4op">
-                                <rect key="frame" x="181" y="128" width="52" height="30"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQH-rq-YPw">
-                                        <rect key="frame" x="0.0" y="0.0" width="52" height="30"/>
-                                        <state key="normal" title="Tracker"/>
-                                        <connections>
-                                            <segue destination="yzu-N1-Bsd" kind="push" id="rM4-R3-3Kp"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="mBU-ot-4op" firstAttribute="top" secondItem="yUs-CT-Qsa" secondAttribute="bottom" constant="40" id="IVt-s0-ZpO"/>
-                            <constraint firstItem="mBU-ot-4op" firstAttribute="centerX" secondItem="srt-Du-TDP" secondAttribute="centerX" id="x5O-Wl-tqB"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="V5t-hV-Ixa"/>
-                    <connections>
-                        <outlet property="mainStackView" destination="mBU-ot-4op" id="0He-kh-oon"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RLs-aA-DE6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="488" y="127"/>
-        </scene>
-        <!--Tracker-->
-        <scene sceneID="mws-oO-SzE">
-            <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="yzu-N1-Bsd" customClass="TrackerViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="KYy-tW-KiH"/>
-                        <viewControllerLayoutGuide type="bottom" id="Q1R-F8-fvH"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="9GU-zx-Q9j">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5DV-QI-sFT">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="Q1R-F8-fvH" firstAttribute="top" secondItem="5DV-QI-sFT" secondAttribute="bottom" id="EFG-kE-kyF"/>
-                            <constraint firstItem="5DV-QI-sFT" firstAttribute="top" secondItem="KYy-tW-KiH" secondAttribute="bottom" id="HA7-xU-nuN"/>
-                            <constraint firstItem="5DV-QI-sFT" firstAttribute="leading" secondItem="9GU-zx-Q9j" secondAttribute="leading" id="HRK-u5-aRd"/>
-                            <constraint firstAttribute="trailing" secondItem="5DV-QI-sFT" secondAttribute="trailing" id="qaD-MB-d6S"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="Tracker" id="NBZ-XY-FGs"/>
-                    <connections>
-                        <outlet property="mainTableView" destination="5DV-QI-sFT" id="ZNL-PS-YgA"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Rp9-WB-UTo" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1259" y="121"/>
-        </scene>
-        <!--Tracker Detail View Controller-->
-        <scene sceneID="JM7-xF-OY2">
-            <objects>
-                <viewController storyboardIdentifier="trackerDetailViewController" id="k5d-cj-Zoj" customClass="TrackerDetailViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Y41-LD-DXr"/>
-                        <viewControllerLayoutGuide type="bottom" id="dXG-bD-raC"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="nfS-P9-9Je">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kX7-hr-GqK" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1977" y="121"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="pbm-Uz-ILW">
             <objects>
@@ -111,13 +17,10 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Y3B-MM-N2y" kind="relationship" relationship="rootViewController" id="hXX-5a-kld"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fof-Z0-qZz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-354" y="207"/>
+            <point key="canvasLocation" x="-70" y="100"/>
         </scene>
     </scenes>
 </document>

@@ -2,12 +2,16 @@
 //  TrackerViewController.h
 //  AotterTrekSample
 //
-//  Created by Aotter on 2016/8/3.
-//  Copyright © 2016年 Aotter. All rights reserved.
+//  Created by JustinTsou on 2021/4/29.
+//  Copyright © 2021 Aotter. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface TrackerViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
 @end
+
+NS_ASSUME_NONNULL_END
