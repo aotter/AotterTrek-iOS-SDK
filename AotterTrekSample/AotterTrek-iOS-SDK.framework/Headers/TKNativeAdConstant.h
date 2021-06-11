@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+extern NSString *const kTKAdClientPlaceTypeKey;
 extern NSString *const kTKAdUUIDKey;
 extern NSString *const kTKAdTitleKey;
 extern NSString *const kTKAdTextKey;
