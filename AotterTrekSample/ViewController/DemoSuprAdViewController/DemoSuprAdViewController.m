@@ -35,7 +35,8 @@
     [self.navigationController popViewControllerAnimated:YES];
 }
 -(void)fetchSuprAd{
-    self.suprAd = [[TKAdSuprAd alloc] initWithPlace:@"somewhere"];
+    //"place":"suprad","uuid":"adcb5212-0453-4594-932a-104be11e521a"
+    self.suprAd = [[TKAdSuprAd alloc] initWithPlace:@"adcb5212-0453-4594-932a-104be11e521a"];
     self.suprAd.delegate = self;
     [self.suprAd fetchAd];
 }

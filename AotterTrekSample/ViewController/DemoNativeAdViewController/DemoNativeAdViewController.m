@@ -65,7 +65,8 @@
 }
 
 -(void)initialATNativeAd{
-    self.nativeAd = [[TKAdNative alloc] initWithPlace:@"post_third" category:@"testCategory"];
+    // "place":"native","uuid":"bc47b614-7b24-4eb1-aae2-65e8de8e96de"
+    self.nativeAd = [[TKAdNative alloc] initWithPlace:@"bc47b614-7b24-4eb1-aae2-65e8de8e96de" category:@""];
     self.nativeAd.delegate = self;
     [self.nativeAd registerPresentingViewController:self];
     [self.nativeAd fetchAd];
