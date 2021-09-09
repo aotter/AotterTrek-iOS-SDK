@@ -19,7 +19,7 @@ target 'AotterTrekSample' do
   # 3.9.1  -> v
   # 3.9.0  -> v
   
-  pod 'mopub-ios-sdk', '~> 5.4.1'
+  pod 'mopub-ios-sdk', '~> 5.18.0'
   
   
 end

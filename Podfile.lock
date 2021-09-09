@@ -16,17 +16,14 @@ PODS:
     - AFNetworking/NSURLSession
   - GoogleAds-IMA-iOS-SDK (3.13.0)
   - MBProgressHUD (1.0.0)
-  - mopub-ios-sdk (5.4.1):
-    - mopub-ios-sdk/MoPubSDK (= 5.4.1)
-  - mopub-ios-sdk/Avid (5.4.1):
+  - mopub-ios-sdk (5.18.0):
+    - mopub-ios-sdk/MoPubSDK (= 5.18.0)
+  - mopub-ios-sdk/Core (5.18.0)
+  - mopub-ios-sdk/MoPubSDK (5.18.0):
     - mopub-ios-sdk/Core
-  - mopub-ios-sdk/Core (5.4.1)
-  - mopub-ios-sdk/Moat (5.4.1):
+    - mopub-ios-sdk/NativeAds
+  - mopub-ios-sdk/NativeAds (5.18.0):
     - mopub-ios-sdk/Core
-  - mopub-ios-sdk/MoPubSDK (5.4.1):
-    - mopub-ios-sdk/Avid
-    - mopub-ios-sdk/Core
-    - mopub-ios-sdk/Moat
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
@@ -35,7 +32,7 @@ DEPENDENCIES:
   - AFNetworking
   - GoogleAds-IMA-iOS-SDK (= 3.13.0)
   - MBProgressHUD
-  - mopub-ios-sdk (~> 5.4.1)
+  - mopub-ios-sdk (~> 5.18.0)
   - SDWebImage
 
 SPEC REPOS:
@@ -50,9 +47,9 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   GoogleAds-IMA-iOS-SDK: b8d3693d370edcbd1440c827897c2b2a0b76673d
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
-  mopub-ios-sdk: 320de49dd0a352ac58d33104a23853e749a84a78
+  mopub-ios-sdk: d7b533646d96a075e578e8af9598794f2dfb7f7b
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
 
-PODFILE CHECKSUM: f8f1d1104318f909942ea5cf36a665d7a0fcfe9e
+PODFILE CHECKSUM: b56d93392c8f7b59eebd8bbe4c0756c4803dbb68
 
 COCOAPODS: 1.10.1
