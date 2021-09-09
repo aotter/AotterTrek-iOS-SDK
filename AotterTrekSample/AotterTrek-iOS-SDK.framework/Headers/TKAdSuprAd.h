@@ -86,7 +86,6 @@
 @property (readonly) NSDictionary *adData;
 @property (readonly) BOOL adLoaded;
 @property (readonly) CGSize preferedContainerSize;
-@property (nonatomic,strong) NSDictionary *requestMeta;
 
 /**
  * Initialize the SuperAd with ad place.
