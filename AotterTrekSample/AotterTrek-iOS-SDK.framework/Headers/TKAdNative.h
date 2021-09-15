@@ -34,6 +34,7 @@
 
 @interface TKAdNative : NSObject
 @property NSDictionary *AdData;
+@property (nonatomic,strong) NSMutableDictionary *requestMeta;
 @property (nonatomic, weak) id<TKAdNativeDelegate> delegate;
 
 
