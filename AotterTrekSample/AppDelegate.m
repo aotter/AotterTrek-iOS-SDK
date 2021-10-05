@@ -40,7 +40,7 @@
     }
     
     [[AotterTrek sharedAPI] enableLoggerWithLevel:TKLoggerLevelDetail];
-    [[AotterTrek sharedAPI] performSelector:@selector(enableLoggerDevNetwork)];
+    
     return YES;
 }
 

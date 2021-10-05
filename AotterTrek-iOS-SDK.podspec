@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
 
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
-  spec.vendored_frameworks = "AotterTrekSample/AotterTrek-iOS-SDK.framework", "AotterTrekSample/OMSDK-Static_Aotternet.xcframework"
+  spec.vendored_frameworks = "AotterTrekSample/AotterTrek-iOS-SDK.framework", "AotterTrekSample/OMSDK_Aotternet.xcframework"
 
   # spec.public_header_files = "Classes/**/*.h"
   # 
@@ -122,7 +122,7 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
-  spec.frameworks = "SystemConfiguration", "CoreMedia", "WebKit", "CoreTelephony", "AdSupport", "AVKit", "AVFoundation", "Foundation", "UIKit", "GoogleInteractiveMediaAds", "OMSDK-Static_Aotternet"
+  spec.frameworks = "SystemConfiguration", "CoreMedia", "WebKit", "CoreTelephony", "AdSupport", "AVKit", "AVFoundation", "Foundation", "UIKit", "GoogleInteractiveMediaAds", "OMSDK_Aotternet"
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
