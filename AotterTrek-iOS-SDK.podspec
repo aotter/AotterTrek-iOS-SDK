@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AotterTrek-iOS-SDK"
-  spec.version      = "3.6.3"
+  spec.version      = "3.6.4"
   spec.summary      = "AotterTrek SDK for iOS developer."
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
 
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
-  spec.vendored_frameworks = "AotterTrekSample/AotterTrek-iOS-SDK.framework", "AotterTrekSample/OMSDK_Aotternet.framework"
+  spec.vendored_frameworks = "AotterTrekSample/AotterTrek-iOS-SDK.framework", "AotterTrekSample/OMSDK-Static_Aotternet.xcframework"
 
   # spec.public_header_files = "Classes/**/*.h"
   # 
@@ -122,9 +122,10 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
-  spec.frameworks = "SystemConfiguration", "CoreMedia", "WebKit", "CoreTelephony", "AdSupport", "AVKit", "AVFoundation", "Foundation", "UIKit", "GoogleInteractiveMediaAds", "OMSDK_Aotternet"
+  spec.frameworks = "SystemConfiguration", "CoreMedia", "WebKit", "CoreTelephony", "AdSupport", "AVKit", "AVFoundation", "Foundation", "UIKit", "GoogleInteractiveMediaAds", "OMSDK-Static_Aotternet"
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
+
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

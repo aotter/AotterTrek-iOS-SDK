@@ -1,4 +1,0 @@
-module OMSDK_Aotternet {
-    header "Headers/OMIDImports.h"
-    export *
-}
