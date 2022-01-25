@@ -259,6 +259,7 @@ SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK11AdVideoView")
 - (void)unmute;
 - (float)volumn SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isVideoReady SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)isVideoPlaying SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -546,6 +547,7 @@ SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK11AdVideoView")
 - (void)unmute;
 - (float)volumn SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isVideoReady SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)isVideoPlaying SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
