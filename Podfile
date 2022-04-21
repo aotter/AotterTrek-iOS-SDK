@@ -6,7 +6,7 @@ target 'AotterTrekSample' do
 	pod 'MBProgressHUD'
 	pod 'SDWebImage'
   
-  pod 'GoogleAds-IMA-iOS-SDK','3.13.0' # '3.12.1'  # '3.11.2'
+  # pod 'GoogleAds-IMA-iOS-SDK','3.13.0' # '3.12.1'  # '3.11.2'
   # pod 'GoogleAds-IMA-iOS-SDK', '3.9.0'
   
   
