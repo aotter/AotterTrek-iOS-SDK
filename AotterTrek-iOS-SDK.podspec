@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AotterTrek-iOS-SDK"
-  spec.version      = "3.7.0-beta3"
+  spec.version      = "3.7.1"
   spec.summary      = "AotterTrek SDK for iOS developer."
 
   # This description is used to generate tags and improve search results.
@@ -122,7 +122,9 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
-  spec.frameworks = "SystemConfiguration", "CoreMedia", "WebKit", "CoreTelephony", "AdSupport", "AVKit", "AVFoundation", "Foundation", "UIKit", "GoogleInteractiveMediaAds", "OMSDK_Aotternet"
+  spec.frameworks = "SystemConfiguration", "CoreMedia", "WebKit", "CoreTelephony", "AdSupport", "AVKit", "AVFoundation", "Foundation", "UIKit" , "OMSDK_Aotternet"
+  # "GoogleInteractiveMediaAds"
+  
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
@@ -137,7 +139,7 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-  spec.dependency "GoogleAds-IMA-iOS-SDK", "3.13.0"
+  # spec.dependency "GoogleAds-IMA-iOS-SDK", "3.13.0"
 
 
   # since Apple release Apple Silicon and use arm64 for the simulator, but iOS x86_64 for iOS
