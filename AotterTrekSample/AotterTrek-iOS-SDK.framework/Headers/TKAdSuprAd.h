@@ -102,6 +102,17 @@
 -(instancetype)initWithPlace:(NSString *)place category:(NSString *)category;
 
 /**
+ * optional param for your content page's title
+ */
+-(void)setAdContentTitle:(NSString *)contentTitle;
+
+/**
+ * optional param for your content page's display url
+ */
+-(void)setAdContentUrl:(NSString *)contentUrl;
+
+
+/**
  * Set the ad category manually.
  * @param category ad category
  */
