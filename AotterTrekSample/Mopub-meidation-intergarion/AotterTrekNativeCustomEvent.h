@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "MPNativeCustomEvent.h"
+//#import "MPNativeCustomEvent.h"
 #import "MPNativeAd.h"
 #import <AotterTrek-iOS-SDK/AotterTrek-iOS-SDK.h>
 
