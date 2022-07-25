@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AotterTrek-iOS-SDK"
-  spec.version      = "3.7.2"
+  spec.version      = "3.7.3"
   spec.summary      = "AotterTrek SDK for iOS developer."
 
   # This description is used to generate tags and improve search results.
@@ -122,7 +122,7 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
-  spec.frameworks = "SystemConfiguration", "CoreMedia", "WebKit", "CoreTelephony", "AdSupport", "AVKit", "AVFoundation", "Foundation", "UIKit" , "OMSDK_Aotternet"
+  spec.frameworks = "SystemConfiguration", "CoreMedia", "WebKit", "CoreTelephony", "AdSupport", "AVKit", "AVFoundation", "Foundation", "UIKit" , "OMSDK_Aotternet", "CoreMotion"
   # "GoogleInteractiveMediaAds"
   
   # spec.library   = "iconv"
