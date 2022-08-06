@@ -21,7 +21,6 @@
 		116F19DC22E8645700678B50 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19DB22E8645700678B50 /* SystemConfiguration.framework */; };
 		116F19DE22E8648200678B50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19DD22E8648200678B50 /* Foundation.framework */; };
 		116F19E022E8648B00678B50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19DF22E8648B00678B50 /* UIKit.framework */; };
-		118AE87D289D378A0015D79E /* AotterTrek-iOS-SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118AE87C289D378A0015D79E /* AotterTrek-iOS-SDK.framework */; };
 		1197132E1D645B2B0094D71C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1197132D1D645B2B0094D71C /* CoreTelephony.framework */; };
 		11A784E325136839009E6712 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11A784E225136839009E6712 /* AppTrackingTransparency.framework */; };
 		11B4639E1D51C962007591CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B4639D1D51C962007591CE /* main.m */; };
@@ -43,6 +42,7 @@
 		11E4EC5C22FC17E500BD194E /* DemoSuprAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E4EC5A22FC17E400BD194E /* DemoSuprAdViewController.m */; };
 		11E4EC6022FC186F00BD194E /* CommonPostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E4EC5E22FC186E00BD194E /* CommonPostTableViewCell.m */; };
 		11E4EC6122FC186F00BD194E /* CommonPostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E4EC5F22FC186F00BD194E /* CommonPostTableViewCell.xib */; };
+		3F3D51C2289E4BB9005696F8 /* AotterTrek-iOS-SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3D51C1289E4BB9005696F8 /* AotterTrek-iOS-SDK.framework */; };
 		3FD6BB292214154200E332B7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD6BB282214154200E332B7 /* WebKit.framework */; };
 		D45D86950F2F0D784A36C5FF /* libPods-AotterTrekSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5AE59297CF861213ED13E7 /* libPods-AotterTrekSample.a */; };
 /* End PBXBuildFile section */
@@ -84,7 +84,6 @@
 		116F19DB22E8645700678B50 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		116F19DD22E8648200678B50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		116F19DF22E8648B00678B50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		118AE87C289D378A0015D79E /* AotterTrek-iOS-SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "AotterTrek-iOS-SDK.framework"; sourceTree = "<group>"; };
 		118EC69C23387DAB0019BEF1 /* AotterTrekNativeAdAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AotterTrekNativeAdAdapter.h; sourceTree = "<group>"; };
 		118EC69D23387DAB0019BEF1 /* AotterTrekNativeCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AotterTrekNativeCustomEvent.m; sourceTree = "<group>"; };
 		118EC69E23387DAB0019BEF1 /* AotterTrekNativeAdRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AotterTrekNativeAdRenderer.m; sourceTree = "<group>"; };
@@ -119,6 +118,7 @@
 		11E4EC5E22FC186E00BD194E /* CommonPostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonPostTableViewCell.m; sourceTree = "<group>"; };
 		11E4EC5F22FC186F00BD194E /* CommonPostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonPostTableViewCell.xib; sourceTree = "<group>"; };
 		3A5AE59297CF861213ED13E7 /* libPods-AotterTrekSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AotterTrekSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3D51C1289E4BB9005696F8 /* AotterTrek-iOS-SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "AotterTrek-iOS-SDK.framework"; sourceTree = "<group>"; };
 		3FD6BB282214154200E332B7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		564CBF65EBDA2DBCFCA8D894 /* Pods-AotterTrekSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AotterTrekSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AotterTrekSample/Pods-AotterTrekSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,7 +130,7 @@
 			files = (
 				11A784E325136839009E6712 /* AppTrackingTransparency.framework in Frameworks */,
 				116F19E022E8648B00678B50 /* UIKit.framework in Frameworks */,
-				118AE87D289D378A0015D79E /* AotterTrek-iOS-SDK.framework in Frameworks */,
+				3F3D51C2289E4BB9005696F8 /* AotterTrek-iOS-SDK.framework in Frameworks */,
 				116F19DE22E8648200678B50 /* Foundation.framework in Frameworks */,
 				116F19DC22E8645700678B50 /* SystemConfiguration.framework in Frameworks */,
 				3FD6BB292214154200E332B7 /* WebKit.framework in Frameworks */,
@@ -269,7 +269,7 @@
 			isa = PBXGroup;
 			children = (
 				1110DEE8270C46BD00071BD6 /* OMSDK_Aotternet.xcframework */,
-				118AE87C289D378A0015D79E /* AotterTrek-iOS-SDK.framework */,
+				3F3D51C1289E4BB9005696F8 /* AotterTrek-iOS-SDK.framework */,
 				0823B8DF263A9F5900B12A8F /* ViewController */,
 				0823B8E0263A9F7C00B12A8F /* Cell */,
 				11B4639F1D51C962007591CE /* AppDelegate.h */,
