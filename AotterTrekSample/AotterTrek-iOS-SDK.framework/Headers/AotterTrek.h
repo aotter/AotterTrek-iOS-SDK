@@ -24,6 +24,8 @@ typedef enum {
 
 +(AotterTrek *)sharedAPI;
 
++(NSString *)sdkVersion;
+
 /**
  * Initialize Trek Service with your app client id and client secret
  * @param clientId      app client id
