@@ -18,6 +18,7 @@
 		0828A6E7261472C90094D6FC /* DemoBannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0828A6E5261472C90094D6FC /* DemoBannerAdViewController.m */; };
 		0828A6E8261472C90094D6FC /* DemoBannerAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0828A6E6261472C90094D6FC /* DemoBannerAdViewController.xib */; };
 		087B0FC226E9B33C00DD624E /* empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B0FC126E9B33C00DD624E /* empty.swift */; };
+		11008F0028D060ED0063DD00 /* AotterTrek-iOS-SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11008EFF28D060ED0063DD00 /* AotterTrek-iOS-SDK.framework */; };
 		116F19DC22E8645700678B50 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19DB22E8645700678B50 /* SystemConfiguration.framework */; };
 		116F19DE22E8648200678B50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19DD22E8648200678B50 /* Foundation.framework */; };
 		116F19E022E8648B00678B50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19DF22E8648B00678B50 /* UIKit.framework */; };
@@ -35,7 +36,6 @@
 		11B463BF1D51D132007591CE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B463BE1D51D132007591CE /* AVFoundation.framework */; };
 		11B463C11D51D13D007591CE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B463C01D51D13D007591CE /* CoreMedia.framework */; };
 		11B463C41D51D312007591CE /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B463C31D51D312007591CE /* MainPageViewController.m */; };
-		11B6557528B8BD8300F0B289 /* AotterTrek-iOS-SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B6557428B8BD8300F0B289 /* AotterTrek-iOS-SDK.framework */; };
 		11CF54AD288E7A7A00300A1A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CF54AC288E7A7A00300A1A /* CoreMotion.framework */; };
 		11D91DB3279C04820060B189 /* OMSDK_Aotternet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1110DEE8270C46BD00071BD6 /* OMSDK_Aotternet.xcframework */; };
 		11D91DB4279C04820060B189 /* OMSDK_Aotternet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1110DEE8270C46BD00071BD6 /* OMSDK_Aotternet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -80,6 +80,7 @@
 		0828A6E6261472C90094D6FC /* DemoBannerAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoBannerAdViewController.xib; sourceTree = "<group>"; };
 		087B0FC026E9B33C00DD624E /* AotterTrekSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AotterTrekSample-Bridging-Header.h"; sourceTree = "<group>"; };
 		087B0FC126E9B33C00DD624E /* empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = empty.swift; sourceTree = "<group>"; };
+		11008EFF28D060ED0063DD00 /* AotterTrek-iOS-SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "AotterTrek-iOS-SDK.framework"; sourceTree = "<group>"; };
 		1110DEE8270C46BD00071BD6 /* OMSDK_Aotternet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = OMSDK_Aotternet.xcframework; sourceTree = "<group>"; };
 		116F19DB22E8645700678B50 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		116F19DD22E8648200678B50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -109,7 +110,6 @@
 		11B463C01D51D13D007591CE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		11B463C21D51D312007591CE /* MainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageViewController.h; sourceTree = "<group>"; };
 		11B463C31D51D312007591CE /* MainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageViewController.m; sourceTree = "<group>"; };
-		11B6557428B8BD8300F0B289 /* AotterTrek-iOS-SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "AotterTrek-iOS-SDK.framework"; sourceTree = "<group>"; };
 		11CF54AC288E7A7A00300A1A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		11E4EC5722FC17E400BD194E /* DemoNativeAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoNativeAdViewController.m; sourceTree = "<group>"; };
 		11E4EC5822FC17E400BD194E /* DemoSuprAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSuprAdViewController.h; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 			files = (
 				11A784E325136839009E6712 /* AppTrackingTransparency.framework in Frameworks */,
 				116F19E022E8648B00678B50 /* UIKit.framework in Frameworks */,
-				11B6557528B8BD8300F0B289 /* AotterTrek-iOS-SDK.framework in Frameworks */,
+				11008F0028D060ED0063DD00 /* AotterTrek-iOS-SDK.framework in Frameworks */,
 				116F19DE22E8648200678B50 /* Foundation.framework in Frameworks */,
 				116F19DC22E8645700678B50 /* SystemConfiguration.framework in Frameworks */,
 				3FD6BB292214154200E332B7 /* WebKit.framework in Frameworks */,
@@ -269,7 +269,7 @@
 			isa = PBXGroup;
 			children = (
 				1110DEE8270C46BD00071BD6 /* OMSDK_Aotternet.xcframework */,
-				11B6557428B8BD8300F0B289 /* AotterTrek-iOS-SDK.framework */,
+				11008EFF28D060ED0063DD00 /* AotterTrek-iOS-SDK.framework */,
 				0823B8DF263A9F5900B12A8F /* ViewController */,
 				0823B8E0263A9F7C00B12A8F /* Cell */,
 				11B4639F1D51C962007591CE /* AppDelegate.h */,
