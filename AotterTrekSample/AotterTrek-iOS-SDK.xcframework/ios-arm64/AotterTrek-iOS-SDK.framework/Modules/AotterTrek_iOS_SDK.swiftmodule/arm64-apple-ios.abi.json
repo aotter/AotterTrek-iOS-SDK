@@ -1,0 +1,3888 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdEventType",
+        "printedName": "AdEventType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "MUTE",
+            "printedName": "MUTE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.AdEventType.Type) -> AotterTrek_iOS_SDK.AdEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdEventType",
+                        "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType@AdEventTypeMUTE",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdEventTypeO4MUTEyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "UNMUTE",
+            "printedName": "UNMUTE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.AdEventType.Type) -> AotterTrek_iOS_SDK.AdEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdEventType",
+                        "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType@AdEventTypeUNMUTE",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdEventTypeO6UNMUTEyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "PAUSE",
+            "printedName": "PAUSE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.AdEventType.Type) -> AotterTrek_iOS_SDK.AdEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdEventType",
+                        "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType@AdEventTypePAUSE",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdEventTypeO5PAUSEyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "RESUME",
+            "printedName": "RESUME",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.AdEventType.Type) -> AotterTrek_iOS_SDK.AdEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdEventType",
+                        "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType@AdEventTypeRESUME",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdEventTypeO6RESUMEyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "REWIND",
+            "printedName": "REWIND",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.AdEventType.Type) -> AotterTrek_iOS_SDK.AdEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdEventType",
+                        "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType@AdEventTypeREWIND",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdEventTypeO6REWINDyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "SKIP",
+            "printedName": "SKIP",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.AdEventType.Type) -> AotterTrek_iOS_SDK.AdEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdEventType",
+                        "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType@AdEventTypeSKIP",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdEventTypeO4SKIPyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
+            "name": "START",
+            "printedName": "START",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.AdEventType.Type) -> AotterTrek_iOS_SDK.AdEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdEventType",
+                        "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType@AdEventTypeSTART",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdEventTypeO5STARTyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 6
+          },
+          {
+            "kind": "Var",
+            "name": "FIRSTQUARTILE",
+            "printedName": "FIRSTQUARTILE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.AdEventType.Type) -> AotterTrek_iOS_SDK.AdEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdEventType",
+                        "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType@AdEventTypeFIRSTQUARTILE",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdEventTypeO13FIRSTQUARTILEyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 7
+          },
+          {
+            "kind": "Var",
+            "name": "MIDPOINT",
+            "printedName": "MIDPOINT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.AdEventType.Type) -> AotterTrek_iOS_SDK.AdEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdEventType",
+                        "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType@AdEventTypeMIDPOINT",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdEventTypeO8MIDPOINTyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 8
+          },
+          {
+            "kind": "Var",
+            "name": "THIRDQUARTILE",
+            "printedName": "THIRDQUARTILE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.AdEventType.Type) -> AotterTrek_iOS_SDK.AdEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdEventType",
+                        "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType@AdEventTypeTHIRDQUARTILE",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdEventTypeO13THIRDQUARTILEyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 9
+          },
+          {
+            "kind": "Var",
+            "name": "COMPLETE",
+            "printedName": "COMPLETE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.AdEventType.Type) -> AotterTrek_iOS_SDK.AdEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdEventType",
+                        "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType@AdEventTypeCOMPLETE",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdEventTypeO8COMPLETEyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 10
+          },
+          {
+            "kind": "Var",
+            "name": "LOADED",
+            "printedName": "LOADED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.AdEventType.Type) -> AotterTrek_iOS_SDK.AdEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdEventType",
+                        "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType@AdEventTypeLOADED",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdEventTypeO6LOADEDyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 11
+          },
+          {
+            "kind": "Var",
+            "name": "IMPRESSION",
+            "printedName": "IMPRESSION",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.AdEventType.Type) -> AotterTrek_iOS_SDK.AdEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdEventType",
+                        "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType@AdEventTypeIMPRESSION",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdEventTypeO10IMPRESSIONyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 12
+          },
+          {
+            "kind": "Var",
+            "name": "CLICK",
+            "printedName": "CLICK",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.AdEventType.Type) -> AotterTrek_iOS_SDK.AdEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdEventType",
+                        "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType@AdEventTypeCLICK",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdEventTypeO5CLICKyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 13
+          },
+          {
+            "kind": "Var",
+            "name": "CREATIVEVIEW",
+            "printedName": "CREATIVEVIEW",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.AdEventType.Type) -> AotterTrek_iOS_SDK.AdEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdEventType",
+                        "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType@AdEventTypeCREATIVEVIEW",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdEventTypeO12CREATIVEVIEWyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 14
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AotterTrek_iOS_SDK.AdEventType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18AotterTrek_iOS_SDK11AdEventTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdEventTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AotterTrek_iOS_SDK11AdEventTypeO8rawValueSivp",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdEventTypeO8rawValueSivp",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AotterTrek_iOS_SDK11AdEventTypeO8rawValueSivg",
+                "mangledName": "$s18AotterTrek_iOS_SDK11AdEventTypeO8rawValueSivg",
+                "moduleName": "AotterTrek_iOS_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType",
+        "mangledName": "$s18AotterTrek_iOS_SDK11AdEventTypeO",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CheckTiming",
+        "printedName": "CheckTiming",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "One",
+            "printedName": "One",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.CheckTiming.Type) -> AotterTrek_iOS_SDK.CheckTiming",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckTiming",
+                    "printedName": "AotterTrek_iOS_SDK.CheckTiming",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.CheckTiming.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckTiming",
+                        "printedName": "AotterTrek_iOS_SDK.CheckTiming",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming@CheckTimingOne",
+            "mangledName": "$s18AotterTrek_iOS_SDK11CheckTimingO3OneyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "Two",
+            "printedName": "Two",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.CheckTiming.Type) -> AotterTrek_iOS_SDK.CheckTiming",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckTiming",
+                    "printedName": "AotterTrek_iOS_SDK.CheckTiming",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.CheckTiming.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckTiming",
+                        "printedName": "AotterTrek_iOS_SDK.CheckTiming",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming@CheckTimingTwo",
+            "mangledName": "$s18AotterTrek_iOS_SDK11CheckTimingO3TwoyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "Three",
+            "printedName": "Three",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.CheckTiming.Type) -> AotterTrek_iOS_SDK.CheckTiming",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckTiming",
+                    "printedName": "AotterTrek_iOS_SDK.CheckTiming",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.CheckTiming.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckTiming",
+                        "printedName": "AotterTrek_iOS_SDK.CheckTiming",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming@CheckTimingThree",
+            "mangledName": "$s18AotterTrek_iOS_SDK11CheckTimingO5ThreeyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "Four",
+            "printedName": "Four",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.CheckTiming.Type) -> AotterTrek_iOS_SDK.CheckTiming",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckTiming",
+                    "printedName": "AotterTrek_iOS_SDK.CheckTiming",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.CheckTiming.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckTiming",
+                        "printedName": "AotterTrek_iOS_SDK.CheckTiming",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming@CheckTimingFour",
+            "mangledName": "$s18AotterTrek_iOS_SDK11CheckTimingO4FouryA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "Five",
+            "printedName": "Five",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.CheckTiming.Type) -> AotterTrek_iOS_SDK.CheckTiming",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckTiming",
+                    "printedName": "AotterTrek_iOS_SDK.CheckTiming",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.CheckTiming.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckTiming",
+                        "printedName": "AotterTrek_iOS_SDK.CheckTiming",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming@CheckTimingFive",
+            "mangledName": "$s18AotterTrek_iOS_SDK11CheckTimingO4FiveyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "Six",
+            "printedName": "Six",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.CheckTiming.Type) -> AotterTrek_iOS_SDK.CheckTiming",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckTiming",
+                    "printedName": "AotterTrek_iOS_SDK.CheckTiming",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.CheckTiming.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckTiming",
+                        "printedName": "AotterTrek_iOS_SDK.CheckTiming",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming@CheckTimingSix",
+            "mangledName": "$s18AotterTrek_iOS_SDK11CheckTimingO3SixyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
+            "name": "Seven",
+            "printedName": "Seven",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.CheckTiming.Type) -> AotterTrek_iOS_SDK.CheckTiming",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckTiming",
+                    "printedName": "AotterTrek_iOS_SDK.CheckTiming",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.CheckTiming.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckTiming",
+                        "printedName": "AotterTrek_iOS_SDK.CheckTiming",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming@CheckTimingSeven",
+            "mangledName": "$s18AotterTrek_iOS_SDK11CheckTimingO5SevenyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 6
+          },
+          {
+            "kind": "Var",
+            "name": "TwentyNine",
+            "printedName": "TwentyNine",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AotterTrek_iOS_SDK.CheckTiming.Type) -> AotterTrek_iOS_SDK.CheckTiming",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckTiming",
+                    "printedName": "AotterTrek_iOS_SDK.CheckTiming",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AotterTrek_iOS_SDK.CheckTiming.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckTiming",
+                        "printedName": "AotterTrek_iOS_SDK.CheckTiming",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming@CheckTimingTwentyNine",
+            "mangledName": "$s18AotterTrek_iOS_SDK11CheckTimingO10TwentyNineyA2CmF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 7
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AotterTrek_iOS_SDK.CheckTiming?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckTiming",
+                    "printedName": "AotterTrek_iOS_SDK.CheckTiming",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18AotterTrek_iOS_SDK11CheckTimingO8rawValueACSgSi_tcfc",
+            "mangledName": "$s18AotterTrek_iOS_SDK11CheckTimingO8rawValueACSgSi_tcfc",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AotterTrek_iOS_SDK11CheckTimingO8rawValueSivp",
+            "mangledName": "$s18AotterTrek_iOS_SDK11CheckTimingO8rawValueSivp",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AotterTrek_iOS_SDK11CheckTimingO8rawValueSivg",
+                "mangledName": "$s18AotterTrek_iOS_SDK11CheckTimingO8rawValueSivg",
+                "moduleName": "AotterTrek_iOS_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@AotterTrek_iOS_SDK@E@CheckTiming",
+        "mangledName": "$s18AotterTrek_iOS_SDK11CheckTimingO",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdVideoViewDelegate",
+        "printedName": "AdVideoViewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "videoManager",
+            "printedName": "videoManager(videoView:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdVideoView",
+                "printedName": "AotterTrek_iOS_SDK.AdVideoView",
+                "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)AdVideoView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdEventType",
+                "printedName": "AotterTrek_iOS_SDK.AdEventType",
+                "usr": "c:@M@AotterTrek_iOS_SDK@E@AdEventType"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(pl)AdVideoViewDelegate(im)videoManagerWithVideoView:didReceive:",
+            "mangledName": "$s18AotterTrek_iOS_SDK19AdVideoViewDelegateP12videoManager0iG010didReceiveyAA0efG0C_AA0E9EventTypeOtF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AotterTrek_iOS_SDK.AdVideoViewDelegate>",
+            "sugared_genericSig": "<Self where Self : AotterTrek_iOS_SDK.AdVideoViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cuttentTime",
+            "printedName": "cuttentTime(time:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(pl)AdVideoViewDelegate(im)cuttentTimeWithTime:",
+            "mangledName": "$s18AotterTrek_iOS_SDK19AdVideoViewDelegateP11cuttentTime4timeySd_tF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AotterTrek_iOS_SDK.AdVideoViewDelegate>",
+            "sugared_genericSig": "<Self where Self : AotterTrek_iOS_SDK.AdVideoViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "receiveEventKey",
+            "printedName": "receiveEventKey(eventKey:withUri:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(pl)AdVideoViewDelegate(im)receiveEventKeyWithEventKey:withUri:",
+            "mangledName": "$s18AotterTrek_iOS_SDK19AdVideoViewDelegateP15receiveEventKey05eventK07withUriySS_SStF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AotterTrek_iOS_SDK.AdVideoViewDelegate>",
+            "sugared_genericSig": "<Self where Self : AotterTrek_iOS_SDK.AdVideoViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEventCompleted",
+            "printedName": "sendEventCompleted(eventUriString:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(pl)AdVideoViewDelegate(im)sendEventCompletedWithEventUriString:withError:",
+            "mangledName": "$s18AotterTrek_iOS_SDK19AdVideoViewDelegateP18sendEventCompleted14eventUriString9withErrorySS_SSSgtF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AotterTrek_iOS_SDK.AdVideoViewDelegate>",
+            "sugared_genericSig": "<Self where Self : AotterTrek_iOS_SDK.AdVideoViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@AotterTrek_iOS_SDK@objc(pl)AdVideoViewDelegate",
+        "mangledName": "$s18AotterTrek_iOS_SDK19AdVideoViewDelegateP",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdVideoView",
+        "printedName": "AdVideoView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "AotterTrek_iOS_SDK.AdVideoViewDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)AdVideoView(py)delegate",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC8delegateAA0efG8Delegate_pSgvp",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AotterTrek_iOS_SDK.AdVideoViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdVideoViewDelegate",
+                        "printedName": "AotterTrek_iOS_SDK.AdVideoViewDelegate",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@objc(pl)AdVideoViewDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)delegate",
+                "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC8delegateAA0efG8Delegate_pSgvg",
+                "moduleName": "AotterTrek_iOS_SDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AotterTrek_iOS_SDK.AdVideoViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdVideoViewDelegate",
+                        "printedName": "AotterTrek_iOS_SDK.AdVideoViewDelegate",
+                        "usr": "c:@M@AotterTrek_iOS_SDK@objc(pl)AdVideoViewDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)setDelegate:",
+                "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC8delegateAA0efG8Delegate_pSgvs",
+                "moduleName": "AotterTrek_iOS_SDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AotterTrek_iOS_SDK11AdVideoViewC8delegateAA0efG8Delegate_pSgvM",
+                "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC8delegateAA0efG8Delegate_pSgvM",
+                "moduleName": "AotterTrek_iOS_SDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdVideoView",
+                "printedName": "AotterTrek_iOS_SDK.AdVideoView",
+                "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)AdVideoView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)initWithFrame:",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)layoutSubviews",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC14layoutSubviewsyyF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendAdEventCompleted",
+            "printedName": "sendAdEventCompleted(eventUri:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AotterTrek_iOS_SDK11AdVideoViewC04sendE14EventCompleted8eventUri9withErrorySS_SSSgtF",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC04sendE14EventCompleted8eventUri9withErrorySS_SSSgtF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestVideoAd",
+            "printedName": "requestVideoAd(vastTagURLString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)requestVideoAdWithVastTagURLString:",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC07requestfE016vastTagURLStringySS_tF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "objc_name": "requestVideoAdWithVastTagURLString:",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestVideoAd",
+            "printedName": "requestVideoAd(vastTagXML:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)requestVideoAdWithVastTagXML:",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC07requestfE010vastTagXMLy10Foundation4DataV_tF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "objc_name": "requestVideoAdWithVastTagXML:",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "play",
+            "printedName": "play()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)play",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC4playyyF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)pause",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC5pauseyyF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mute",
+            "printedName": "mute()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)mute",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC4muteyyF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unmute",
+            "printedName": "unmute()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)unmute",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC6unmuteyyF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "volumn",
+            "printedName": "volumn()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)volumn",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC6volumnSfyF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isVideoReady",
+            "printedName": "isVideoReady()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)isVideoReady",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC02isF5ReadySbyF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isVideoPlaying",
+            "printedName": "isVideoPlaying()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)isVideoPlaying",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC02isF7PlayingSbyF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "observeValue",
+            "printedName": "observeValue(forKeyPath:of:change:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.NSKeyValueChangeKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Foundation.NSKeyValueChangeKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSKeyValueChangeKey",
+                        "printedName": "Foundation.NSKeyValueChangeKey",
+                        "usr": "c:@T@NSKeyValueChangeKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutableRawPointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutableRawPointer",
+                    "printedName": "Swift.UnsafeMutableRawPointer",
+                    "usr": "s:Sv"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)observeValueForKeyPath:ofObject:change:context:",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeyi6ChangeK0aypGSgSvSgtF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "overriding": true,
+            "objc_name": "observeValueForKeyPath:ofObject:change:context:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopVideo",
+            "printedName": "stopVideo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)stopVideo",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC04stopF0yyF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)AdVideoView",
+        "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "DataManagerDelegate",
+            "printedName": "DataManagerDelegate",
+            "usr": "s:18AotterTrek_iOS_SDK19DataManagerDelegateP",
+            "mangledName": "$s18AotterTrek_iOS_SDK19DataManagerDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DataManagerDelegate",
+        "printedName": "DataManagerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sendAdEventCompleted",
+            "printedName": "sendAdEventCompleted(eventUri:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AotterTrek_iOS_SDK19DataManagerDelegateP20sendAdEventCompleted8eventUri9withErrorySS_SSSgtF",
+            "mangledName": "$s18AotterTrek_iOS_SDK19DataManagerDelegateP20sendAdEventCompleted8eventUri9withErrorySS_SSSgtF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AotterTrek_iOS_SDK.DataManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : AotterTrek_iOS_SDK.DataManagerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18AotterTrek_iOS_SDK19DataManagerDelegateP",
+        "mangledName": "$s18AotterTrek_iOS_SDK19DataManagerDelegateP",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/CreativeElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Model\/Inline\/Creatives\/Linear\/MediaFiles\/MediaFiles.swift",
+      "kind": "Array",
+      "offset": 175,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/ExtensionsElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 209,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/VideoClicks\/ClickThroughElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 213,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/ErrorElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 200,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ValueHandlerImplement\/Extensions\/AdVerifications\/Verification\/VerificationElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 213,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/AdVerifications\/Verification\/JavaScriptResourceElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 221,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Model\/Inline\/Creatives\/Creatives.swift",
+      "kind": "Array",
+      "offset": 171,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Model\/Inline\/Extensions\/AdVerifications\/AdVerifications.swift",
+      "kind": "Array",
+      "offset": 191,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/Duration\/DurationElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Model\/State\/ParseState.swift",
+      "kind": "Array",
+      "offset": 194,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Model\/State\/ParseState.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Model\/State\/ParseState.swift",
+      "kind": "Array",
+      "offset": 266,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/LinearElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 197,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Model\/Inline\/Extensions\/AdVerifications\/Verification.swift",
+      "kind": "Array",
+      "offset": 221,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/AdSystemElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/ExtensionElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/VideoClicks\/VideoClicksElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 211,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Model\/Inline\/Creatives\/Linear\/VideoClicks\/VideoClicks.swift",
+      "kind": "Array",
+      "offset": 221,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Model\/Inline\/Creatives\/Linear\/TrackingEvents\/TrackingEvents.swift",
+      "kind": "Array",
+      "offset": 186,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/VASTElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 198,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Model\/Inline\/Error\/AdError.swift",
+      "kind": "StringLiteral",
+      "offset": 116,
+      "length": 7,
+      "value": "\"AotterTrek_iOS_SDK.AdError\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/AdVerifications\/Verification\/VerificationParametersElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 233,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 188,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 204,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 6,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 235,
+      "length": 6,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 251,
+      "length": 4,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 5,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 13,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 8,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 321,
+      "length": 13,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 344,
+      "length": 8,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 362,
+      "length": 6,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 378,
+      "length": 10,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 398,
+      "length": 5,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 413,
+      "length": 12,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 188,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 204,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 6,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 235,
+      "length": 6,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 251,
+      "length": 4,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 5,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 13,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 8,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 321,
+      "length": 13,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 344,
+      "length": 8,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 362,
+      "length": 6,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 378,
+      "length": 10,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 398,
+      "length": 5,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 413,
+      "length": 12,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 480,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 497,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 516,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 534,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 552,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 569,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 588,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 612,
+      "length": 2,
+      "value": "29"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 480,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 497,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 516,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 534,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 552,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 569,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 588,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 612,
+      "length": 2,
+      "value": "29"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1097,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1434,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1480,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1528,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1568,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1616,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ViewableImpression\/ViewableImpressionElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 225,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/AdTitleElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/AdElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 194,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/AdVerifications\/AdVerificationsElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 210,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/CreativesElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Model\/Inline\/ViewableImpression\/ViewableImpression.swift",
+      "kind": "Array",
+      "offset": 228,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Model\/Inline\/ViewableImpression\/ViewableImpression.swift",
+      "kind": "Array",
+      "offset": 269,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Model\/Inline\/ViewableImpression\/ViewableImpression.swift",
+      "kind": "Array",
+      "offset": 320,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/MediaFiles\/MediaFileElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 203,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Model\/Inline\/InLine.swift",
+      "kind": "Array",
+      "offset": 249,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Model\/Inline\/InLine.swift",
+      "kind": "Array",
+      "offset": 402,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ImpressionElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 209,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ViewableImpression\/ViewUndeterminedElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 221,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ValueHandlerImplement\/Creatives\/Linear\/TrackingEvents\/TrackingValueHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingEventsElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 213,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/VastXMLParser.swift",
+      "kind": "Dictionary",
+      "offset": 227,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/VastXMLParser.swift",
+      "kind": "Dictionary",
+      "offset": 280,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/VastXMLParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 356,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLineElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/MediaFiles\/MediaFilesElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Model\/Vast.swift",
+      "kind": "Array",
+      "offset": 212,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ViewableImpression\/ViewableElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 6,
+      "value": "\"VAST\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 4,
+      "value": "\"Ad\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 309,
+      "length": 8,
+      "value": "\"InLine\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 357,
+      "length": 10,
+      "value": "\"AdSystem\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 398,
+      "length": 9,
+      "value": "\"AdTitle\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 12,
+      "value": "\"Impression\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 20,
+      "value": "\"ViewableImpression\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 571,
+      "length": 10,
+      "value": "\"Viewable\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 624,
+      "length": 13,
+      "value": "\"NotViewable\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 685,
+      "length": 18,
+      "value": "\"ViewUndetermined\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 744,
+      "length": 11,
+      "value": "\"Creatives\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 795,
+      "length": 10,
+      "value": "\"Creative\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 843,
+      "length": 8,
+      "value": "\"Linear\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 891,
+      "length": 10,
+      "value": "\"Duration\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 943,
+      "length": 12,
+      "value": "\"MediaFiles\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 996,
+      "length": 11,
+      "value": "\"MediaFile\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1050,
+      "length": 13,
+      "value": "\"VideoClicks\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1107,
+      "length": 14,
+      "value": "\"ClickThrough\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1166,
+      "length": 15,
+      "value": "\"ClickTracking\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1227,
+      "length": 16,
+      "value": "\"TrackingEvents\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1283,
+      "length": 10,
+      "value": "\"Tracking\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1335,
+      "length": 12,
+      "value": "\"Extensions\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1388,
+      "length": 11,
+      "value": "\"Extension\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1446,
+      "length": 17,
+      "value": "\"AdVerifications\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1507,
+      "length": 14,
+      "value": "\"Verification\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1571,
+      "length": 20,
+      "value": "\"JavaScriptResource\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1637,
+      "length": 24,
+      "value": "\"VerificationParameters\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1718,
+      "length": 6,
+      "value": "\"mute\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1762,
+      "length": 8,
+      "value": "\"unmute\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1807,
+      "length": 7,
+      "value": "\"pause\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1852,
+      "length": 8,
+      "value": "\"resume\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1898,
+      "length": 8,
+      "value": "\"rewind\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1942,
+      "length": 6,
+      "value": "\"skip\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1985,
+      "length": 7,
+      "value": "\"start\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2037,
+      "length": 15,
+      "value": "\"firstQuartile\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2092,
+      "length": 10,
+      "value": "\"midpoint\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2147,
+      "length": 15,
+      "value": "\"thirdQuartile\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2202,
+      "length": 10,
+      "value": "\"complete\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2252,
+      "length": 10,
+      "value": "\"progress\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2304,
+      "length": 12,
+      "value": "\"eventerror\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2360,
+      "length": 14,
+      "value": "\"creativeView\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ViewableImpression\/NotViewableElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/trek-sdk-ios\/AotterTrek-iOS-SDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/VideoClicks\/ClickTrackingElementHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 211,
+      "length": 1,
+      "value": "7"
+    }
+  ]
+}
