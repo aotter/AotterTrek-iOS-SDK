@@ -1,0 +1,4 @@
+framework module AotterTrek_iOS_SDK {
+  header "AotterTrek_iOS_SDK-Swift.h"
+  requires objc
+}

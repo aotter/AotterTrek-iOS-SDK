@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AotterTrek-iOS-SDK"
-  spec.version      = "3.8.2"
+  spec.version      = "3.8.3"
   spec.summary      = "AotterTrek SDK for iOS developer."
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
 
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
-  spec.vendored_frameworks = "AotterTrekSample/AotterTrek-iOS-SDK.framework", "AotterTrekSample/OMSDK_Aotternet.xcframework"
+  spec.vendored_frameworks = "AotterTrekSample/AotterTrek-iOS-SDK.xcframework", "AotterTrekSample/OMSDK_Aotternet.xcframework"
 
   # spec.public_header_files = "Classes/**/*.h"
   # 
@@ -144,9 +144,9 @@ Pod::Spec.new do |spec|
 
   # since Apple release Apple Silicon and use arm64 for the simulator, but iOS x86_64 for iOS
   # https://github.com/CocoaPods/CocoaPods/issues/10065
-  spec.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
-  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  # spec.pod_target_xcconfig = {
+  #   'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  # }
+  # spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
