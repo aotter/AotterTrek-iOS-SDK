@@ -1,4 +1,9 @@
-
+//
+//  AotterTrekSDK.h
+//  AotterTrekSDK
+//
+//  Created by Robert on 2023/1/4.
+//
 
 #import <UIKit/UIKit.h>
 #import <AotterTrek-iOS-SDK/AotterTrek.h>
@@ -10,12 +15,12 @@
 #import <AotterTrek-iOS-SDK/TKAdError.h>
 #import <AotterTrek-iOS-SDK/TKNativeAdConstant.h>
 
-//! Project version number for AotterService.
-FOUNDATION_EXPORT double AotterServiceVersionNumber;
+//! Project version number for AotterTrekSDK.
+FOUNDATION_EXPORT double AotterTrekSDKVersionNumber;
 
-//! Project version string for AotterService.
-FOUNDATION_EXPORT const unsigned char AotterServiceVersionString[];
+//! Project version string for AotterTrekSDK.
+FOUNDATION_EXPORT const unsigned char AotterTrekSDKVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <AotterService/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <AotterTrekSDKdev/PublicHeader.h>
 
 
