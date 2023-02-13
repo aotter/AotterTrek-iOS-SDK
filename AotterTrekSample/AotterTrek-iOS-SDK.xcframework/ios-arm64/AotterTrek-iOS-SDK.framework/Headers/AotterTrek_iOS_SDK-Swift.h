@@ -303,14 +303,17 @@ SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK11AdVideoView")
 - (void)mute;
 - (void)unmute;
 - (float)volumn SWIFT_WARN_UNUSED_RESULT;
+- (double)duration SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isVideoReady SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isVideoPlaying SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)isBufferReady SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
 SWIFT_PROTOCOL("_TtP18AotterTrek_iOS_SDK19AdVideoViewDelegate_")
 @protocol AdVideoViewDelegate
 - (void)videoManagerWithVideoView:(AdVideoView * _Nonnull)videoView didReceive:(enum AdEventType)event;
+- (void)videoManagerWithVideoView:(AdVideoView * _Nonnull)videoView didReceiveBufferChange:(BOOL)isBufferPlayable;
 - (void)cuttentTimeWithTime:(double)time;
 - (void)receiveEventKeyWithEventKey:(NSString * _Nonnull)eventKey withUri:(NSString * _Nonnull)eventUri;
 - (void)sendEventCompletedWithEventUriString:(NSString * _Nonnull)eventUriString withError:(NSString * _Nullable)error;

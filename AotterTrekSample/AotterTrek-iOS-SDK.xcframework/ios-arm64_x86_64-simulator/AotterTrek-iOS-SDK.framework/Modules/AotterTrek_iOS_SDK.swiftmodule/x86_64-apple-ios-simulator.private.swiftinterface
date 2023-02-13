@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AotterTrek_iOS_SDK
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AotterTrek_iOS_SDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Foundation
@@ -47,6 +47,7 @@ import _StringProcessing
 }
 @objc public protocol AdVideoViewDelegate {
   @objc func videoManager(videoView: AotterTrek_iOS_SDK.AdVideoView, didReceive event: AotterTrek_iOS_SDK.AdEventType)
+  @objc func videoManager(videoView: AotterTrek_iOS_SDK.AdVideoView, didReceiveBufferChange isBufferPlayable: Swift.Bool)
   @objc func cuttentTime(time: Swift.Float64)
   @objc func receiveEventKey(eventKey: Swift.String, withUri eventUri: Swift.String)
   @objc func sendEventCompleted(eventUriString: Swift.String, withError error: Swift.String?)
@@ -66,8 +67,10 @@ extension AotterTrek_iOS_SDK.AdVideoView {
   @objc @_Concurrency.MainActor(unsafe) dynamic public func mute()
   @objc @_Concurrency.MainActor(unsafe) dynamic public func unmute()
   @objc @_Concurrency.MainActor(unsafe) dynamic public func volumn() -> Swift.Float
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func duration() -> Swift.Float64
   @objc @_Concurrency.MainActor(unsafe) dynamic public func isVideoReady() -> Swift.Bool
   @objc @_Concurrency.MainActor(unsafe) dynamic public func isVideoPlaying() -> Swift.Bool
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func isBufferReady() -> Swift.Bool
 }
 extension AotterTrek_iOS_SDK.AdVideoView {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
