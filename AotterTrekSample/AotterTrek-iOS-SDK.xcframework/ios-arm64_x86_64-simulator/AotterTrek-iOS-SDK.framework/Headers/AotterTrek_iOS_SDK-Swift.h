@@ -396,12 +396,6 @@ SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK11DataManager")
 @end
 
 
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK15DurationUtility")
-@interface DurationUtility : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK9Extension")
 @interface Extension : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -941,12 +935,6 @@ SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK9Creatives")
 
 SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK11DataManager")
 @interface DataManager : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK15DurationUtility")
-@interface DurationUtility : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
