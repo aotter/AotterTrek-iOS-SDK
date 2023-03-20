@@ -3,13 +3,13 @@
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AotterTrek_iOS_SDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
+import AotterTrekSDKObjCHeader
 import Foundation
 import OMSDK_Aotternet
 import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
-@_exported import __ObjC
 @objc public enum AdEventType : Swift.Int {
   case MUTE
   case UNMUTE
