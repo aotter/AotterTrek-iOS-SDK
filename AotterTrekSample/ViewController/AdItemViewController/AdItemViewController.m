@@ -10,6 +10,7 @@
 #import "DemoNativeAdViewController.h"
 #import "DemoSuprAdViewController.h"
 #import "DemoBannerAdViewController.h"
+#import <AotterTrek-iOS-SDK/AotterTrek-iOS-SDK.h>
 
 typedef NS_ENUM(NSInteger, AdEnum) {
     Tracker = 0,
@@ -31,6 +32,8 @@ typedef NS_ENUM(NSInteger, AdEnum) {
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.title = [NSString stringWithFormat:@"AotterTrekSDK v%@" ,[AotterTrek sdkVersion]];
     
     _adItem = [[NSArray alloc]initWithObjects:@"Tracker",@"Native Ad",@"Supr Ad",@"Banner Ad", nil];
     
