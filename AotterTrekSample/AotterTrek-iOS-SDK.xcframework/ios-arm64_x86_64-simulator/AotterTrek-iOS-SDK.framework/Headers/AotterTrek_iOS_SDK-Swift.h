@@ -232,7 +232,6 @@ using UInt = size_t;
 #endif
 @import CoreFoundation;
 @import Foundation;
-@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -254,19 +253,6 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK2Ad")
-@interface Ad : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK7AdError")
-@interface AdError : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
 typedef SWIFT_ENUM(NSInteger, AdEventType, open) {
   AdEventTypeMUTE = 0,
   AdEventTypeUNMUTE = 1,
@@ -285,34 +271,14 @@ typedef SWIFT_ENUM(NSInteger, AdEventType, open) {
   AdEventTypeCREATIVEVIEW = 14,
 };
 
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK8AdSystem")
-@interface AdSystem : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK7AdTitle")
-@interface AdTitle : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK15AdVerifications")
-@interface AdVerifications : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class AVPlayer;
 @protocol AdVideoViewDelegate;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK11AdVideoView")
 @interface AdVideoView : UIView
-@property (nonatomic, strong) AVPlayer * _Nullable player;
 @property (nonatomic, weak) id <AdVideoViewDelegate> _Nullable delegate;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)layoutSubviews;
 @end
 
@@ -327,11 +293,12 @@ SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK11AdVideoView")
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 @end
 
+@class OMResource;
 @class NSData;
 
 @interface AdVideoView (SWIFT_EXTENSION(AotterTrek_iOS_SDK))
-- (void)requestVideoAdWithVastTagURLString:(NSString * _Nonnull)vastTagURLString;
-- (void)requestVideoAdWithVastTagXML:(NSData * _Nonnull)vastTagXML;
+- (void)requestVideoAdWithVastTagURLString:(NSString * _Nonnull)vastTagURLString omResList:(NSArray<OMResource *> * _Nullable)omResList;
+- (void)requestVideoAdWithVastTagXML:(NSData * _Nonnull)vastTagXML omResList:(NSArray<OMResource *> * _Nullable)omResList;
 - (void)play;
 - (void)pause;
 - (void)mute;
@@ -343,6 +310,10 @@ SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK11AdVideoView")
 - (BOOL)isBufferReady SWIFT_WARN_UNUSED_RESULT;
 @end
 
+
+@interface AdVideoView (SWIFT_EXTENSION(AotterTrek_iOS_SDK))
+- (void)addFriendlyObstructionWithView:(UIView * _Nonnull)view;
+@end
 
 
 SWIFT_PROTOCOL("_TtP18AotterTrek_iOS_SDK19AdVideoViewDelegate_")
@@ -364,180 +335,6 @@ typedef SWIFT_ENUM(NSInteger, CheckTiming, open) {
   CheckTimingSeven = 7,
   CheckTimingTwentyNine = 29,
 };
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK12ClickThrough")
-@interface ClickThrough : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK13ClickTracking")
-@interface ClickTracking : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK8Creative")
-@interface Creative : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK9Creatives")
-@interface Creatives : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK11DataManager")
-@interface DataManager : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK15DurationUtility")
-@interface DurationUtility : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK9Extension")
-@interface Extension : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK10Extensions")
-@interface Extensions : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK10Impression")
-@interface Impression : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK6InLine")
-@interface InLine : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK18JavaScriptResource")
-@interface JavaScriptResource : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK6Linear")
-@interface Linear : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK9MediaFile")
-@interface MediaFile : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK10MediaFiles")
-@interface MediaFiles : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK8Viewable")
-@interface Viewable : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK11NotViewable")
-@interface NotViewable : Viewable
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK8Tracking")
-@interface Tracking : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK14TrackingEvents")
-@interface TrackingEvents : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK12VASTDuration")
-@interface VASTDuration : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK4Vast")
-@interface Vast : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK9VastError")
-@interface VastError : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK13VastXMLParser")
-@interface VastXMLParser : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@class NSXMLParser;
-
-@interface VastXMLParser (SWIFT_EXTENSION(AotterTrek_iOS_SDK)) <NSXMLParserDelegate>
-- (void)parserDidStartDocument:(NSXMLParser * _Nonnull)parser;
-- (void)parser:(NSXMLParser * _Nonnull)parser didStartElement:(NSString * _Nonnull)elementName namespaceURI:(NSString * _Nullable)namespaceURI qualifiedName:(NSString * _Nullable)qName attributes:(NSDictionary<NSString *, NSString *> * _Nonnull)attributeDict;
-- (void)parser:(NSXMLParser * _Nonnull)parser foundCharacters:(NSString * _Nonnull)string;
-- (void)parser:(NSXMLParser * _Nonnull)parser didEndElement:(NSString * _Nonnull)elementName namespaceURI:(NSString * _Nullable)namespaceURI qualifiedName:(NSString * _Nullable)qName;
-- (void)parser:(NSXMLParser * _Nonnull)parser parseErrorOccurred:(NSError * _Nonnull)parseError;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK12Verification")
-@interface Verification : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK22VerificationParameters")
-@interface VerificationParameters : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK11VideoClicks")
-@interface VideoClicks : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK16ViewUndetermined")
-@interface ViewUndetermined : Viewable
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK18ViewableImpression")
-@interface ViewableImpression : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
 
 #endif
 #if defined(__cplusplus)
@@ -781,7 +578,6 @@ using UInt = size_t;
 #endif
 @import CoreFoundation;
 @import Foundation;
-@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -803,19 +599,6 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK2Ad")
-@interface Ad : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK7AdError")
-@interface AdError : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
 typedef SWIFT_ENUM(NSInteger, AdEventType, open) {
   AdEventTypeMUTE = 0,
   AdEventTypeUNMUTE = 1,
@@ -834,34 +617,14 @@ typedef SWIFT_ENUM(NSInteger, AdEventType, open) {
   AdEventTypeCREATIVEVIEW = 14,
 };
 
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK8AdSystem")
-@interface AdSystem : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK7AdTitle")
-@interface AdTitle : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK15AdVerifications")
-@interface AdVerifications : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class AVPlayer;
 @protocol AdVideoViewDelegate;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK11AdVideoView")
 @interface AdVideoView : UIView
-@property (nonatomic, strong) AVPlayer * _Nullable player;
 @property (nonatomic, weak) id <AdVideoViewDelegate> _Nullable delegate;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)layoutSubviews;
 @end
 
@@ -876,11 +639,12 @@ SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK11AdVideoView")
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 @end
 
+@class OMResource;
 @class NSData;
 
 @interface AdVideoView (SWIFT_EXTENSION(AotterTrek_iOS_SDK))
-- (void)requestVideoAdWithVastTagURLString:(NSString * _Nonnull)vastTagURLString;
-- (void)requestVideoAdWithVastTagXML:(NSData * _Nonnull)vastTagXML;
+- (void)requestVideoAdWithVastTagURLString:(NSString * _Nonnull)vastTagURLString omResList:(NSArray<OMResource *> * _Nullable)omResList;
+- (void)requestVideoAdWithVastTagXML:(NSData * _Nonnull)vastTagXML omResList:(NSArray<OMResource *> * _Nullable)omResList;
 - (void)play;
 - (void)pause;
 - (void)mute;
@@ -892,6 +656,10 @@ SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK11AdVideoView")
 - (BOOL)isBufferReady SWIFT_WARN_UNUSED_RESULT;
 @end
 
+
+@interface AdVideoView (SWIFT_EXTENSION(AotterTrek_iOS_SDK))
+- (void)addFriendlyObstructionWithView:(UIView * _Nonnull)view;
+@end
 
 
 SWIFT_PROTOCOL("_TtP18AotterTrek_iOS_SDK19AdVideoViewDelegate_")
@@ -913,180 +681,6 @@ typedef SWIFT_ENUM(NSInteger, CheckTiming, open) {
   CheckTimingSeven = 7,
   CheckTimingTwentyNine = 29,
 };
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK12ClickThrough")
-@interface ClickThrough : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK13ClickTracking")
-@interface ClickTracking : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK8Creative")
-@interface Creative : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK9Creatives")
-@interface Creatives : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK11DataManager")
-@interface DataManager : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK15DurationUtility")
-@interface DurationUtility : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK9Extension")
-@interface Extension : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK10Extensions")
-@interface Extensions : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK10Impression")
-@interface Impression : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK6InLine")
-@interface InLine : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK18JavaScriptResource")
-@interface JavaScriptResource : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK6Linear")
-@interface Linear : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK9MediaFile")
-@interface MediaFile : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK10MediaFiles")
-@interface MediaFiles : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK8Viewable")
-@interface Viewable : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK11NotViewable")
-@interface NotViewable : Viewable
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK8Tracking")
-@interface Tracking : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK14TrackingEvents")
-@interface TrackingEvents : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK12VASTDuration")
-@interface VASTDuration : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK4Vast")
-@interface Vast : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK9VastError")
-@interface VastError : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK13VastXMLParser")
-@interface VastXMLParser : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@class NSXMLParser;
-
-@interface VastXMLParser (SWIFT_EXTENSION(AotterTrek_iOS_SDK)) <NSXMLParserDelegate>
-- (void)parserDidStartDocument:(NSXMLParser * _Nonnull)parser;
-- (void)parser:(NSXMLParser * _Nonnull)parser didStartElement:(NSString * _Nonnull)elementName namespaceURI:(NSString * _Nullable)namespaceURI qualifiedName:(NSString * _Nullable)qName attributes:(NSDictionary<NSString *, NSString *> * _Nonnull)attributeDict;
-- (void)parser:(NSXMLParser * _Nonnull)parser foundCharacters:(NSString * _Nonnull)string;
-- (void)parser:(NSXMLParser * _Nonnull)parser didEndElement:(NSString * _Nonnull)elementName namespaceURI:(NSString * _Nullable)namespaceURI qualifiedName:(NSString * _Nullable)qName;
-- (void)parser:(NSXMLParser * _Nonnull)parser parseErrorOccurred:(NSError * _Nonnull)parseError;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK12Verification")
-@interface Verification : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK22VerificationParameters")
-@interface VerificationParameters : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK11VideoClicks")
-@interface VideoClicks : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK16ViewUndetermined")
-@interface ViewUndetermined : Viewable
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK18ViewableImpression")
-@interface ViewableImpression : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
 
 #endif
 #if defined(__cplusplus)
