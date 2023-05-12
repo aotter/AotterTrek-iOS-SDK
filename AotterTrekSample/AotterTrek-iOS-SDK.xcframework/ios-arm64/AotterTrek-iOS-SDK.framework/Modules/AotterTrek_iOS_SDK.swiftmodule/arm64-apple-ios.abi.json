@@ -29,6 +29,13 @@
         "moduleName": "AotterTrek_iOS_SDK"
       },
       {
+        "kind": "Import",
+        "name": "AotterTrekSDKObjCHeader",
+        "printedName": "AotterTrekSDKObjCHeader",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "AdEventType",
         "printedName": "AdEventType",
@@ -1645,7 +1652,7 @@
           {
             "kind": "Function",
             "name": "requestVideoAd",
-            "printedName": "requestVideoAd(vastTagURLString:)",
+            "printedName": "requestVideoAd(vastTagURLString:omResList:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1657,13 +1664,36 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[AotterTrekSDKObjCHeader.OMResource]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AotterTrekSDKObjCHeader.OMResource]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OMResource",
+                        "printedName": "AotterTrekSDKObjCHeader.OMResource",
+                        "usr": "c:objc(cs)OMResource"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)requestVideoAdWithVastTagURLString:",
-            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC07requestfE016vastTagURLStringySS_tF",
+            "usr": "c:@CM@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)requestVideoAdWithVastTagURLString:omResList:",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC07requestfE016vastTagURLString9omResListySS_SaySo10OMResourceCGSgtF",
             "moduleName": "AotterTrek_iOS_SDK",
-            "objc_name": "requestVideoAdWithVastTagURLString:",
+            "objc_name": "requestVideoAdWithVastTagURLString:omResList:",
             "declAttributes": [
               "Dynamic",
               "Custom",
@@ -1675,7 +1705,7 @@
           {
             "kind": "Function",
             "name": "requestVideoAd",
-            "printedName": "requestVideoAd(vastTagXML:)",
+            "printedName": "requestVideoAd(vastTagXML:omResList:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1687,13 +1717,36 @@
                 "name": "Data",
                 "printedName": "Foundation.Data",
                 "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[AotterTrekSDKObjCHeader.OMResource]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AotterTrekSDKObjCHeader.OMResource]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OMResource",
+                        "printedName": "AotterTrekSDKObjCHeader.OMResource",
+                        "usr": "c:objc(cs)OMResource"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)requestVideoAdWithVastTagXML:",
-            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC07requestfE010vastTagXMLy10Foundation4DataV_tF",
+            "usr": "c:@CM@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)requestVideoAdWithVastTagXML:omResList:",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC07requestfE010vastTagXML9omResListy10Foundation4DataV_SaySo10OMResourceCGSgtF",
             "moduleName": "AotterTrek_iOS_SDK",
-            "objc_name": "requestVideoAdWithVastTagXML:",
+            "objc_name": "requestVideoAdWithVastTagXML:omResList:",
             "declAttributes": [
               "Dynamic",
               "Custom",
@@ -2031,6 +2084,37 @@
               "AccessControl",
               "ObjC",
               "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addFriendlyObstruction",
+            "printedName": "addFriendlyObstruction(view:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AotterTrek_iOS_SDK@objc(cs)AdVideoView(im)addFriendlyObstructionWithView:",
+            "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC22addFriendlyObstruction4viewySo6UIViewC_tF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "objc_name": "addFriendlyObstructionWithView:",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -2983,364 +3067,364 @@
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 211,
+      "offset": 242,
       "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 227,
+      "offset": 258,
       "length": 5,
       "value": "2"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 242,
+      "offset": 273,
       "length": 6,
       "value": "3"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 258,
+      "offset": 289,
       "length": 6,
       "value": "4"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 289,
+      "offset": 320,
       "length": 4,
       "value": "5"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 318,
+      "offset": 349,
       "length": 5,
       "value": "6"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 333,
+      "offset": 364,
       "length": 13,
       "value": "7"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 356,
+      "offset": 387,
       "length": 8,
       "value": "8"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 374,
+      "offset": 405,
       "length": 13,
       "value": "9"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 397,
+      "offset": 428,
       "length": 8,
       "value": "10"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 415,
+      "offset": 446,
       "length": 6,
       "value": "11"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 431,
+      "offset": 462,
       "length": 10,
       "value": "12"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 451,
+      "offset": 482,
       "length": 5,
       "value": "13"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 466,
+      "offset": 497,
       "length": 12,
       "value": "14"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 211,
-      "length": 6,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 227,
-      "length": 5,
-      "value": "2"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
       "offset": 242,
       "length": 6,
-      "value": "3"
+      "value": "1"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
       "offset": 258,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 273,
+      "length": 6,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 289,
       "length": 6,
       "value": "4"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 289,
+      "offset": 320,
       "length": 4,
       "value": "5"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 318,
+      "offset": 349,
       "length": 5,
       "value": "6"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 333,
+      "offset": 364,
       "length": 13,
       "value": "7"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 356,
+      "offset": 387,
       "length": 8,
       "value": "8"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 374,
+      "offset": 405,
       "length": 13,
       "value": "9"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 397,
+      "offset": 428,
       "length": 8,
       "value": "10"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 415,
+      "offset": 446,
       "length": 6,
       "value": "11"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 431,
+      "offset": 462,
       "length": 10,
       "value": "12"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 451,
+      "offset": 482,
       "length": 5,
       "value": "13"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 466,
+      "offset": 497,
       "length": 12,
       "value": "14"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 533,
+      "offset": 564,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 550,
+      "offset": 581,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 569,
+      "offset": 600,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 587,
+      "offset": 618,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 605,
+      "offset": 636,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 622,
+      "offset": 653,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 641,
+      "offset": 672,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 665,
+      "offset": 696,
       "length": 2,
       "value": "29"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 533,
+      "offset": 564,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 550,
+      "offset": 581,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 569,
+      "offset": 600,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 587,
+      "offset": 618,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 605,
+      "offset": 636,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 622,
+      "offset": 653,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 641,
+      "offset": 672,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 665,
+      "offset": 696,
       "length": 2,
       "value": "29"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1237,
+      "offset": 1268,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1574,
+      "offset": 1660,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1617,
+      "offset": 1703,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1663,
+      "offset": 1749,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1709,
+      "offset": 1795,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1757,
+      "offset": 1843,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1797,
+      "offset": 1883,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1845,
+      "offset": 1931,
       "length": 5,
       "value": "false"
     },
@@ -3403,7 +3487,7 @@
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Model\/Inline\/Extensions\/Extensions.swift",
       "kind": "Array",
-      "offset": 177,
+      "offset": 176,
       "length": 2,
       "value": "[]"
     },
@@ -3452,7 +3536,7 @@
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Model\/Inline\/InLine.swift",
       "kind": "Array",
-      "offset": 402,
+      "offset": 416,
       "length": 2,
       "value": "[]"
     },

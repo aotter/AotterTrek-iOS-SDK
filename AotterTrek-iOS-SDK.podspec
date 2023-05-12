@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AotterTrek-iOS-SDK"
-  spec.version      = "3.8.5"
+  spec.version      = "3.9.0-beta3"
   spec.summary      = "AotterTrek SDK for iOS developer."
 
   # This description is used to generate tags and improve search results.

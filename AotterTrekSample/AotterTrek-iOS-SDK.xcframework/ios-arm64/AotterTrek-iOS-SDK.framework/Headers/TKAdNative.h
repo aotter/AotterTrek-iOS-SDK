@@ -100,6 +100,14 @@
 -(void)fetchAdWithCallback:(void(^)(NSDictionary *adData, TKAdError *adError))callback;
 
 
+/**
+ * Add a friendly obstruction view for OMSDK
+ * The view is required.
+ * call this method after fetchAd
+ */
+- (void)addFriendlyObstructionWithView:(UIView *)view;
+
+
 //check the ad is still valid
 -(BOOL)isExpired;
 

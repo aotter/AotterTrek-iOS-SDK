@@ -3,13 +3,13 @@
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AotterTrek_iOS_SDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
+import AotterTrekSDKObjCHeader
 import Foundation
 import OMSDK_Aotternet
 import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
-@_exported import __ObjC
 @objc public enum AdEventType : Swift.Int {
   case MUTE
   case UNMUTE
@@ -62,8 +62,8 @@ import _StringProcessing
   @_Concurrency.MainActor(unsafe) public func sendAdEventCompleted(eventUri: Swift.String, withError error: Swift.String?)
 }
 extension AotterTrek_iOS_SDK.AdVideoView {
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func requestVideoAd(vastTagURLString: Swift.String)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func requestVideoAd(vastTagXML: Foundation.Data)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func requestVideoAd(vastTagURLString: Swift.String, omResList: [AotterTrekSDKObjCHeader.OMResource]? = nil)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func requestVideoAd(vastTagXML: Foundation.Data, omResList: [AotterTrekSDKObjCHeader.OMResource]? = nil)
   @objc @_Concurrency.MainActor(unsafe) dynamic public func play()
   @objc @_Concurrency.MainActor(unsafe) dynamic public func pause()
   @objc @_Concurrency.MainActor(unsafe) dynamic public func mute()
@@ -79,6 +79,9 @@ extension AotterTrek_iOS_SDK.AdVideoView {
 }
 extension AotterTrek_iOS_SDK.AdVideoView {
   @objc @_Concurrency.MainActor(unsafe) dynamic public func stopVideo()
+}
+extension AotterTrek_iOS_SDK.AdVideoView {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func addFriendlyObstruction(view: UIKit.UIView)
 }
 public protocol DataManagerDelegate : AnyObject {
   func sendAdEventCompleted(eventUri: Swift.String, withError error: Swift.String?)
