@@ -1,11 +1,14 @@
-platform :ios, '10.0'
+platform :ios, '11.0'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'AotterTrekSample' do
 	pod 'AFNetworking'
 	pod 'MBProgressHUD'
 	pod 'SDWebImage'
-  
+  pod 'TrekSDKAdMobMediationObjc'
+  pod 'Masonry'
+  pod 'MJRefresh'
+
   # pod 'GoogleAds-IMA-iOS-SDK','3.13.0' # '3.12.1'  # '3.11.2'
   # pod 'GoogleAds-IMA-iOS-SDK', '3.9.0'
   
@@ -24,3 +27,10 @@ target 'AotterTrekSample' do
   
 end
 
+post_install do |installer|
+ installer.pods_project.targets.each do |target|
+  target.build_configurations.each do |config|
+   config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11.0'
+  end
+ end
+end

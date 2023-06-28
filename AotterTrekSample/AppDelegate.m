@@ -11,6 +11,7 @@
 #import <AppTrackingTransparency/AppTrackingTransparency.h>
 #import <AdSupport/AdSupport.h>
 #import "AdItemViewController.h"
+#import <GoogleMobileAds/GoogleMobileAds.h>
 
 @interface AppDelegate ()
 
@@ -40,6 +41,8 @@
     }
     
     [[AotterTrek sharedAPI] enableLoggerWithLevel:TKLoggerLevelDetail];
+    
+    [[GADMobileAds sharedInstance] startWithCompletionHandler:nil];
     
     return YES;
 }

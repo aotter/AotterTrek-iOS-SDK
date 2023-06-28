@@ -18,8 +18,6 @@
 		0828A6E7261472C90094D6FC /* DemoBannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0828A6E5261472C90094D6FC /* DemoBannerAdViewController.m */; };
 		0828A6E8261472C90094D6FC /* DemoBannerAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0828A6E6261472C90094D6FC /* DemoBannerAdViewController.xib */; };
 		087B0FC226E9B33C00DD624E /* empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B0FC126E9B33C00DD624E /* empty.swift */; };
-		116662D8292618A80004AC31 /* OMSDK_Aotternet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116662D62926187E0004AC31 /* OMSDK_Aotternet.xcframework */; };
-		116662D9292618A80004AC31 /* OMSDK_Aotternet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 116662D62926187E0004AC31 /* OMSDK_Aotternet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		116F19DC22E8645700678B50 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19DB22E8645700678B50 /* SystemConfiguration.framework */; };
 		116F19DE22E8648200678B50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19DD22E8648200678B50 /* Foundation.framework */; };
 		116F19E022E8648B00678B50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19DF22E8648B00678B50 /* UIKit.framework */; };
@@ -44,7 +42,12 @@
 		11E4EC6122FC186F00BD194E /* CommonPostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E4EC5F22FC186F00BD194E /* CommonPostTableViewCell.xib */; };
 		3FD6BB292214154200E332B7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD6BB282214154200E332B7 /* WebKit.framework */; };
 		D45D86950F2F0D784A36C5FF /* libPods-AotterTrekSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5AE59297CF861213ED13E7 /* libPods-AotterTrekSample.a */; };
+		E164EFA32A418848005B240B /* AdmobNativeAdDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E164EFA22A418848005B240B /* AdmobNativeAdDemoCell.m */; };
 		E1774E5C2A1DCB7200428E13 /* AotterTrek-iOS-SDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1774E5B2A1DCB7200428E13 /* AotterTrek-iOS-SDK.xcframework */; };
+		E1D872682A3C2EE80007066E /* OMSDK_Aotternet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D872672A3C2EE80007066E /* OMSDK_Aotternet.xcframework */; };
+		E1D8726F2A400D940007066E /* AdmobNativeAdDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D8726E2A400D940007066E /* AdmobNativeAdDemoVC.m */; };
+		E1D872752A400E0D0007066E /* AdmobBannerAdDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D872742A400E0D0007066E /* AdmobBannerAdDemoVC.m */; };
+		E1D872782A400E290007066E /* AdmobSuprAdDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D872772A400E290007066E /* AdmobSuprAdDemoVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,7 +57,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				116662D9292618A80004AC31 /* OMSDK_Aotternet.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,7 +82,6 @@
 		0828A6E6261472C90094D6FC /* DemoBannerAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoBannerAdViewController.xib; sourceTree = "<group>"; };
 		087B0FC026E9B33C00DD624E /* AotterTrekSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AotterTrekSample-Bridging-Header.h"; sourceTree = "<group>"; };
 		087B0FC126E9B33C00DD624E /* empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = empty.swift; sourceTree = "<group>"; };
-		116662D62926187E0004AC31 /* OMSDK_Aotternet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = OMSDK_Aotternet.xcframework; sourceTree = "<group>"; };
 		116F19DB22E8645700678B50 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		116F19DD22E8648200678B50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		116F19DF22E8648B00678B50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -120,7 +121,16 @@
 		3A5AE59297CF861213ED13E7 /* libPods-AotterTrekSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AotterTrekSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD6BB282214154200E332B7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		564CBF65EBDA2DBCFCA8D894 /* Pods-AotterTrekSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AotterTrekSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AotterTrekSample/Pods-AotterTrekSample.release.xcconfig"; sourceTree = "<group>"; };
+		E164EFA12A418848005B240B /* AdmobNativeAdDemoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdmobNativeAdDemoCell.h; sourceTree = "<group>"; };
+		E164EFA22A418848005B240B /* AdmobNativeAdDemoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdmobNativeAdDemoCell.m; sourceTree = "<group>"; };
 		E1774E5B2A1DCB7200428E13 /* AotterTrek-iOS-SDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "AotterTrek-iOS-SDK.xcframework"; sourceTree = "<group>"; };
+		E1D872672A3C2EE80007066E /* OMSDK_Aotternet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = OMSDK_Aotternet.xcframework; sourceTree = "<group>"; };
+		E1D8726D2A400D940007066E /* AdmobNativeAdDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdmobNativeAdDemoVC.h; sourceTree = "<group>"; };
+		E1D8726E2A400D940007066E /* AdmobNativeAdDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdmobNativeAdDemoVC.m; sourceTree = "<group>"; };
+		E1D872732A400E0D0007066E /* AdmobBannerAdDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdmobBannerAdDemoVC.h; sourceTree = "<group>"; };
+		E1D872742A400E0D0007066E /* AdmobBannerAdDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdmobBannerAdDemoVC.m; sourceTree = "<group>"; };
+		E1D872762A400E290007066E /* AdmobSuprAdDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdmobSuprAdDemoVC.h; sourceTree = "<group>"; };
+		E1D872772A400E290007066E /* AdmobSuprAdDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdmobSuprAdDemoVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +149,7 @@
 				11B463BF1D51D132007591CE /* AVFoundation.framework in Frameworks */,
 				11B463BD1D51D12B007591CE /* AVKit.framework in Frameworks */,
 				11B463BB1D51D123007591CE /* AdSupport.framework in Frameworks */,
-				116662D8292618A80004AC31 /* OMSDK_Aotternet.xcframework in Frameworks */,
+				E1D872682A3C2EE80007066E /* OMSDK_Aotternet.xcframework in Frameworks */,
 				D45D86950F2F0D784A36C5FF /* libPods-AotterTrekSample.a in Frameworks */,
 				11CF54AD288E7A7A00300A1A /* CoreMotion.framework in Frameworks */,
 			);
@@ -151,6 +161,7 @@
 		0823B8DF263A9F5900B12A8F /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E1D8726B2A400D940007066E /* Admob */,
 				0823B8E9263AA19800B12A8F /* AdItemViewController */,
 				0823B8E1263A9FAD00B12A8F /* PageViewController */,
 				0823B8E3263A9FDA00B12A8F /* TrackerDetailViewController */,
@@ -269,7 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				E1774E5B2A1DCB7200428E13 /* AotterTrek-iOS-SDK.xcframework */,
-				116662D62926187E0004AC31 /* OMSDK_Aotternet.xcframework */,
+				E1D872672A3C2EE80007066E /* OMSDK_Aotternet.xcframework */,
 				0823B8DF263A9F5900B12A8F /* ViewController */,
 				0823B8E0263A9F7C00B12A8F /* Cell */,
 				11B4639F1D51C962007591CE /* AppDelegate.h */,
@@ -333,6 +344,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E1D8726B2A400D940007066E /* Admob */ = {
+			isa = PBXGroup;
+			children = (
+				E1D872722A400DD00007066E /* BannerAd */,
+				E1D872712A400DC40007066E /* SuprAd */,
+				E1D8726C2A400D940007066E /* NativeAd */,
+			);
+			path = Admob;
+			sourceTree = "<group>";
+		};
+		E1D8726C2A400D940007066E /* NativeAd */ = {
+			isa = PBXGroup;
+			children = (
+				E1D8726D2A400D940007066E /* AdmobNativeAdDemoVC.h */,
+				E1D8726E2A400D940007066E /* AdmobNativeAdDemoVC.m */,
+				E164EFA12A418848005B240B /* AdmobNativeAdDemoCell.h */,
+				E164EFA22A418848005B240B /* AdmobNativeAdDemoCell.m */,
+			);
+			path = NativeAd;
+			sourceTree = "<group>";
+		};
+		E1D872712A400DC40007066E /* SuprAd */ = {
+			isa = PBXGroup;
+			children = (
+				E1D872762A400E290007066E /* AdmobSuprAdDemoVC.h */,
+				E1D872772A400E290007066E /* AdmobSuprAdDemoVC.m */,
+			);
+			path = SuprAd;
+			sourceTree = "<group>";
+		};
+		E1D872722A400DD00007066E /* BannerAd */ = {
+			isa = PBXGroup;
+			children = (
+				E1D872732A400E0D0007066E /* AdmobBannerAdDemoVC.h */,
+				E1D872742A400E0D0007066E /* AdmobBannerAdDemoVC.m */,
+			);
+			path = BannerAd;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -345,6 +395,8 @@
 				11B463961D51C962007591CE /* Frameworks */,
 				11B463971D51C962007591CE /* Resources */,
 				11D91DB5279C04820060B189 /* Embed Frameworks */,
+				7842633907A7CAA4E419FDE6 /* [CP] Embed Pods Frameworks */,
+				43E5E91AE1C8438576A7E966 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -411,6 +463,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		43E5E91AE1C8438576A7E966 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AotterTrekSample/Pods-AotterTrekSample-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AotterTrekSample/Pods-AotterTrekSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		75309124454CB02FC41DB2B7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -429,6 +499,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7842633907A7CAA4E419FDE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AotterTrekSample/Pods-AotterTrekSample-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AotterTrek-iOS-SDK/OMSDK_Aotternet.framework/OMSDK_Aotternet",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OMSDK_Aotternet.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AotterTrekSample/Pods-AotterTrekSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -440,6 +528,7 @@
 				11B463C41D51D312007591CE /* MainPageViewController.m in Sources */,
 				087B0FC226E9B33C00DD624E /* empty.swift in Sources */,
 				11E4EC6022FC186F00BD194E /* CommonPostTableViewCell.m in Sources */,
+				E164EFA32A418848005B240B /* AdmobNativeAdDemoCell.m in Sources */,
 				0823B8EE263AA2A000B12A8F /* AdItemViewController.m in Sources */,
 				11B463A11D51C962007591CE /* AppDelegate.m in Sources */,
 				0823B8FA263AAD6900B12A8F /* TrackerDetailViewController.m in Sources */,
@@ -447,8 +536,11 @@
 				0828A6E7261472C90094D6FC /* DemoBannerAdViewController.m in Sources */,
 				11B4639E1D51C962007591CE /* main.m in Sources */,
 				11B463B61D51CAEB007591CE /* PostTableViewCell.m in Sources */,
+				E1D872752A400E0D0007066E /* AdmobBannerAdDemoVC.m in Sources */,
 				11E4EC5C22FC17E500BD194E /* DemoSuprAdViewController.m in Sources */,
 				11E4EC5B22FC17E500BD194E /* DemoNativeAdViewController.m in Sources */,
+				E1D872782A400E290007066E /* AdmobSuprAdDemoVC.m in Sources */,
+				E1D8726F2A400D940007066E /* AdmobNativeAdDemoVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,7 +603,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -549,7 +641,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -568,7 +660,7 @@
 					"$(PROJECT_DIR)/AotterTrekSample",
 				);
 				INFOPLIST_FILE = AotterTrekSample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -593,7 +685,7 @@
 					"$(PROJECT_DIR)/AotterTrekSample",
 				);
 				INFOPLIST_FILE = AotterTrekSample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

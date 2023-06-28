@@ -10,13 +10,19 @@
 #import "DemoNativeAdViewController.h"
 #import "DemoSuprAdViewController.h"
 #import "DemoBannerAdViewController.h"
+#import "AdmobNativeAdDemoVC.h"
+#import "AdmobSuprAdDemoVC.h"
+#import "AdmobBannerAdDemoVC.h"
 #import <AotterTrek-iOS-SDK/AotterTrek-iOS-SDK.h>
 
 typedef NS_ENUM(NSInteger, AdEnum) {
     Tracker = 0,
     NativeAd = 1,
     SuprAd = 2,
-    SuprAdBanner = 3
+    SuprAdBanner = 3,
+    AdmobNativeAd = 4,
+    AdmobSuprAd = 5,
+    AdmobBannerAd = 6,
 };
 
 @interface AdItemViewController ()<UITableViewDataSource, UITableViewDelegate>
@@ -35,7 +41,7 @@ typedef NS_ENUM(NSInteger, AdEnum) {
     
     self.title = [NSString stringWithFormat:@"AotterTrekSDK v%@" ,[AotterTrek sdkVersion]];
     
-    _adItem = [[NSArray alloc]initWithObjects:@"Tracker",@"Native Ad",@"Supr Ad",@"Banner Ad", nil];
+    _adItem = [[NSArray alloc]initWithObjects:@"Tracker",@"Native Ad",@"Supr Ad",@"Banner Ad",@"Admob NativeAd",@"Admob SuprAd",@"Admob BannerAd", nil];
     
     [self setupTableVie];
 }
@@ -75,16 +81,26 @@ typedef NS_ENUM(NSInteger, AdEnum) {
     if (indexPath.row == Tracker) {
         TrackerViewController *trackerViewController = [[TrackerViewController alloc]init];
         [self.navigationController pushViewController:trackerViewController animated:YES];
-    }else if (indexPath.row == NativeAd) {
+    } else if (indexPath.row == NativeAd) {
         DemoNativeAdViewController *demoNativeAdViewController = [[DemoNativeAdViewController alloc]init];
         [self.navigationController pushViewController:demoNativeAdViewController animated:YES];
-    }else if (indexPath.row == SuprAd) {
+    } else if (indexPath.row == SuprAd) {
         DemoSuprAdViewController *demoSuprAdViewController = [[DemoSuprAdViewController alloc]init];
         [self.navigationController pushViewController:demoSuprAdViewController animated:YES];
-    }if (indexPath.row == SuprAdBanner) {
+    } else if (indexPath.row == SuprAdBanner) {
         DemoBannerAdViewController *demoBannerAdViewController = [[DemoBannerAdViewController alloc]init];
         [self.navigationController pushViewController:demoBannerAdViewController animated:YES];
+    } else if (indexPath.row == AdmobNativeAd) {
+        AdmobNativeAdDemoVC *admobNativeAdDemoVC = [[AdmobNativeAdDemoVC alloc]init];
+        [self.navigationController pushViewController:admobNativeAdDemoVC animated:YES];
+    } else if (indexPath.row == AdmobSuprAd) {
+        AdmobSuprAdDemoVC *admobSuprAdDemoVC = [[AdmobSuprAdDemoVC alloc]init];
+        [self.navigationController pushViewController:admobSuprAdDemoVC animated:YES];
+    } else if (indexPath.row == AdmobBannerAd) {
+        AdmobBannerAdDemoVC *admobBannerAdDemoVC = [[AdmobBannerAdDemoVC alloc]init];
+        [self.navigationController pushViewController:admobBannerAdDemoVC animated:YES];
     }
+
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
