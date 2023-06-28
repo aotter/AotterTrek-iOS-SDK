@@ -15,7 +15,7 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - AotterTrek-iOS-SDK (3.9.0)
-  - Google-Mobile-Ads-SDK (10.6.0):
+  - Google-Mobile-Ads-SDK (10.7.0):
     - GoogleAppMeasurement (< 11.0, >= 7.0)
     - GoogleUserMessagingPlatform (>= 1.1)
   - GoogleAppMeasurement (10.11.0):
@@ -99,7 +99,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   AotterTrek-iOS-SDK: 65b4debf6d8d25b157a9f0dde29cb0304c853980
-  Google-Mobile-Ads-SDK: 07599a44221fb3f00d111d5c2f4e27549f8dbf21
+  Google-Mobile-Ads-SDK: 2b62c695321edc7827857ac19eaeab89b57f6862
   GoogleAppMeasurement: d3dabccdb336fc0ae44b633c8abaa26559893cd9
   GoogleUserMessagingPlatform: 5f8b30daf181805317b6b985bb51c1ff3beca054
   GoogleUtilities: 9aa0ad5a7bc171f8bae016300bfcfa3fb8425749

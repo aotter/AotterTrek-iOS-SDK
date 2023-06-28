@@ -78,6 +78,12 @@
 -(void)TKAdSuprAdWillLogClick:(TKAdSuprAd *)ad;
 
 
+/**
+ * callback when the SuprAd video finishes playing
+ */
+@optional
+-(void)TKAdSuprAdVideoCompleted:(TKAdSuprAd *)suprAd;
+
 @end
 
 
