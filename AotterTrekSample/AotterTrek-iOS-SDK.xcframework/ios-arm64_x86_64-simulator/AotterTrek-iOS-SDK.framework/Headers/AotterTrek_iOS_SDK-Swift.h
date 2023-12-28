@@ -411,6 +411,14 @@ typedef SWIFT_ENUM(NSInteger, UID2TokenStatus, open) {
   UID2TokenStatusOptOut = -4,
 };
 
+
+SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK17TKValidatorHelper")
+@interface TKValidatorHelper : NSObject
++ (BOOL)validateEmailWithEmail:(NSString * _Nonnull)email SWIFT_WARN_UNUSED_RESULT;
++ (BOOL)validatePhoneWithPhoneNumber:(NSString * _Nonnull)phoneNumber SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -831,6 +839,14 @@ typedef SWIFT_ENUM(NSInteger, UID2TokenStatus, open) {
   UID2TokenStatusRefreshExpired = -3,
   UID2TokenStatusOptOut = -4,
 };
+
+
+SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK17TKValidatorHelper")
+@interface TKValidatorHelper : NSObject
++ (BOOL)validateEmailWithEmail:(NSString * _Nonnull)email SWIFT_WARN_UNUSED_RESULT;
++ (BOOL)validatePhoneWithPhoneNumber:(NSString * _Nonnull)phoneNumber SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
 
 #endif
 #if __has_attribute(external_source_symbol)

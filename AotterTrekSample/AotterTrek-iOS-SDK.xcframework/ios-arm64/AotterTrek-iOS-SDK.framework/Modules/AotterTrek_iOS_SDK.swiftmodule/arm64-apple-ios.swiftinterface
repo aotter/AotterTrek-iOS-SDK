@@ -124,6 +124,12 @@ extension AotterTrek_iOS_SDK.AdVideoView {
 public protocol DataManagerDelegate : AnyObject {
   func sendAdEventCompleted(eventUri: Swift.String, withError error: Swift.String?)
 }
+@_inheritsConvenienceInitializers @objc public class TKValidatorHelper : ObjectiveC.NSObject {
+  @objc public static func validateEmail(email: Swift.String) -> Swift.Bool
+  @objc public static func validatePhone(phoneNumber: Swift.String) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
 extension AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus : Swift.Equatable {}
 extension AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus : Swift.Hashable {}
 extension AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus : Swift.RawRepresentable {}

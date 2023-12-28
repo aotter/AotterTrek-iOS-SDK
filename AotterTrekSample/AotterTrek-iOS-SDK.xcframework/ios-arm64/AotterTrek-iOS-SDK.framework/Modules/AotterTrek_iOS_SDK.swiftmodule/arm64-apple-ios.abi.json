@@ -3286,6 +3286,176 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "TKValidatorHelper",
+        "printedName": "TKValidatorHelper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "validateEmail",
+            "printedName": "validateEmail(email:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKValidatorHelper(cm)validateEmailWithEmail:",
+            "mangledName": "$s18AotterTrek_iOS_SDK17TKValidatorHelperC13validateEmail5emailSbSS_tFZ",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "static": true,
+            "objc_name": "validateEmailWithEmail:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validatePhone",
+            "printedName": "validatePhone(phoneNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKValidatorHelper(cm)validatePhoneWithPhoneNumber:",
+            "mangledName": "$s18AotterTrek_iOS_SDK17TKValidatorHelperC13validatePhone11phoneNumberSbSS_tFZ",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "static": true,
+            "objc_name": "validatePhoneWithPhoneNumber:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TKValidatorHelper",
+                "printedName": "AotterTrek_iOS_SDK.TKValidatorHelper",
+                "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKValidatorHelper"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKValidatorHelper(im)init",
+            "mangledName": "$s18AotterTrek_iOS_SDK17TKValidatorHelperCACycfc",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKValidatorHelper",
+        "mangledName": "$s18AotterTrek_iOS_SDK17TKValidatorHelperC",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -5149,6 +5319,62 @@
       "offset": 116,
       "length": 7,
       "value": "\"AotterTrek_iOS_SDK.AdError\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 129,
+      "value": "\"(?:(?:(?:[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-])+(?:(?:\\.(?!\\.))?(?:[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-])+)*)|(?:\"(?:[^\"\\\\]|\\\\.)*\"))\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 469,
+      "length": 78,
+      "value": "\"(?:(?:[a-zA-Z0-9])+(?:\\.(?:[a-zA-Z0-9])+(?:[a-zA-Z0-9-])*(?:[a-zA-Z0-9]))+)\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 581,
+      "length": 44,
+      "value": "\"^(?:\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 603,
+      "length": 1,
+      "value": "\"@\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 622,
+      "length": 1,
+      "value": "\")$\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 665,
+      "length": 17,
+      "value": "\"SELF MATCHES %@\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 856,
+      "length": 36,
+      "value": "\"^((\\+)|(00)|(\\d{1}))[0-9]{6,14}$\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 932,
+      "length": 17,
+      "value": "\"SELF MATCHES %@\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Model\/Inline\/InLine.swift",
