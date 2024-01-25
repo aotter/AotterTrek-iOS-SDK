@@ -42,7 +42,7 @@
 		11E4EC6122FC186F00BD194E /* CommonPostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E4EC5F22FC186F00BD194E /* CommonPostTableViewCell.xib */; };
 		3FD6BB292214154200E332B7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD6BB282214154200E332B7 /* WebKit.framework */; };
 		D45D86950F2F0D784A36C5FF /* libPods-AotterTrekSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5AE59297CF861213ED13E7 /* libPods-AotterTrekSample.a */; };
-		E11408B12B45581200B33BFB /* AotterTrek-iOS-SDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11408B02B45581200B33BFB /* AotterTrek-iOS-SDK.xcframework */; };
+		E100BF452B62522E00206589 /* AotterTrek-iOS-SDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E100BF442B62522E00206589 /* AotterTrek-iOS-SDK.xcframework */; };
 		E164EFA32A418848005B240B /* AdmobNativeAdDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E164EFA22A418848005B240B /* AdmobNativeAdDemoCell.m */; };
 		E1D872682A3C2EE80007066E /* OMSDK_Aotternet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D872672A3C2EE80007066E /* OMSDK_Aotternet.xcframework */; };
 		E1D8726F2A400D940007066E /* AdmobNativeAdDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D8726E2A400D940007066E /* AdmobNativeAdDemoVC.m */; };
@@ -121,7 +121,7 @@
 		3A5AE59297CF861213ED13E7 /* libPods-AotterTrekSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AotterTrekSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD6BB282214154200E332B7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		564CBF65EBDA2DBCFCA8D894 /* Pods-AotterTrekSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AotterTrekSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AotterTrekSample/Pods-AotterTrekSample.release.xcconfig"; sourceTree = "<group>"; };
-		E11408B02B45581200B33BFB /* AotterTrek-iOS-SDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "AotterTrek-iOS-SDK.xcframework"; sourceTree = "<group>"; };
+		E100BF442B62522E00206589 /* AotterTrek-iOS-SDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "AotterTrek-iOS-SDK.xcframework"; sourceTree = "<group>"; };
 		E164EFA12A418848005B240B /* AdmobNativeAdDemoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdmobNativeAdDemoCell.h; sourceTree = "<group>"; };
 		E164EFA22A418848005B240B /* AdmobNativeAdDemoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdmobNativeAdDemoCell.m; sourceTree = "<group>"; };
 		E1D872672A3C2EE80007066E /* OMSDK_Aotternet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = OMSDK_Aotternet.xcframework; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 				11A784E325136839009E6712 /* AppTrackingTransparency.framework in Frameworks */,
 				116F19E022E8648B00678B50 /* UIKit.framework in Frameworks */,
 				116F19DE22E8648200678B50 /* Foundation.framework in Frameworks */,
-				E11408B12B45581200B33BFB /* AotterTrek-iOS-SDK.xcframework in Frameworks */,
+				E100BF452B62522E00206589 /* AotterTrek-iOS-SDK.xcframework in Frameworks */,
 				116F19DC22E8645700678B50 /* SystemConfiguration.framework in Frameworks */,
 				3FD6BB292214154200E332B7 /* WebKit.framework in Frameworks */,
 				1197132E1D645B2B0094D71C /* CoreTelephony.framework in Frameworks */,
@@ -279,7 +279,7 @@
 		11B4639B1D51C962007591CE /* AotterTrekSample */ = {
 			isa = PBXGroup;
 			children = (
-				E11408B02B45581200B33BFB /* AotterTrek-iOS-SDK.xcframework */,
+				E100BF442B62522E00206589 /* AotterTrek-iOS-SDK.xcframework */,
 				E1D872672A3C2EE80007066E /* OMSDK_Aotternet.xcframework */,
 				0823B8DF263A9F5900B12A8F /* ViewController */,
 				0823B8E0263A9F7C00B12A8F /* Cell */,
