@@ -6,6 +6,724 @@
     "children": [
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AotterTrekSDKObjCHeader",
+        "printedName": "AotterTrekSDKObjCHeader",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AotterTrekUID2SDK",
+        "printedName": "AotterTrekUID2SDK",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TKUID2SDKWrapper",
+        "printedName": "TKUID2SDKWrapper",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "UID2TokenStatus",
+            "printedName": "UID2TokenStatus",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "established",
+                "printedName": "established",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus.Type) -> AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UID2TokenStatus",
+                        "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                        "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UID2TokenStatus",
+                            "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                            "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO11establishedyA2EmF",
+                "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO11establishedyA2EmF",
+                "moduleName": "AotterTrek_iOS_SDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "refreshed",
+                "printedName": "refreshed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus.Type) -> AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UID2TokenStatus",
+                        "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                        "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UID2TokenStatus",
+                            "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                            "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO9refreshedyA2EmF",
+                "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO9refreshedyA2EmF",
+                "moduleName": "AotterTrek_iOS_SDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Var",
+                "name": "expired",
+                "printedName": "expired",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus.Type) -> AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UID2TokenStatus",
+                        "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                        "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UID2TokenStatus",
+                            "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                            "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO7expiredyA2EmF",
+                "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO7expiredyA2EmF",
+                "moduleName": "AotterTrek_iOS_SDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 2
+              },
+              {
+                "kind": "Var",
+                "name": "noIdentity",
+                "printedName": "noIdentity",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus.Type) -> AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UID2TokenStatus",
+                        "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                        "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UID2TokenStatus",
+                            "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                            "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO10noIdentityyA2EmF",
+                "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO10noIdentityyA2EmF",
+                "moduleName": "AotterTrek_iOS_SDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 3
+              },
+              {
+                "kind": "Var",
+                "name": "invalid",
+                "printedName": "invalid",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus.Type) -> AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UID2TokenStatus",
+                        "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                        "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UID2TokenStatus",
+                            "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                            "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO7invalidyA2EmF",
+                "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO7invalidyA2EmF",
+                "moduleName": "AotterTrek_iOS_SDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 4
+              },
+              {
+                "kind": "Var",
+                "name": "refreshExpired",
+                "printedName": "refreshExpired",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus.Type) -> AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UID2TokenStatus",
+                        "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                        "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UID2TokenStatus",
+                            "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                            "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO14refreshExpiredyA2EmF",
+                "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO14refreshExpiredyA2EmF",
+                "moduleName": "AotterTrek_iOS_SDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 5
+              },
+              {
+                "kind": "Var",
+                "name": "optOut",
+                "printedName": "optOut",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus.Type) -> AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UID2TokenStatus",
+                        "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                        "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UID2TokenStatus",
+                            "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                            "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO6optOutyA2EmF",
+                "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO6optOutyA2EmF",
+                "moduleName": "AotterTrek_iOS_SDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 6
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UID2TokenStatus",
+                        "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                        "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO8rawValueAESgSi_tcfc",
+                "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO8rawValueAESgSi_tcfc",
+                "moduleName": "AotterTrek_iOS_SDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO8rawValueSivp",
+                "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO8rawValueSivp",
+                "moduleName": "AotterTrek_iOS_SDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO8rawValueSivg",
+                    "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO8rawValueSivg",
+                    "moduleName": "AotterTrek_iOS_SDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO",
+            "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TKUID2SDKWrapper",
+                "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper",
+                "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKUID2SDKWrapper"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKUID2SDKWrapper(cpy)sharedInstance",
+            "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC14sharedInstanceACvpZ",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TKUID2SDKWrapper",
+                    "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper",
+                    "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKUID2SDKWrapper"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKUID2SDKWrapper(cm)sharedInstance",
+                "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC14sharedInstanceACvgZ",
+                "moduleName": "AotterTrek_iOS_SDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setUID2Token",
+            "printedName": "setUID2Token(tokenObj:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TKUID2Token",
+                "printedName": "AotterTrekSDKObjCHeader.TKUID2Token",
+                "usr": "c:objc(cs)TKUID2Token"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKUID2SDKWrapper(im)setUID2TokenWithTokenObj:completionHandler:",
+            "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC12setUID2Token8tokenObjySo0eI0C_tYaF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "objc_name": "setUID2TokenWithTokenObj:completionHandler:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetUID2Token",
+            "printedName": "resetUID2Token()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKUID2SDKWrapper(im)resetUID2TokenWithCompletionHandler:",
+            "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC14resetUID2TokenyyYaF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "objc_name": "resetUID2TokenWithCompletionHandler:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "refreshUID2Token",
+            "printedName": "refreshUID2Token()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKUID2SDKWrapper(im)refreshUID2TokenWithCompletionHandler:",
+            "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC16refreshUID2TokenyyYaF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "objc_name": "refreshUID2TokenWithCompletionHandler:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAutoRefreshToken",
+            "printedName": "setAutoRefreshToken(enable:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKUID2SDKWrapper(im)setAutoRefreshTokenWithEnable:completionHandler:",
+            "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC19setAutoRefreshToken6enableySb_tYaF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "objc_name": "setAutoRefreshTokenWithEnable:completionHandler:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAdvertisingToken",
+            "printedName": "getAdvertisingToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKUID2SDKWrapper(im)getAdvertisingTokenWithCompletionHandler:",
+            "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC19getAdvertisingTokenSSSgyYaF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "objc_name": "getAdvertisingTokenWithCompletionHandler:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTokenStatus",
+            "printedName": "getTokenStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UID2TokenStatus",
+                "printedName": "AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus",
+                "usr": "s:18AotterTrek_iOS_SDK16TKUID2SDKWrapperC15UID2TokenStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKUID2SDKWrapper(im)getTokenStatusWithCompletionHandler:",
+            "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC14getTokenStatusAC04UID2hI0OyYaF",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "objc_name": "getTokenStatusWithCompletionHandler:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKUID2SDKWrapper",
+        "mangledName": "$s18AotterTrek_iOS_SDK16TKUID2SDKWrapperC",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2196,6 +2914,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -2548,6 +3273,176 @@
         "moduleName": "AotterTrek_iOS_SDK",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TKValidatorHelper",
+        "printedName": "TKValidatorHelper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "validateEmail",
+            "printedName": "validateEmail(email:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKValidatorHelper(cm)validateEmailWithEmail:",
+            "mangledName": "$s18AotterTrek_iOS_SDK17TKValidatorHelperC13validateEmail5emailSbSS_tFZ",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "static": true,
+            "objc_name": "validateEmailWithEmail:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validatePhone",
+            "printedName": "validatePhone(phoneNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKValidatorHelper(cm)validatePhoneWithPhoneNumber:",
+            "mangledName": "$s18AotterTrek_iOS_SDK17TKValidatorHelperC13validatePhone11phoneNumberSbSS_tFZ",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "static": true,
+            "objc_name": "validatePhoneWithPhoneNumber:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TKValidatorHelper",
+                "printedName": "AotterTrek_iOS_SDK.TKValidatorHelper",
+                "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKValidatorHelper"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKValidatorHelper(im)init",
+            "mangledName": "$s18AotterTrek_iOS_SDK17TKValidatorHelperCACycfc",
+            "moduleName": "AotterTrek_iOS_SDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AotterTrek_iOS_SDK@objc(cs)TKValidatorHelper",
+        "mangledName": "$s18AotterTrek_iOS_SDK17TKValidatorHelperC",
+        "moduleName": "AotterTrek_iOS_SDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
       },
       {
@@ -3074,6 +3969,104 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TKUID2SDKWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 292,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TKUID2SDKWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 319,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TKUID2SDKWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 344,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TKUID2SDKWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 374,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TKUID2SDKWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 400,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TKUID2SDKWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 433,
+      "length": 2,
+      "value": "-3"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TKUID2SDKWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 458,
+      "length": 2,
+      "value": "-4"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TKUID2SDKWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 292,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TKUID2SDKWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 319,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TKUID2SDKWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 344,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TKUID2SDKWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 374,
+      "length": 1,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TKUID2SDKWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 400,
+      "length": 1,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TKUID2SDKWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 433,
+      "length": 1,
+      "value": "-3"
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TKUID2SDKWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 458,
+      "length": 1,
+      "value": "-4"
+    },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
@@ -4326,6 +5319,62 @@
       "offset": 116,
       "length": 7,
       "value": "\"AotterTrek_iOS_SDK.AdError\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 129,
+      "value": "\"(?:(?:(?:[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-])+(?:(?:\\.(?!\\.))?(?:[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-])+)*)|(?:\"(?:[^\"\\\\]|\\\\.)*\"))\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 469,
+      "length": 78,
+      "value": "\"(?:(?:[a-zA-Z0-9])+(?:\\.(?:[a-zA-Z0-9])+(?:[a-zA-Z0-9-])*(?:[a-zA-Z0-9]))+)\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 581,
+      "length": 44,
+      "value": "\"^(?:\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 603,
+      "length": 1,
+      "value": "\"@\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 622,
+      "length": 1,
+      "value": "\")$\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 665,
+      "length": 17,
+      "value": "\"SELF MATCHES %@\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 856,
+      "length": 36,
+      "value": "\"^((\\+)|(00)|(\\d{1}))[0-9]{6,14}$\""
+    },
+    {
+      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 932,
+      "length": 17,
+      "value": "\"SELF MATCHES %@\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Model\/Inline\/InLine.swift",
