@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AotterTrek-iOS-SDK"
-  spec.version      = "4.0.2"
+  spec.version      = "4.0.3-beta"
   spec.summary      = "AotterTrek SDK for iOS developer."
 
   # This description is used to generate tags and improve search results.
@@ -68,7 +68,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "13.0"
+  spec.ios.deployment_target = "12.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -97,7 +97,7 @@ Pod::Spec.new do |spec|
 
   # spec.public_header_files = "Classes/**/*.h"
   # 
-  spec.swift_version = '5.0'
+  spec.swift_version = '4.2'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -140,7 +140,7 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
   # spec.dependency "GoogleAds-IMA-iOS-SDK", "3.13.0"
-  spec.dependency "AotterTrekUID2SDK" , '>= 0.3.0'
+  # spec.dependency "AotterTrekUID2SDK" , '>= 0.3.0'
 
   # since Apple release Apple Silicon and use arm64 for the simulator, but iOS x86_64 for iOS
   # https://github.com/CocoaPods/CocoaPods/issues/10065

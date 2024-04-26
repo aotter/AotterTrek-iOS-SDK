@@ -15,7 +15,6 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - AotterTrek-iOS-SDK (3.9.2)
-  - AotterTrekUID2SDK (0.3.0)
   - Google-Mobile-Ads-SDK (11.0.1):
     - GoogleUserMessagingPlatform (>= 1.1)
   - GoogleUserMessagingPlatform (2.1.0)
@@ -31,7 +30,6 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - AotterTrekUID2SDK
   - Masonry
   - MBProgressHUD
   - MJRefresh
@@ -42,7 +40,6 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - AotterTrek-iOS-SDK
-    - AotterTrekUID2SDK
     - Google-Mobile-Ads-SDK
     - GoogleUserMessagingPlatform
     - Masonry
@@ -54,7 +51,6 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   AotterTrek-iOS-SDK: 47c7ec74fe9c99ccbbd028a191dcc83d46817826
-  AotterTrekUID2SDK: 8dc6378a62c9451ebd039833abdb40dd15dcce24
   Google-Mobile-Ads-SDK: 7a466427864972f5229f1f89d004b998a28ddcae
   GoogleUserMessagingPlatform: dce302b8f1b84d6e945812ee7a15c3f65a102cbf
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -63,6 +59,6 @@ SPEC CHECKSUMS:
   SDWebImage: a3ba0b8faac7228c3c8eadd1a55c9c9fe5e16457
   TrekSDKAdMobMediationObjc: 758815118885b5beac1380aca27c36348d2510d3
 
-PODFILE CHECKSUM: 603c020f8325c98f6bdab56d2a4f641f6ab9e348
+PODFILE CHECKSUM: f096ab977b74aa164e0006e0376913b3f0afd093
 
-COCOAPODS: 1.14.3
+COCOAPODS: 1.15.2
