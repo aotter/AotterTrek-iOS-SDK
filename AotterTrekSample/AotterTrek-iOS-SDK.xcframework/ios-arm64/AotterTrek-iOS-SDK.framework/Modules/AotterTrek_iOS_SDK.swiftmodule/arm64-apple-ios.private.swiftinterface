@@ -7,6 +7,7 @@ import Foundation
 import OMSDK_Aotternet
 import Swift
 import UIKit
+import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -89,6 +90,12 @@ public protocol DataManagerDelegate : AnyObject {
 @_inheritsConvenienceInitializers @objc public class TKValidatorHelper : ObjectiveC.NSObject {
   @objc public static func validateEmail(email: Swift.String) -> Swift.Bool
   @objc public static func validatePhone(phoneNumber: Swift.String) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class TKImageDetector : ObjectiveC.NSObject {
+  @objc public static func checkImageColorConsistency(image: UIKit.UIImage) -> Swift.Bool
+  @objc public static func getImageWithColor(color: UIKit.UIColor) -> UIKit.UIImage
   @objc override dynamic public init()
   @objc deinit
 }

@@ -384,6 +384,16 @@ typedef SWIFT_ENUM(NSInteger, CheckTiming, open) {
   CheckTimingTwentyNine = 29,
 };
 
+@class UIImage;
+@class UIColor;
+
+SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK15TKImageDetector")
+@interface TKImageDetector : NSObject
++ (BOOL)checkImageColorConsistencyWithImage:(UIImage * _Nonnull)image SWIFT_WARN_UNUSED_RESULT;
++ (UIImage * _Nonnull)getImageWithColorWithColor:(UIColor * _Nonnull)color SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK17TKValidatorHelper")
 @interface TKValidatorHelper : NSObject
@@ -785,6 +795,16 @@ typedef SWIFT_ENUM(NSInteger, CheckTiming, open) {
   CheckTimingSeven = 7,
   CheckTimingTwentyNine = 29,
 };
+
+@class UIImage;
+@class UIColor;
+
+SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK15TKImageDetector")
+@interface TKImageDetector : NSObject
++ (BOOL)checkImageColorConsistencyWithImage:(UIImage * _Nonnull)image SWIFT_WARN_UNUSED_RESULT;
++ (UIImage * _Nonnull)getImageWithColorWithColor:(UIColor * _Nonnull)color SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
 
 
 SWIFT_CLASS("_TtC18AotterTrek_iOS_SDK17TKValidatorHelper")
