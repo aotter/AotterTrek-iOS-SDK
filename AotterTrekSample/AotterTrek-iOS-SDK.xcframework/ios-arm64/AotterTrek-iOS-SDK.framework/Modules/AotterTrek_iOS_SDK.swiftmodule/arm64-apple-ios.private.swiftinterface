@@ -1,53 +1,16 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AotterTrek_iOS_SDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AotterTrek_iOS_SDK
 import AVFoundation
 import AotterTrekSDKObjCHeader
-import AotterTrekUID2SDK
 import Foundation
 import OMSDK_Aotternet
 import Swift
 import UIKit
+import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class TKUID2SDKWrapper : ObjectiveC.NSObject {
-  @objc public enum UID2TokenStatus : Swift.Int {
-    case established = 0
-    case refreshed = 1
-    case expired = 100
-    case noIdentity = -1
-    case invalid = -2
-    case refreshExpired = -3
-    case optOut = -4
-    public init?(rawValue: Swift.Int)
-    public typealias RawValue = Swift.Int
-    public var rawValue: Swift.Int {
-      get
-    }
-  }
-  @objc public static let sharedInstance: AotterTrek_iOS_SDK.TKUID2SDKWrapper
-  #if compiler(>=5.3) && $AsyncAwait
-  @objc public func setUID2Token(tokenObj: AotterTrekSDKObjCHeader.TKUID2Token) async
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  @objc public func resetUID2Token() async
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  @objc public func refreshUID2Token() async
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  @objc public func setAutoRefreshToken(enable: Swift.Bool) async
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  @objc public func getAdvertisingToken() async -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  @objc public func getTokenStatus() async -> AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus
-  #endif
-  @objc deinit
-}
 @objc public enum AdEventType : Swift.Int {
   case MUTE
   case UNMUTE
@@ -130,9 +93,12 @@ public protocol DataManagerDelegate : AnyObject {
   @objc override dynamic public init()
   @objc deinit
 }
-extension AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus : Swift.Equatable {}
-extension AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus : Swift.Hashable {}
-extension AotterTrek_iOS_SDK.TKUID2SDKWrapper.UID2TokenStatus : Swift.RawRepresentable {}
+@_inheritsConvenienceInitializers @objc public class TKImageDetector : ObjectiveC.NSObject {
+  @objc public static func checkImageColorConsistency(image: UIKit.UIImage) -> Swift.Bool
+  @objc public static func getImageWithColor(color: UIKit.UIColor) -> UIKit.UIImage
+  @objc override dynamic public init()
+  @objc deinit
+}
 extension AotterTrek_iOS_SDK.AdEventType : Swift.Equatable {}
 extension AotterTrek_iOS_SDK.AdEventType : Swift.Hashable {}
 extension AotterTrek_iOS_SDK.AdEventType : Swift.RawRepresentable {}
