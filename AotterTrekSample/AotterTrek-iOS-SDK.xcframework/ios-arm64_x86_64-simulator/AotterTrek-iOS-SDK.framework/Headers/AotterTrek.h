@@ -10,7 +10,8 @@ typedef enum {
     TKUserKeyPhone,
     TKUserKeyFbId,
     TKUserKeyGender,
-    TKUserKeyBirthday
+    TKUserKeyBirthday,
+    TKUserKeyFirstPartyId
 }TKUserKey;
 
 
@@ -91,6 +92,24 @@ typedef enum {
                        gender:(NSString *)gender
                      birthday:(NSString *)birthday
                 addtionalMeta:(NSDictionary *)additonalMeta;
+
+/**
+ Set your app's current user data
+ @param email         string
+ @param phone         string
+ @param fbId          string
+ @param gender        string for "M" or "F"
+ @param birthdat      birthday for format yyyy/MM/dd
+ @param meta          customized meta data
+ @param firstPartyId  string. first party usage
+ */
+-(void)setCurrentUserWithEmail:(NSString *)email
+                        phone:(NSString *)phone
+                         fbId:(NSString *)fbId
+                       gender:(NSString *)gender
+                     birthday:(NSString *)birthday
+                addtionalMeta:(NSDictionary *)additonalMeta
+                  firstPartyId:(NSString *)firstPartyId;
 
 
 

@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AotterTrek_iOS_SDK
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AotterTrek_iOS_SDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AotterTrekSDKObjCHeader
 import Foundation
@@ -49,20 +50,20 @@ import _SwiftConcurrencyShims
   }
 }
 @objc public protocol AdVideoViewDelegate {
-  @objc func videoManager(videoView: AotterTrek_iOS_SDK.AdVideoView, didReceive event: AotterTrek_iOS_SDK.AdEventType)
-  @objc func videoManager(videoView: AotterTrek_iOS_SDK.AdVideoView, didReceiveBufferChange isBufferPlayable: Swift.Bool)
+  @objc func videoManager(videoView: AotterTrek_iOS_SDK.TKAdVideoView, didReceive event: AotterTrek_iOS_SDK.AdEventType)
+  @objc func videoManager(videoView: AotterTrek_iOS_SDK.TKAdVideoView, didReceiveBufferChange isBufferPlayable: Swift.Bool)
   @objc func cuttentTime(time: Swift.Float64)
   @objc func receiveEventKey(eventKey: Swift.String, withUri eventUri: Swift.String)
   @objc func sendEventCompleted(eventUriString: Swift.String, withError error: Swift.String?)
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class AdVideoView : UIKit.UIView, AotterTrek_iOS_SDK.DataManagerDelegate {
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class TKAdVideoView : UIKit.UIView, AotterTrek_iOS_SDK.DataManagerDelegate {
   @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any AotterTrek_iOS_SDK.AdVideoViewDelegate)?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
   @objc deinit
   @_Concurrency.MainActor(unsafe) public func sendAdEventCompleted(eventUri: Swift.String, withError error: Swift.String?)
 }
-extension AotterTrek_iOS_SDK.AdVideoView {
+extension AotterTrek_iOS_SDK.TKAdVideoView {
   @objc @_Concurrency.MainActor(unsafe) dynamic public func requestVideoAd(vastTagURLString: Swift.String, omResList: [AotterTrekSDKObjCHeader.OMResource]? = nil)
   @objc @_Concurrency.MainActor(unsafe) dynamic public func requestVideoAd(vastTagXML: Foundation.Data, omResList: [AotterTrekSDKObjCHeader.OMResource]? = nil)
   @objc @_Concurrency.MainActor(unsafe) dynamic public func play()
@@ -75,13 +76,13 @@ extension AotterTrek_iOS_SDK.AdVideoView {
   @objc @_Concurrency.MainActor(unsafe) dynamic public func isVideoPlaying() -> Swift.Bool
   @objc @_Concurrency.MainActor(unsafe) dynamic public func isBufferReady() -> Swift.Bool
 }
-extension AotterTrek_iOS_SDK.AdVideoView {
+extension AotterTrek_iOS_SDK.TKAdVideoView {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
 }
-extension AotterTrek_iOS_SDK.AdVideoView {
+extension AotterTrek_iOS_SDK.TKAdVideoView {
   @objc @_Concurrency.MainActor(unsafe) dynamic public func stopVideo()
 }
-extension AotterTrek_iOS_SDK.AdVideoView {
+extension AotterTrek_iOS_SDK.TKAdVideoView {
   @objc @_Concurrency.MainActor(unsafe) dynamic public func addFriendlyObstruction(view: UIKit.UIView)
 }
 public protocol DataManagerDelegate : AnyObject {
