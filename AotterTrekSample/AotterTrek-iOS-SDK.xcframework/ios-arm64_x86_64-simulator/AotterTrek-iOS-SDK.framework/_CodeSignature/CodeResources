@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/AotterTrek.h</key>
 		<data>
-		yCf2SkgjUD56AUKb7SbHUXrb61I=
+		n/xxhLXshCbElHNrp2cRY+hfUZ8=
 		</data>
 		<key>Headers/AotterTrek_iOS_SDK-Swift.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZmeDElms/hscpiIpbvEtCIxgk3Q=
+		6QKJSqkKqAS6JzkRRV+4YjnfPF4=
 		</data>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sN7M7aT6SzKk5kWxkoflHtm/lj8=
+		XoUklK+8qJTMLtUhcqBe2QkApX8=
 		</data>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SeUxoSa6xiBD/dYPgXD/B8l/dTg=
+		wes7E9iAsmXgL8IK7O8zHHgHme0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -110,11 +110,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yCf2SkgjUD56AUKb7SbHUXrb61I=
+			n/xxhLXshCbElHNrp2cRY+hfUZ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ew6jq6ag94oX5qPlxFte+qJbDGlVhma/XIKgNGF7bWc=
+			AvJcYxyvOnLqpmGbCWuW0mXOGorQPfkTPdtxFEmZo5M=
 			</data>
 		</dict>
 		<key>Headers/AotterTrek_iOS_SDK-Swift.h</key>
@@ -253,11 +253,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sN7M7aT6SzKk5kWxkoflHtm/lj8=
+			XoUklK+8qJTMLtUhcqBe2QkApX8=
 			</data>
 			<key>hash2</key>
 			<data>
-			5onrOD9CsJ0vix8J+HJw8u55vArClpXilz+fUftA8vA=
+			sNDhVKpL2+hjMOHvVv/CJT04CRgR9G+t8+74s+hJRFg=
 			</data>
 		</dict>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -308,11 +308,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SeUxoSa6xiBD/dYPgXD/B8l/dTg=
+			wes7E9iAsmXgL8IK7O8zHHgHme0=
 			</data>
 			<key>hash2</key>
 			<data>
-			i+CyjQaoLeVwjAFvvA0cRteHWwq5+7K3lPpzZHZDEdo=
+			c9Y1DnC03t7+jyDECcLQc/Fwmh5wGVNywFplOsl/G44=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
