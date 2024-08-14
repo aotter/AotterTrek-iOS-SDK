@@ -84,6 +84,9 @@
 @optional
 -(void)TKAdSuprAdVideoCompleted:(TKAdSuprAd *)suprAd;
 
+@optional
+-(void)TKAdSuprAdCustomClickHandler:(TKAdSuprAd *)suprAd urlString:(NSString *)urlString;
+
 @end
 
 

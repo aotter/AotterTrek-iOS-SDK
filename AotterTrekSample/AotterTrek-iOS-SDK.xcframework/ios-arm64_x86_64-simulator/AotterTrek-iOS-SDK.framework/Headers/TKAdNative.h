@@ -20,6 +20,8 @@
 @optional
 -(void)TKAdNativeWillLogClicked:(TKAdNative *)ad;
 
+@optional
+-(void)TKAdNativeCustomClickHandler:(TKAdNative *)ad urlString:(NSString *)urlString;
 
 /**
  only avaiable for MyApp ads.
