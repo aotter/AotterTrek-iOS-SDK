@@ -84,6 +84,12 @@
 @optional
 -(void)TKAdSuprAdVideoCompleted:(TKAdSuprAd *)suprAd;
 
+/**
+ * callback when the SuprAd video clicked
+ */
+@optional
+-(void)TKAdSuprAdVideoClicked:(TKAdSuprAd *)suprAd urlString:(NSString *)urlString;
+
 @optional
 -(void)TKAdSuprAdCustomClickHandler:(TKAdSuprAd *)suprAd urlString:(NSString *)urlString;
 

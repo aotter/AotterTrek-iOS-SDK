@@ -4076,406 +4076,406 @@
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "FloatLiteral",
-      "offset": 14866,
+      "offset": 14905,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "FloatLiteral",
-      "offset": 14979,
+      "offset": 15018,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "FloatLiteral",
-      "offset": 15054,
+      "offset": 15093,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "FloatLiteral",
-      "offset": 15136,
+      "offset": 15175,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 15774,
+      "offset": 15813,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 15892,
+      "offset": 15931,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 17002,
+      "offset": 17041,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 17094,
+      "offset": 17133,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 17152,
+      "offset": 17191,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 17292,
+      "offset": 17331,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 17585,
+      "offset": 17624,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 17734,
+      "offset": 17773,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 17849,
+      "offset": 17888,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 18167,
+      "offset": 18206,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 18437,
+      "offset": 18476,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 19709,
+      "offset": 19748,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 19758,
+      "offset": 19797,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 19968,
+      "offset": 20007,
       "length": 39,
       "value": "\"AdVideoView.AVPlayerItem: readyToPlay\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 20057,
+      "offset": 20096,
       "length": 34,
       "value": "\"AdVideoView.AVPlayerItem: failed\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 20142,
+      "offset": 20181,
       "length": 35,
       "value": "\"AdVideoView.AVPlayerItem: unknown\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 20231,
+      "offset": 20270,
       "length": 35,
       "value": "\"AdVideoView.AVPlayerItem: default\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "Array",
-      "offset": 20570,
+      "offset": 20609,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 21667,
+      "offset": 21706,
       "length": 10,
       "value": "\"Progress\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 27245,
+      "offset": 27284,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 27285,
+      "offset": 27324,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 27317,
+      "offset": 27356,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 27357,
+      "offset": 27396,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 27392,
+      "offset": 27431,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 27810,
+      "offset": 27849,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 28277,
+      "offset": 28316,
       "length": 36,
       "value": "\"AotterTrek OMSDK >> no omRes data.\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 29051,
+      "offset": 29090,
       "length": 35,
       "value": "\"AotterTrek OMSDK >> no vast data.\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 29945,
+      "offset": 29984,
       "length": 57,
       "value": "\"AotterTrek OMSDK >> TKAdSuprAd finished OMID ad session\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 30762,
+      "offset": 30801,
       "length": 47,
       "value": "\"AotterTrek OMSDK >> Create Ad Session failed.\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 31614,
+      "offset": 31653,
       "length": 53,
       "value": "\"AotterTrek OMSDK >> Create video Ad Session failed.\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 31896,
+      "offset": 31935,
       "length": 11,
       "value": "\"Aotternet\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 32891,
+      "offset": 32930,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 32990,
+      "offset": 33029,
       "length": 59,
       "value": "\"AotterTrek OMSDK >> Unable to instantiate session context\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 33266,
+      "offset": 33305,
       "length": 11,
       "value": "\"Aotternet\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 34038,
+      "offset": 34077,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 34101,
+      "offset": 34140,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 34445,
+      "offset": 34484,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 34544,
+      "offset": 34583,
       "length": 65,
       "value": "\"AotterTrek OMSDK >> Unable to instantiate video session context\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 34986,
+      "offset": 35025,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 35062,
+      "offset": 35101,
       "length": 63,
       "value": "\"AotterTrek OMSDK >> Unable to create ad session configuration\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 35514,
+      "offset": 35553,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 35590,
+      "offset": 35629,
       "length": 69,
       "value": "\"AotterTrek OMSDK >> Unable to create video ad session configuration\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 36090,
+      "offset": 36129,
       "length": 53,
       "value": "\"AotterTrek OMSDK >> add friendly obstruction failed\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 36470,
+      "offset": 36509,
       "length": 58,
       "value": "\"AotterTrek OMSDK >> add friendly obstruction view failed\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 36749,
+      "offset": 36788,
       "length": 53,
       "value": "\"AotterTrek OMSDK >> TKSuprAd ad event create failed\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 37037,
+      "offset": 37076,
       "length": 59,
       "value": "\"AotterTrek OMSDK >> TKSuprAd video ad event create failed\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 37246,
+      "offset": 37285,
       "length": 62,
       "value": "\"AotterTrek OMSDK >> TKSuprAd video media event create failed\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 37453,
+      "offset": 37492,
       "length": 38,
       "value": "\"AotterTrek OMSDK >> adEvents is null\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 37614,
+      "offset": 37653,
       "length": 55,
       "value": "\"AotterTrek OMSDK >> TKSuprAd loaded event log failed.\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 37819,
+      "offset": 37858,
       "length": 44,
       "value": "\"AotterTrek OMSDK >> video adEvents is null\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 38222,
+      "offset": 38261,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 38342,
+      "offset": 38381,
       "length": 61,
       "value": "\"AotterTrek OMSDK >> TKSuprAd loaded video event log failed.\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 38668,
+      "offset": 38707,
       "length": 52,
       "value": "\"AotterTrek OMSDK >> Meida Events didReceive: START\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 38929,
+      "offset": 38968,
       "length": 55,
       "value": "\"AotterTrek OMSDK >> TKAdSuprAd impression log failed.\""
     },
