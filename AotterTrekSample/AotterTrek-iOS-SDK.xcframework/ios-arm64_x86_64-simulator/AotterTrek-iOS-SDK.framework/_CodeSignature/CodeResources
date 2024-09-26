@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/AotterTrek_iOS_SDK-Swift.h</key>
 		<data>
-		sQAWbBPiwO9Z9FfYk7jmgSGnXSY=
+		hLmUbvsDmMZ5XobfBM+HToy+i7E=
 		</data>
 		<key>Headers/TKAdError.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/TKAdSuprAd.h</key>
 		<data>
-		e2i4kMmWs4zl7uRLZUVfprK0X1g=
+		1lXlqz/oaOsjFq/3NQA04TnEq9k=
 		</data>
 		<key>Headers/TKEnumHeaders.h</key>
 		<data>
@@ -46,47 +46,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CUsWd2HuYq8lsMqF6boZaSd+Su4=
+		Gx4NkbICDoMWJETERK+fNUT3Oq4=
 		</data>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		dr1uUuZMSKVDW7uMFfq5kfaIJm0=
+		vGqhjfEm5lDW3TENJ3JLmQN9A6I=
 		</data>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		607SiAP5zmM0OWiyWvj0oImxTDA=
+		S4CdUv4uHlp1V3MRVOURuyzxSdo=
 		</data>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		xaRmNibYwdj0k6FX11Cr7vNcJwY=
+		6ELAg4Afv/Sltwr09+hnYH3mRMM=
 		</data>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		607SiAP5zmM0OWiyWvj0oImxTDA=
+		S4CdUv4uHlp1V3MRVOURuyzxSdo=
 		</data>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YKmkmdEMGG42AU8Tf4Phwp2lTNU=
+		9VF+g/X4guZs6f/SdwMLKyBw/dg=
 		</data>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dr1uUuZMSKVDW7uMFfq5kfaIJm0=
+		vGqhjfEm5lDW3TENJ3JLmQN9A6I=
 		</data>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		voV6h7ZNdrz57PB7tkaVjOwFkSk=
+		cbEJBJe8yOuzP1oj0jN8ytPvZXw=
 		</data>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		O7+duDySK5Ta01TyBU/G24ImuWI=
+		0HvPMuWZTP2+4ZmkyhUlIPSMUxU=
 		</data>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		voV6h7ZNdrz57PB7tkaVjOwFkSk=
+		cbEJBJe8yOuzP1oj0jN8ytPvZXw=
 		</data>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iTjcS2HsKJhy6P1RYQLfhuudzdM=
+		6bGqnv39OqxQRJvujzjcKUAW34k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -121,11 +121,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sQAWbBPiwO9Z9FfYk7jmgSGnXSY=
+			hLmUbvsDmMZ5XobfBM+HToy+i7E=
 			</data>
 			<key>hash2</key>
 			<data>
-			T/fB5FbqTbpzlPR65yd3cDGuTfLATg5zVZdSSV7DTWE=
+			Jz7IclWc/v4F00SqftWBsbHJlDa3L/eX8yhv/1AB3hI=
 			</data>
 		</dict>
 		<key>Headers/TKAdError.h</key>
@@ -165,11 +165,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e2i4kMmWs4zl7uRLZUVfprK0X1g=
+			1lXlqz/oaOsjFq/3NQA04TnEq9k=
 			</data>
 			<key>hash2</key>
 			<data>
-			OK7sHZidM1k6UMxEID6Uj9FuV67+Td8hfmN0rytPBUo=
+			JPRUCAk5o3uGXYXU6KGxcR8wLksUmOjU4/09wtXfLos=
 			</data>
 		</dict>
 		<key>Headers/TKEnumHeaders.h</key>
@@ -209,110 +209,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dr1uUuZMSKVDW7uMFfq5kfaIJm0=
+			vGqhjfEm5lDW3TENJ3JLmQN9A6I=
 			</data>
 			<key>hash2</key>
 			<data>
-			03AcNysOIlRv+5bWHBy836CoNIZ7BAeOwLrg++iW81k=
+			AbqiQaMhC48iE3/DalA6uUfpTykMhRne20xqCCNxU9M=
 			</data>
 		</dict>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			607SiAP5zmM0OWiyWvj0oImxTDA=
+			S4CdUv4uHlp1V3MRVOURuyzxSdo=
 			</data>
 			<key>hash2</key>
 			<data>
-			v7F0Nfc1ElS9eT7z3SDr6IKA+ntMxDZhJ+Wjx1HIf4M=
+			TWb1EUW3sJLOFXgPBNQELrMFC09rPi0YD4L02NVHtTg=
 			</data>
 		</dict>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xaRmNibYwdj0k6FX11Cr7vNcJwY=
+			6ELAg4Afv/Sltwr09+hnYH3mRMM=
 			</data>
 			<key>hash2</key>
 			<data>
-			i9rnDQzMD+ZBc8cB8KnHgdK1f55tyPHUs4hmvui74xs=
+			7Bal3LlilqNKYxZRSPcHfSX0o8y3HCA8YylRiZFTCKQ=
 			</data>
 		</dict>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			607SiAP5zmM0OWiyWvj0oImxTDA=
+			S4CdUv4uHlp1V3MRVOURuyzxSdo=
 			</data>
 			<key>hash2</key>
 			<data>
-			v7F0Nfc1ElS9eT7z3SDr6IKA+ntMxDZhJ+Wjx1HIf4M=
+			TWb1EUW3sJLOFXgPBNQELrMFC09rPi0YD4L02NVHtTg=
 			</data>
 		</dict>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YKmkmdEMGG42AU8Tf4Phwp2lTNU=
+			9VF+g/X4guZs6f/SdwMLKyBw/dg=
 			</data>
 			<key>hash2</key>
 			<data>
-			j/Ir5ApBeV/UH63z7y+rXa2IFn5Zp3PLivhN7MQHrB4=
+			t3bMYZ6lpPUKwRqivgfe3i4R6DgN7Z00Sso7TzwcjXo=
 			</data>
 		</dict>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dr1uUuZMSKVDW7uMFfq5kfaIJm0=
+			vGqhjfEm5lDW3TENJ3JLmQN9A6I=
 			</data>
 			<key>hash2</key>
 			<data>
-			03AcNysOIlRv+5bWHBy836CoNIZ7BAeOwLrg++iW81k=
+			AbqiQaMhC48iE3/DalA6uUfpTykMhRne20xqCCNxU9M=
 			</data>
 		</dict>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			voV6h7ZNdrz57PB7tkaVjOwFkSk=
+			cbEJBJe8yOuzP1oj0jN8ytPvZXw=
 			</data>
 			<key>hash2</key>
 			<data>
-			dGWUJE9r09aHZskGyGUO243HU2q9h/7J6/SmCOEjk3M=
+			D0rYJttLL450LEkjPcrO41VOCYA6btgHtBFgxd60fmw=
 			</data>
 		</dict>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			O7+duDySK5Ta01TyBU/G24ImuWI=
+			0HvPMuWZTP2+4ZmkyhUlIPSMUxU=
 			</data>
 			<key>hash2</key>
 			<data>
-			jgkX8oaRMMW6jnWUEoUJcGOWto2q9FKq5mOaTmTjT/4=
+			Tc9/RUwOTZiFG582Sdvh6AKXvxLkSTxbuM65aEdNyfE=
 			</data>
 		</dict>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			voV6h7ZNdrz57PB7tkaVjOwFkSk=
+			cbEJBJe8yOuzP1oj0jN8ytPvZXw=
 			</data>
 			<key>hash2</key>
 			<data>
-			dGWUJE9r09aHZskGyGUO243HU2q9h/7J6/SmCOEjk3M=
+			D0rYJttLL450LEkjPcrO41VOCYA6btgHtBFgxd60fmw=
 			</data>
 		</dict>
 		<key>Modules/AotterTrek_iOS_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iTjcS2HsKJhy6P1RYQLfhuudzdM=
+			6bGqnv39OqxQRJvujzjcKUAW34k=
 			</data>
 			<key>hash2</key>
 			<data>
-			RxCJoEZSAsEI3e5cJHLxJoTAkP79kEPMmT5jbE8zUzk=
+			KwprKwEqzcqLV97oNSYpo6nXwxV5AQnqJKWvdzNNTLY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

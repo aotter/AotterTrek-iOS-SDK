@@ -37,7 +37,11 @@
 @optional
 -(void)TKAdSuprAd:(TKAdSuprAd *)suprAd didReceivedAdWithAdData:(NSDictionary *)adData preferedMediaViewSize:(CGSize)size isVideoAd:(BOOL)isVideoAd;
 
-
+/**
+ * Tell when the SuprAd finishes loading.
+ */
+@optional
+-(void)TKAdSuprAdLoaded:(TKAdSuprAd *)suprAd;
 
 /**
  * Tell when the SuprAd finishes loading and the ad is ready to display on screen.

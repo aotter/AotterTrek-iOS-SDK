@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "AotterTrek_iOS_SDK",
+    "printedName": "AotterTrek_iOS_SDK",
     "children": [
       {
         "kind": "Import",
@@ -742,6 +742,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1196,6 +1210,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1430,6 +1458,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1445,7 +1489,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "AotterTrek_iOS_SDK.AdVideoViewDelegate?"
+                "printedName": "(any AotterTrek_iOS_SDK.AdVideoViewDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -1454,6 +1498,7 @@
             "moduleName": "AotterTrek_iOS_SDK",
             "declAttributes": [
               "HasInitialValue",
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "ReferenceOwnership",
@@ -1471,12 +1516,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AotterTrek_iOS_SDK.AdVideoViewDelegate?",
+                    "printedName": "(any AotterTrek_iOS_SDK.AdVideoViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AdVideoViewDelegate",
-                        "printedName": "AotterTrek_iOS_SDK.AdVideoViewDelegate",
+                        "printedName": "any AotterTrek_iOS_SDK.AdVideoViewDelegate",
                         "usr": "c:@M@AotterTrek_iOS_SDK@objc(pl)AdVideoViewDelegate"
                       }
                     ],
@@ -1506,12 +1551,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AotterTrek_iOS_SDK.AdVideoViewDelegate?",
+                    "printedName": "(any AotterTrek_iOS_SDK.AdVideoViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AdVideoViewDelegate",
-                        "printedName": "AotterTrek_iOS_SDK.AdVideoViewDelegate",
+                        "printedName": "any AotterTrek_iOS_SDK.AdVideoViewDelegate",
                         "usr": "c:@M@AotterTrek_iOS_SDK@objc(pl)AdVideoViewDelegate"
                       }
                     ],
@@ -1575,6 +1620,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -1602,6 +1648,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -1644,6 +1691,7 @@
             "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC04sendE14EventCompleted8eventUri9withErrorySS_SSSgtF",
             "moduleName": "AotterTrek_iOS_SDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1696,6 +1744,7 @@
             "objc_name": "requestVideoAdWithVastTagURLString:omResList:",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -1749,6 +1798,7 @@
             "objc_name": "requestVideoAdWithVastTagXML:omResList:",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -1772,6 +1822,7 @@
             "moduleName": "AotterTrek_iOS_SDK",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -1795,6 +1846,7 @@
             "moduleName": "AotterTrek_iOS_SDK",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -1818,6 +1870,7 @@
             "moduleName": "AotterTrek_iOS_SDK",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -1841,6 +1894,7 @@
             "moduleName": "AotterTrek_iOS_SDK",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -1865,6 +1919,7 @@
             "moduleName": "AotterTrek_iOS_SDK",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -1889,6 +1944,7 @@
             "moduleName": "AotterTrek_iOS_SDK",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -1913,6 +1969,7 @@
             "moduleName": "AotterTrek_iOS_SDK",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -1937,6 +1994,7 @@
             "moduleName": "AotterTrek_iOS_SDK",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -1961,6 +2019,7 @@
             "moduleName": "AotterTrek_iOS_SDK",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -2055,6 +2114,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -2080,6 +2140,7 @@
             "moduleName": "AotterTrek_iOS_SDK",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC",
@@ -2112,6 +2173,7 @@
             "objc_name": "addFriendlyObstructionWithView:",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -2125,6 +2187,7 @@
         "mangledName": "$s18AotterTrek_iOS_SDK11AdVideoViewC",
         "moduleName": "AotterTrek_iOS_SDK",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -2144,6 +2207,20 @@
             "printedName": "DataManagerDelegate",
             "usr": "s:18AotterTrek_iOS_SDK19DataManagerDelegateP",
             "mangledName": "$s18AotterTrek_iOS_SDK19DataManagerDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2275,6 +2352,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2676,6 +2769,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3316,6 +3423,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3530,160 +3651,6 @@
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 242,
-      "length": 6,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 258,
-      "length": 5,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 273,
-      "length": 6,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 289,
-      "length": 6,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 320,
-      "length": 4,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 349,
-      "length": 5,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 364,
-      "length": 13,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 387,
-      "length": 8,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 405,
-      "length": 13,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 428,
-      "length": 8,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 446,
-      "length": 6,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 462,
-      "length": 10,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 482,
-      "length": 5,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 497,
-      "length": 12,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 564,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 581,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 600,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 618,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 636,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 653,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 672,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 696,
-      "length": 2,
-      "value": "29"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
       "offset": 564,
       "length": 1,
       "value": "1"
@@ -3794,748 +3761,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3004,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3090,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3184,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3276,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3366,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 3826,
-      "length": 51,
-      "value": "\"AotterTrek OMSDK >> Meida Events didReceive: SKIP\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5245,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5505,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6183,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6221,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6329,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6552,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6590,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6698,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6939,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "FloatLiteral",
-      "offset": 7057,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7360,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7390,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8518,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8908,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9329,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9367,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9636,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9799,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "FloatLiteral",
-      "offset": 11729,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12867,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12910,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12958,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13015,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 13021,
-      "length": 3,
-      "value": "\"0\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 13027,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 13049,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13062,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 13068,
-      "length": 3,
-      "value": "\"0\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 13074,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 13095,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13108,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 13114,
-      "length": 3,
-      "value": "\"0\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 13120,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13503,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "FloatLiteral",
-      "offset": 14905,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "FloatLiteral",
-      "offset": 15018,
-      "length": 4,
-      "value": "0.25"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "FloatLiteral",
-      "offset": 15093,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "FloatLiteral",
-      "offset": 15175,
-      "length": 4,
-      "value": "0.75"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15813,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15931,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17041,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17133,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17191,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17331,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17624,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17773,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17888,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18206,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18476,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 19748,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 19797,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 20007,
-      "length": 39,
-      "value": "\"AdVideoView.AVPlayerItem: readyToPlay\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 20096,
-      "length": 34,
-      "value": "\"AdVideoView.AVPlayerItem: failed\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 20181,
-      "length": 35,
-      "value": "\"AdVideoView.AVPlayerItem: unknown\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 20270,
-      "length": 35,
-      "value": "\"AdVideoView.AVPlayerItem: default\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "Array",
-      "offset": 20609,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 21706,
-      "length": 10,
-      "value": "\"Progress\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 27284,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 27324,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 27356,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 27396,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 27431,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 27849,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 28316,
-      "length": 36,
-      "value": "\"AotterTrek OMSDK >> no omRes data.\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 29090,
-      "length": 35,
-      "value": "\"AotterTrek OMSDK >> no vast data.\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 29984,
-      "length": 57,
-      "value": "\"AotterTrek OMSDK >> TKAdSuprAd finished OMID ad session\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 30801,
-      "length": 47,
-      "value": "\"AotterTrek OMSDK >> Create Ad Session failed.\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 31653,
-      "length": 53,
-      "value": "\"AotterTrek OMSDK >> Create video Ad Session failed.\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 31935,
-      "length": 11,
-      "value": "\"Aotternet\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 32930,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 33029,
-      "length": 59,
-      "value": "\"AotterTrek OMSDK >> Unable to instantiate session context\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 33305,
-      "length": 11,
-      "value": "\"Aotternet\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 34077,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 34140,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 34484,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 34583,
-      "length": 65,
-      "value": "\"AotterTrek OMSDK >> Unable to instantiate video session context\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 35025,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 35101,
-      "length": 63,
-      "value": "\"AotterTrek OMSDK >> Unable to create ad session configuration\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 35553,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 35629,
-      "length": 69,
-      "value": "\"AotterTrek OMSDK >> Unable to create video ad session configuration\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 36129,
-      "length": 53,
-      "value": "\"AotterTrek OMSDK >> add friendly obstruction failed\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 36509,
-      "length": 58,
-      "value": "\"AotterTrek OMSDK >> add friendly obstruction view failed\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 36788,
-      "length": 53,
-      "value": "\"AotterTrek OMSDK >> TKSuprAd ad event create failed\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 37076,
-      "length": 59,
-      "value": "\"AotterTrek OMSDK >> TKSuprAd video ad event create failed\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 37285,
-      "length": 62,
-      "value": "\"AotterTrek OMSDK >> TKSuprAd video media event create failed\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 37492,
-      "length": 38,
-      "value": "\"AotterTrek OMSDK >> adEvents is null\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 37653,
-      "length": 55,
-      "value": "\"AotterTrek OMSDK >> TKSuprAd loaded event log failed.\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 37858,
-      "length": 44,
-      "value": "\"AotterTrek OMSDK >> video adEvents is null\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 38261,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 38381,
-      "length": 61,
-      "value": "\"AotterTrek OMSDK >> TKSuprAd loaded video event log failed.\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 38707,
-      "length": 52,
-      "value": "\"AotterTrek OMSDK >> Meida Events didReceive: START\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
-      "kind": "StringLiteral",
-      "offset": 38968,
-      "length": 55,
-      "value": "\"AotterTrek OMSDK >> TKAdSuprAd impression log failed.\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Network\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 680,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Network\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1080,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Network\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1169,
-      "length": 14,
-      "value": "\"empty string\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Network\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1368,
-      "length": 13,
-      "value": "\"invalid url\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Network\/DataManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1493,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Utility\/DurationUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 329,
-      "length": 10,
-      "value": "\"HH:mm:ss\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Utility\/DurationUtility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 394,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Utility\/DurationUtility.swift",
-      "kind": "IntegerLiteral",
-      "offset": 681,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Model\/State\/ParseState.swift",
       "kind": "Array",
       "offset": 194,
@@ -4555,48 +3780,6 @@
       "offset": 266,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Model\/State\/ParseState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 372,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Model\/State\/ParseState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 563,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Model\/State\/ParseState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 681,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Model\/State\/ParseState.swift",
-      "kind": "BooleanLiteral",
-      "offset": 704,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Model\/State\/ParseState.swift",
-      "kind": "BooleanLiteral",
-      "offset": 779,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Model\/State\/ParseState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 957,
-      "length": 1,
-      "value": "2"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Model\/Inline\/ViewableImpression\/ViewableImpression.swift",
@@ -4641,13 +3824,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Model\/Inline\/Extensions\/Extensions.swift",
-      "kind": "StringLiteral",
-      "offset": 292,
-      "length": 19,
-      "value": "\"defaultForVAST4.1\""
-    },
-    {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Model\/Inline\/Creatives\/Linear\/VideoClicks\/VideoClicks.swift",
       "kind": "Array",
       "offset": 221,
@@ -4674,69 +3850,6 @@
       "offset": 171,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Model\/Inline\/Error\/AdError.swift",
-      "kind": "StringLiteral",
-      "offset": 116,
-      "length": 7,
-      "value": "\"AotterTrek_iOS_SDK.AdError\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 301,
-      "length": 129,
-      "value": "\"(?:(?:(?:[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-])+(?:(?:\\.(?!\\.))?(?:[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-])+)*)|(?:\"(?:[^\"\\\\]|\\\\.)*\"))\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 469,
-      "length": 78,
-      "value": "\"(?:(?:[a-zA-Z0-9])+(?:\\.(?:[a-zA-Z0-9])+(?:[a-zA-Z0-9-])*(?:[a-zA-Z0-9]))+)\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 581,
-      "length": 44,
-      "value": "\"^(?:\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 603,
-      "length": 1,
-      "value": "\"@\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 622,
-      "length": 1,
-      "value": "\")$\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 665,
-      "length": 17,
-      "value": "\"SELF MATCHES %@\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 856,
-      "length": 36,
-      "value": "\"^((\\+)|(00)|(\\d{1}))[0-9]{6,14}$\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKValidatorHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 932,
-      "length": 17,
-      "value": "\"SELF MATCHES %@\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Model\/Inline\/InLine.swift",
@@ -4767,55 +3880,6 @@
       "value": "6"
     },
     {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Extensions\/AdVerifications\/Verification\/VerificationElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 434,
-      "length": 8,
-      "value": "\"vendor\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Extensions\/AdVerifications\/Verification\/VerificationElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 742,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Extensions\/AdVerifications\/Verification\/VerificationElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1105,
-      "length": 69,
-      "value": "\"Verification should be under InLine of AdVerifications for VAST 4.0\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Extensions\/AdVerifications\/Verification\/VerificationElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1306,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Extensions\/AdVerifications\/Verification\/VerificationElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1364,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Extensions\/AdVerifications\/Verification\/VerificationElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1730,
-      "length": 69,
-      "value": "\"Verification should be under InLine of AdVerifications for VAST 4.1\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Extensions\/AdVerifications\/Verification\/VerificationElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1933,
-      "length": 37,
-      "value": "\"Verification should be under InLine\""
-    },
-    {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Creatives\/Linear\/TrackingEvents\/TrackingValueHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 199,
@@ -4823,326 +3887,11 @@
       "value": "7"
     },
     {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Creatives\/Linear\/TrackingEvents\/TrackingValueHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 438,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Creatives\/Linear\/TrackingEvents\/TrackingValueHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 520,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Creatives\/Linear\/TrackingEvents\/TrackingValueHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 524,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Creatives\/Linear\/TrackingEvents\/TrackingValueHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 641,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Creatives\/Linear\/TrackingEvents\/TrackingValueHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 733,
-      "length": 33,
-      "value": "\"Tracking should be under Lienar\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Creatives\/Linear\/TrackingEvents\/TrackingValueHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 857,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Creatives\/Linear\/TrackingEvents\/TrackingValueHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1193,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Creatives\/Linear\/TrackingEvents\/TrackingValueHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1271,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Creatives\/Linear\/TrackingEvents\/TrackingValueHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1328,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Creatives\/Linear\/TrackingEvents\/TrackingValueHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1674,
-      "length": 33,
-      "value": "\"Tracking should be under Linear\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Creatives\/Linear\/TrackingEvents\/TrackingValueHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1811,
-      "length": 49,
-      "value": "\"Tracking should be under Verification or InLine\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Creatives\/Linear\/Duration\/DurationValueHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 604,
-      "length": 52,
-      "value": "\"Duration format should be HH:MM:SS or HH:MM:SS.mmm\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Creatives\/Linear\/Duration\/DurationValueHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 789,
-      "length": 28,
-      "value": "\"[0-9]{2}:[0-9]{2}:[0-9]{2}\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/Creatives\/Linear\/Duration\/DurationValueHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 830,
-      "length": 47,
-      "value": "\"[0-9]{2}:[0-9]{2}:[0-9]{2}.[0-9][0-9][0-9]{3}\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/AdSystemValueHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 257,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ValueHandlerImplement\/ErrorValueHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 255,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 565,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 594,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 615,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 662,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 691,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 712,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 760,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 789,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 810,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 858,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 887,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 908,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "FloatLiteral",
-      "offset": 1203,
-      "length": 4,
-      "value": "-1.0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "FloatLiteral",
-      "offset": 1236,
-      "length": 4,
-      "value": "-1.0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "FloatLiteral",
-      "offset": 1271,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1292,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1374,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1419,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1433,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1472,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "FloatLiteral",
-      "offset": 1795,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "FloatLiteral",
-      "offset": 1826,
-      "length": 4,
-      "value": "-1.0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "FloatLiteral",
-      "offset": 1860,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1957,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1970,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKCalculateRectangle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2061,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ViewableImpression\/ViewUndeterminedElementHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 221,
       "length": 1,
       "value": "4"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ViewableImpression\/ViewUndeterminedElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 373,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ViewableImpression\/ViewUndeterminedElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 789,
-      "length": 41,
-      "value": "\"ViewUndetermined should be under InLine\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ViewableImpression\/ViewUndeterminedElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 929,
-      "length": 53,
-      "value": "\"ViewUndetermined should be under ViewableImpression\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ViewableImpression\/ViewableImpressionElementHandler.swift",
@@ -5152,13 +3901,6 @@
       "value": "3"
     },
     {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ViewableImpression\/ViewableImpressionElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 686,
-      "length": 43,
-      "value": "\"ViewableImpression should be under Inline\""
-    },
-    {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ViewableImpression\/NotViewableElementHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 207,
@@ -5166,53 +3908,11 @@
       "value": "4"
     },
     {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ViewableImpression\/NotViewableElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 359,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ViewableImpression\/NotViewableElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 765,
-      "length": 36,
-      "value": "\"NotViewable should be under InLine\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ViewableImpression\/NotViewableElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 900,
-      "length": 48,
-      "value": "\"NotViewable should be under ViewableImpression\""
-    },
-    {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ViewableImpression\/ViewableElementHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 205,
       "length": 1,
       "value": "4"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ViewableImpression\/ViewableElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 359,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ViewableImpression\/ViewableElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 746,
-      "length": 33,
-      "value": "\"Viewable should be under InLine\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ViewableImpression\/ViewableElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 878,
-      "length": 45,
-      "value": "\"Viewable should be under ViewableImpression\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/AdVerifications\/Verification\/VerificationParametersElementHandler.swift",
@@ -5222,74 +3922,11 @@
       "value": "7"
     },
     {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/AdVerifications\/Verification\/VerificationParametersElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 502,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/AdVerifications\/Verification\/VerificationParametersElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 571,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/AdVerifications\/Verification\/VerificationParametersElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1000,
-      "length": 47,
-      "value": "\"VerificationParameters should be under InLine\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/AdVerifications\/Verification\/VerificationParametersElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1133,
-      "length": 53,
-      "value": "\"VerificationParameters should be under Verification\""
-    },
-    {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/AdVerifications\/Verification\/JavaScriptResourceElementHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 221,
       "length": 1,
       "value": "7"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/AdVerifications\/Verification\/JavaScriptResourceElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 458,
-      "length": 14,
-      "value": "\"apiFramework\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/AdVerifications\/Verification\/JavaScriptResourceElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 592,
-      "length": 17,
-      "value": "\"browserOptional\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/AdVerifications\/Verification\/JavaScriptResourceElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 863,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/AdVerifications\/Verification\/JavaScriptResourceElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 932,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/AdVerifications\/Verification\/JavaScriptResourceElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1320,
-      "length": 49,
-      "value": "\"JavaScriptResource should be under Verification\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/AdVerifications\/AdVerificationsElementHandler.swift",
@@ -5299,53 +3936,11 @@
       "value": "5"
     },
     {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/AdVerifications\/AdVerificationsElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 555,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/AdVerifications\/AdVerificationsElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 897,
-      "length": 66,
-      "value": "\"AdVerifications should be under InLine of Extension for VAST 4.0\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/AdVerifications\/AdVerificationsElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1078,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/AdVerifications\/AdVerificationsElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1375,
-      "length": 40,
-      "value": "\"AdVerifications should be under InLine\""
-    },
-    {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/ExtensionsElementHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 209,
       "length": 1,
       "value": "3"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/ExtensionsElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 363,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/ExtensionsElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 658,
-      "length": 35,
-      "value": "\"Extensions should be under InLine\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/ExtensionElementHandler.swift",
@@ -5355,60 +3950,11 @@
       "value": "4"
     },
     {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/ExtensionElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 406,
-      "length": 6,
-      "value": "\"type\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/ExtensionElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 547,
-      "length": 17,
-      "value": "\"AdVerifications\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/ExtensionElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 783,
-      "length": 44,
-      "value": "\"Extension type should be 'AdVerifications'\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Extensions\/ExtensionElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1030,
-      "length": 48,
-      "value": "\"Extension should be under InLine or Extensions\""
-    },
-    {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/VideoClicks\/ClickTrackingElementHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 211,
       "length": 1,
       "value": "7"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/VideoClicks\/ClickTrackingElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 434,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/VideoClicks\/ClickTrackingElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 866,
-      "length": 37,
-      "value": "\"ClickTracking should be only InLine\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/VideoClicks\/ClickTrackingElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 989,
-      "length": 43,
-      "value": "\"ClickTracking should be under VideoClicks\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/VideoClicks\/VideoClicksElementHandler.swift",
@@ -5418,53 +3964,11 @@
       "value": "6"
     },
     {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/VideoClicks\/VideoClicksElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 363,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/VideoClicks\/VideoClicksElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 764,
-      "length": 46,
-      "value": "\"VideoClicks should be under Linear of InLine\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/VideoClicks\/VideoClicksElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 896,
-      "length": 36,
-      "value": "\"VideoClicks should be under Linear\""
-    },
-    {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/VideoClicks\/ClickThroughElementHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 213,
       "length": 1,
       "value": "7"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/VideoClicks\/ClickThroughElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 433,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/VideoClicks\/ClickThroughElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 852,
-      "length": 36,
-      "value": "\"ClickThrough should be only InLine\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/VideoClicks\/ClickThroughElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 987,
-      "length": 42,
-      "value": "\"ClickThrough should be under VideoClicks\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingElementHandler.swift",
@@ -5474,111 +3978,6 @@
       "value": "7"
     },
     {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 519,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 601,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 605,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 722,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 814,
-      "length": 33,
-      "value": "\"Tracking should be under Lienar\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1013,
-      "length": 7,
-      "value": "\"event\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1107,
-      "length": 8,
-      "value": "\"offset\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1220,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1345,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1817,
-      "length": 33,
-      "value": "\"Tracking should be under InLine\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1961,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2022,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 2443,
-      "length": 33,
-      "value": "\"Tracking should be under Linear\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 2634,
-      "length": 33,
-      "value": "\"Tracking should be under InLine\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 2765,
-      "length": 41,
-      "value": "\"Tracking should be under TrackingEvents\""
-    },
-    {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingEventsElementHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 213,
@@ -5586,102 +3985,11 @@
       "value": "6"
     },
     {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingEventsElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 527,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingEventsElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 609,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingEventsElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 613,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingEventsElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 730,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingEventsElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 801,
-      "length": 39,
-      "value": "\"TrackingEvents should be under Lienar\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingEventsElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 931,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingEventsElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1390,
-      "length": 39,
-      "value": "\"TrackingEvents should be under InLine\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingEventsElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1537,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingEventsElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1594,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingEventsElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1978,
-      "length": 39,
-      "value": "\"TrackingEvents should be under Linear\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/TrackingEvents\/TrackingEventsElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 2121,
-      "length": 39,
-      "value": "\"TrackingEvents should be under InLine\""
-    },
-    {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/MediaFiles\/MediaFilesElementHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 205,
       "length": 1,
       "value": "6"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/MediaFiles\/MediaFilesElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 359,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/MediaFiles\/MediaFilesElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 715,
-      "length": 45,
-      "value": "\"MediaFiles should be under Linear of Inline\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/MediaFiles\/MediaFileElementHandler.swift",
@@ -5691,67 +3999,11 @@
       "value": "7"
     },
     {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/MediaFiles\/MediaFileElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 447,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/MediaFiles\/MediaFileElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 793,
-      "length": 38,
-      "value": "\"MediaFile should be under MediaFiles\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/MediaFiles\/MediaFileElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1042,
-      "length": 10,
-      "value": "\"delivery\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/MediaFiles\/MediaFileElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1153,
-      "length": 6,
-      "value": "\"type\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/MediaFiles\/MediaFileElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1253,
-      "length": 7,
-      "value": "\"width\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/MediaFiles\/MediaFileElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1362,
-      "length": 8,
-      "value": "\"height\""
-    },
-    {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/Duration\/DurationElementHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 205,
       "length": 1,
       "value": "6"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/Duration\/DurationElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 359,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/Duration\/DurationElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 715,
-      "length": 45,
-      "value": "\"Duration should be under Creative of Inline\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/LinearElementHandler.swift",
@@ -5761,53 +4013,11 @@
       "value": "5"
     },
     {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/LinearElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 390,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/LinearElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 773,
-      "length": 43,
-      "value": "\"Linear should be under Creative of Inline\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/Linear\/LinearElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 902,
-      "length": 43,
-      "value": "\"Linear should be under Creative of Inline\""
-    },
-    {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/CreativeElementHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 205,
       "length": 1,
       "value": "4"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/CreativeElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 402,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/CreativeElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 781,
-      "length": 33,
-      "value": "\"Creative should be under Inline\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/CreativeElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 913,
-      "length": 36,
-      "value": "\"Creative should be under Creatives\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/CreativesElementHandler.swift",
@@ -5817,25 +4027,11 @@
       "value": "3"
     },
     {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/Creatives\/CreativesElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 589,
-      "length": 34,
-      "value": "\"Creatives should be under Inline\""
-    },
-    {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ImpressionElementHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 209,
       "length": 1,
       "value": "3"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/ImpressionElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 644,
-      "length": 35,
-      "value": "\"Impression should be under Inline\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/AdSystemElementHandler.swift",
@@ -5845,25 +4041,11 @@
       "value": "3"
     },
     {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/AdSystemElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 626,
-      "length": 41,
-      "value": "\"AdSystem should be under Inline element\""
-    },
-    {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/AdTitleElementHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 199,
       "length": 1,
       "value": "3"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLine\/AdTitleElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 532,
-      "length": 33,
-      "value": "\"Ad Title should be under InLine\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLineElementHandler.swift",
@@ -5873,249 +4055,11 @@
       "value": "2"
     },
     {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLineElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 406,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLineElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 659,
-      "length": 35,
-      "value": "\"This VAST already contains InLine\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/InLineElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 956,
-      "length": 35,
-      "value": "\"Inline should be under Ad element\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 350,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 396,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 675,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 751,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 838,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 891,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 923,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 957,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 991,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1025,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1053,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1087,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1216,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1348,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1421,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1557,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1974,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2024,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "FloatLiteral",
-      "offset": 2145,
-      "length": 5,
-      "value": "100.0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "FloatLiteral",
-      "offset": 2299,
-      "length": 4,
-      "value": "75.0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2325,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2366,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4409,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4415,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4425,
-      "length": 4,
-      "value": "1200"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/TrekAd Utils\/TKImageDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4439,
-      "length": 4,
-      "value": "1200"
-    },
-    {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/ErrorElementHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 200,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/ErrorElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 349,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/ErrorElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 515,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/ErrorElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 709,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/ErrorElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 832,
-      "length": 28,
-      "value": "\"Error should be under VAST\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/ErrorElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 945,
-      "length": 37,
-      "value": "\"Error should be under some elements\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/VASTElementHandler.swift",
@@ -6125,32 +4069,11 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/VASTElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 381,
-      "length": 9,
-      "value": "\"version\""
-    },
-    {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/AdElementHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 194,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/AdElementHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 363,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/ElemenHandlerImplement\/AdElementHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 637,
-      "length": 33,
-      "value": "\"Ad should be under VAST element\""
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Extension_Utility\/Constants.swift",
@@ -6447,111 +4370,6 @@
       "value": "\"creativeView\""
     },
     {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Extension_Utility\/String+Reg.swift",
-      "kind": "BooleanLiteral",
-      "offset": 267,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Extension_Utility\/String+Reg.swift",
-      "kind": "IntegerLiteral",
-      "offset": 313,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Extension_Utility\/String+Reg.swift",
-      "kind": "Array",
-      "offset": 391,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Extension_Utility\/String+Reg.swift",
-      "kind": "StringLiteral",
-      "offset": 497,
-      "length": 6,
-      "value": "\"true\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Extension_Utility\/String+Reg.swift",
-      "kind": "StringLiteral",
-      "offset": 505,
-      "length": 3,
-      "value": "\"t\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Extension_Utility\/String+Reg.swift",
-      "kind": "StringLiteral",
-      "offset": 510,
-      "length": 5,
-      "value": "\"yes\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Extension_Utility\/String+Reg.swift",
-      "kind": "StringLiteral",
-      "offset": 517,
-      "length": 3,
-      "value": "\"y\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Extension_Utility\/String+Reg.swift",
-      "kind": "StringLiteral",
-      "offset": 522,
-      "length": 3,
-      "value": "\"1\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Extension_Utility\/String+Reg.swift",
-      "kind": "BooleanLiteral",
-      "offset": 546,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Extension_Utility\/String+Reg.swift",
-      "kind": "StringLiteral",
-      "offset": 564,
-      "length": 7,
-      "value": "\"false\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Extension_Utility\/String+Reg.swift",
-      "kind": "StringLiteral",
-      "offset": 573,
-      "length": 3,
-      "value": "\"f\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Extension_Utility\/String+Reg.swift",
-      "kind": "StringLiteral",
-      "offset": 578,
-      "length": 4,
-      "value": "\"no\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Extension_Utility\/String+Reg.swift",
-      "kind": "StringLiteral",
-      "offset": 584,
-      "length": 3,
-      "value": "\"n\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Extension_Utility\/String+Reg.swift",
-      "kind": "StringLiteral",
-      "offset": 589,
-      "length": 3,
-      "value": "\"0\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/Extension_Utility\/String+Reg.swift",
-      "kind": "BooleanLiteral",
-      "offset": 613,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/VastXMLParser.swift",
       "kind": "Dictionary",
       "offset": 227,
@@ -6571,55 +4389,6 @@
       "offset": 356,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/VastXMLParser.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4625,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/VastXMLParser.swift",
-      "kind": "StringLiteral",
-      "offset": 5592,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/VastXMLParser.swift",
-      "kind": "StringLiteral",
-      "offset": 5970,
-      "length": 54,
-      "value": "\"XML parse error : \""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/VastXMLParser.swift",
-      "kind": "StringLiteral",
-      "offset": 6023,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/VastXMLParser.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6049,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/VastXMLParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6335,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/VAST\/VastXMLParser.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6397,
-      "length": 5,
-      "value": "false"
     }
   ]
 }
