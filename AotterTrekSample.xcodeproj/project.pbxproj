@@ -42,6 +42,10 @@
 		11E4EC6122FC186F00BD194E /* CommonPostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E4EC5F22FC186F00BD194E /* CommonPostTableViewCell.xib */; };
 		3FD6BB292214154200E332B7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD6BB282214154200E332B7 /* WebKit.framework */; };
 		D45D86950F2F0D784A36C5FF /* libPods-AotterTrekSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5AE59297CF861213ED13E7 /* libPods-AotterTrekSample.a */; };
+		E10358842CDB57BD00CFD5F4 /* DemoSuprAdEndVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E10358832CDB57BD00CFD5F4 /* DemoSuprAdEndVC.m */; };
+		E10358872CDB5E0B00CFD5F4 /* TKSuprAdViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = E10358862CDB5E0B00CFD5F4 /* TKSuprAdViewContainer.m */; };
+		E103588D2CDB60D800CFD5F4 /* TKDemoGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = E103588C2CDB60D800CFD5F4 /* TKDemoGCDTimer.m */; };
+		E10358902CDB645800CFD5F4 /* TKSuprAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E103588F2CDB645800CFD5F4 /* TKSuprAdCache.m */; };
 		E10B47AB2CA519F1000B0459 /* AotterTrek-iOS-SDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10B47AA2CA519F1000B0459 /* AotterTrek-iOS-SDK.xcframework */; };
 		E164EFA32A418848005B240B /* AdmobNativeAdDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E164EFA22A418848005B240B /* AdmobNativeAdDemoCell.m */; };
 		E1D8726F2A400D940007066E /* AdmobNativeAdDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D8726E2A400D940007066E /* AdmobNativeAdDemoVC.m */; };
@@ -121,6 +125,14 @@
 		3A5AE59297CF861213ED13E7 /* libPods-AotterTrekSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AotterTrekSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD6BB282214154200E332B7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		564CBF65EBDA2DBCFCA8D894 /* Pods-AotterTrekSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AotterTrekSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AotterTrekSample/Pods-AotterTrekSample.release.xcconfig"; sourceTree = "<group>"; };
+		E10358822CDB57BD00CFD5F4 /* DemoSuprAdEndVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoSuprAdEndVC.h; sourceTree = "<group>"; };
+		E10358832CDB57BD00CFD5F4 /* DemoSuprAdEndVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoSuprAdEndVC.m; sourceTree = "<group>"; };
+		E10358852CDB5E0B00CFD5F4 /* TKSuprAdViewContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKSuprAdViewContainer.h; sourceTree = "<group>"; };
+		E10358862CDB5E0B00CFD5F4 /* TKSuprAdViewContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKSuprAdViewContainer.m; sourceTree = "<group>"; };
+		E103588B2CDB60D800CFD5F4 /* TKDemoGCDTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKDemoGCDTimer.h; sourceTree = "<group>"; };
+		E103588C2CDB60D800CFD5F4 /* TKDemoGCDTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKDemoGCDTimer.m; sourceTree = "<group>"; };
+		E103588E2CDB645800CFD5F4 /* TKSuprAdCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKSuprAdCache.h; sourceTree = "<group>"; };
+		E103588F2CDB645800CFD5F4 /* TKSuprAdCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKSuprAdCache.m; sourceTree = "<group>"; };
 		E10B47AA2CA519F1000B0459 /* AotterTrek-iOS-SDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "AotterTrek-iOS-SDK.xcframework"; sourceTree = "<group>"; };
 		E164EFA12A418848005B240B /* AdmobNativeAdDemoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdmobNativeAdDemoCell.h; sourceTree = "<group>"; };
 		E164EFA22A418848005B240B /* AdmobNativeAdDemoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdmobNativeAdDemoCell.m; sourceTree = "<group>"; };
@@ -232,6 +244,14 @@
 			children = (
 				11E4EC5822FC17E400BD194E /* DemoSuprAdViewController.h */,
 				11E4EC5A22FC17E400BD194E /* DemoSuprAdViewController.m */,
+				E10358822CDB57BD00CFD5F4 /* DemoSuprAdEndVC.h */,
+				E10358832CDB57BD00CFD5F4 /* DemoSuprAdEndVC.m */,
+				E103588B2CDB60D800CFD5F4 /* TKDemoGCDTimer.h */,
+				E103588C2CDB60D800CFD5F4 /* TKDemoGCDTimer.m */,
+				E10358852CDB5E0B00CFD5F4 /* TKSuprAdViewContainer.h */,
+				E10358862CDB5E0B00CFD5F4 /* TKSuprAdViewContainer.m */,
+				E103588E2CDB645800CFD5F4 /* TKSuprAdCache.h */,
+				E103588F2CDB645800CFD5F4 /* TKSuprAdCache.m */,
 			);
 			path = DemoSuprAdViewController;
 			sourceTree = "<group>";
@@ -540,8 +560,12 @@
 				11B463B61D51CAEB007591CE /* PostTableViewCell.m in Sources */,
 				E1D872752A400E0D0007066E /* AdmobBannerAdDemoVC.m in Sources */,
 				11E4EC5C22FC17E500BD194E /* DemoSuprAdViewController.m in Sources */,
+				E103588D2CDB60D800CFD5F4 /* TKDemoGCDTimer.m in Sources */,
+				E10358872CDB5E0B00CFD5F4 /* TKSuprAdViewContainer.m in Sources */,
 				11E4EC5B22FC17E500BD194E /* DemoNativeAdViewController.m in Sources */,
 				E1D872782A400E290007066E /* AdmobSuprAdDemoVC.m in Sources */,
+				E10358902CDB645800CFD5F4 /* TKSuprAdCache.m in Sources */,
+				E10358842CDB57BD00CFD5F4 /* DemoSuprAdEndVC.m in Sources */,
 				E1D8726F2A400D940007066E /* AdmobNativeAdDemoVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

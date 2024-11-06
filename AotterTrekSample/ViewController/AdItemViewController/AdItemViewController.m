@@ -13,16 +13,19 @@
 #import "AdmobNativeAdDemoVC.h"
 #import "AdmobSuprAdDemoVC.h"
 #import "AdmobBannerAdDemoVC.h"
+#import "DemoSuprAdEndVC.h"
+#import "TKSuprAdCache.h"
 #import <AotterTrek-iOS-SDK/AotterTrek-iOS-SDK.h>
 
 typedef NS_ENUM(NSInteger, AdEnum) {
     Tracker = 0,
     NativeAd = 1,
     SuprAd = 2,
-    SuprAdBanner = 3,
-    AdmobNativeAd = 4,
-    AdmobSuprAd = 5,
-    AdmobBannerAd = 6,
+    SuprAdEnd = 3,
+    SuprAdBanner = 4,
+    AdmobNativeAd = 5,
+    AdmobSuprAd = 6,
+    AdmobBannerAd = 7,
 };
 
 @interface AdItemViewController ()<UITableViewDataSource, UITableViewDelegate>
@@ -39,9 +42,11 @@ typedef NS_ENUM(NSInteger, AdEnum) {
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [TKSuprAdCache sharedInstance];
+    
     self.title = [NSString stringWithFormat:@"AotterTrekSDK v%@" ,[AotterTrek sdkVersion]];
     
-    _adItem = [[NSArray alloc]initWithObjects:@"Tracker",@"Native Ad",@"Supr Ad",@"Banner Ad",@"Admob NativeAd",@"Admob SuprAd",@"Admob BannerAd", nil];
+    _adItem = [[NSArray alloc]initWithObjects:@"Tracker",@"Native Ad",@"Supr Ad",@"Supr Ad End",@"Banner Ad",@"Admob NativeAd",@"Admob SuprAd",@"Admob BannerAd", nil];
     
     [self setupTableVie];
 }
@@ -87,6 +92,9 @@ typedef NS_ENUM(NSInteger, AdEnum) {
     } else if (indexPath.row == SuprAd) {
         DemoSuprAdViewController *demoSuprAdViewController = [[DemoSuprAdViewController alloc]init];
         [self.navigationController pushViewController:demoSuprAdViewController animated:YES];
+    } else if (indexPath.row == SuprAdEnd) {
+        DemoSuprAdEndVC *demoSuprAdEndVC = [[DemoSuprAdEndVC alloc]init];
+        [self.navigationController pushViewController:demoSuprAdEndVC animated:YES];
     } else if (indexPath.row == SuprAdBanner) {
         DemoBannerAdViewController *demoBannerAdViewController = [[DemoBannerAdViewController alloc]init];
         [self.navigationController pushViewController:demoBannerAdViewController animated:YES];
