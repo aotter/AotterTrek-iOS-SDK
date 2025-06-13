@@ -10,7 +10,7 @@
 #import <Masonry/Masonry.h>
 #import <GoogleMobileAds/GoogleMobileAds.h>
 #warning: set your UUID
-static NSString *const TestBannerAdUnit = @"set your UUID";
+static NSString *const TestBannerAdUnit = @"669bad6a-27ec-487a-a583-7b5305732ff7";
 
 @interface AdmobBannerAdDemoVC () <GADBannerViewDelegate>
 

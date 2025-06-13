@@ -21,7 +21,7 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>GADApplicationIdentifier</key>
-	<string>set your ID</string>
+	<string>ca-app-pub-8836593984677243~5677429943</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -35,7 +35,7 @@
 	<array>
 		<dict>
 			<key>SKAdNetworkIdentifier</key>
-			<string>set your ID</string>
+			<string>cstr6suwn9.skadnetwork</string>
 		</dict>
 	</array>
 	<key>UILaunchStoryboardName</key>

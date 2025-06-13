@@ -17,7 +17,7 @@ static NSInteger GADTableViewCount = 30;
 static NSString *const NormalCellID = @"kNormalCellID";
 static NSString *const AdmobSuprAdDemoCellID = @"kAdmobSuprAdDemoCell";
 #warning: set your UUID
-static NSString *const TestSuprAdUnit = @"set your UUID";
+static NSString *const TestSuprAdUnit = @"548bcf22-2618-4ddf-9e36-10593a8b524b";
 
 @interface AdmobSuprAdDemoVC () <GADNativeAdLoaderDelegate, UITableViewDataSource, UITableViewDelegate>
 
