@@ -3775,6 +3775,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       }
@@ -3946,49 +3953,49 @@
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1660,
+      "offset": 1765,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1703,
+      "offset": 1808,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1749,
+      "offset": 1854,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1795,
+      "offset": 1900,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1843,
+      "offset": 1948,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1883,
+      "offset": 1988,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/robert\/Documents\/XcodeProject\/AotterTrekSDK\/AotterTrekSDK\/Vendors\/AotterTrekSDK\/VAST player\/Video\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1931,
+      "offset": 2036,
       "length": 5,
       "value": "false"
     },

@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AotterTrek_iOS_SDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AVFoundation
 import AotterTrekSDKObjCHeader
 import Foundation
@@ -28,7 +28,9 @@ import _SwiftConcurrencyShims
   case IMPRESSION
   case CLICK
   case CREATIVEVIEW
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -43,7 +45,9 @@ import _SwiftConcurrencyShims
   case Six = 6
   case Seven = 7
   case TwentyNine = 29
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -54,18 +58,26 @@ import _SwiftConcurrencyShims
   @objc func videoManager(videoView: AotterTrek_iOS_SDK.AdVideoView, didReceiveBufferChange isBufferPlayable: Swift.Bool)
   @objc func cuttentTime(time: Swift.Float64)
   @objc func receiveEventKey(eventKey: Swift.String, withUri eventUri: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc func sendEventCompleted(eventUriString: Swift.String, withError error: Swift.String?)
+  #endif
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class AdVideoView : UIKit.UIView, AotterTrek_iOS_SDK.DataManagerDelegate {
   @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AotterTrek_iOS_SDK.AdVideoViewDelegate)?
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
   @objc deinit
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func sendAdEventCompleted(eventUri: Swift.String, withError error: Swift.String?)
+  #endif
 }
 extension AotterTrek_iOS_SDK.AdVideoView {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc @_Concurrency.MainActor @preconcurrency dynamic public func requestVideoAd(vastTagURLString: Swift.String, omResList: [AotterTrekSDKObjCHeader.OMResource]? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc @_Concurrency.MainActor @preconcurrency dynamic public func requestVideoAd(vastTagXML: Foundation.Data, omResList: [AotterTrekSDKObjCHeader.OMResource]? = nil)
+  #endif
   @objc @_Concurrency.MainActor @preconcurrency dynamic public func play()
   @objc @_Concurrency.MainActor @preconcurrency dynamic public func pause()
   @objc @_Concurrency.MainActor @preconcurrency dynamic public func mute()
@@ -77,7 +89,9 @@ extension AotterTrek_iOS_SDK.AdVideoView {
   @objc @_Concurrency.MainActor @preconcurrency dynamic public func isBufferReady() -> Swift.Bool
 }
 extension AotterTrek_iOS_SDK.AdVideoView {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  #endif
 }
 extension AotterTrek_iOS_SDK.AdVideoView {
   @objc @_Concurrency.MainActor @preconcurrency dynamic public func stopVideo()
@@ -86,7 +100,9 @@ extension AotterTrek_iOS_SDK.AdVideoView {
   @objc @_Concurrency.MainActor @preconcurrency dynamic public func addFriendlyObstruction(view: UIKit.UIView)
 }
 public protocol DataManagerDelegate : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   func sendAdEventCompleted(eventUri: Swift.String, withError error: Swift.String?)
+  #endif
 }
 @_inheritsConvenienceInitializers @objc public class TKValidatorHelper : ObjectiveC.NSObject {
   @objc public static func validateEmail(email: Swift.String) -> Swift.Bool
