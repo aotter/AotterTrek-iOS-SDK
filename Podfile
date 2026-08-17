@@ -1,5 +1,5 @@
-platform :ios, '12.0'
-source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '15.0'
+source 'https://cdn.cocoapods.org/'
 
 target 'AotterTrekSample' do
 	pod 'AFNetworking'
@@ -31,7 +31,18 @@ end
 post_install do |installer|
  installer.pods_project.targets.each do |target|
   target.build_configurations.each do |config|
-   config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
+   config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
+  end
+ end
+
+ # 新版 Xcode SDK 把 netinet6/in6.h 列為 module private header，直接 import 會編譯失敗；
+ # netinet/in.h 已包含它，移除即可（改 Pods/ 會被 pod install 洗掉，所以在這裡 patch）
+ Dir.glob("#{installer.sandbox.root}/AFNetworking/**/*.{h,m}").each do |file|
+  src = File.read(file)
+  patched = src.gsub(/^#import <netinet6\/in6\.h>\n/, '')
+  if patched != src
+   File.chmod(0644, file) # CocoaPods 會把 pod 原始檔設為唯讀
+   File.write(file, patched)
   end
  end
 end

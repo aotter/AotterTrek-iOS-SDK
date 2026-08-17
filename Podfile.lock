@@ -37,7 +37,7 @@ DEPENDENCIES:
   - TrekSDKAdMobMediationObjc
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - AFNetworking
     - AotterTrek-iOS-SDK
     - Google-Mobile-Ads-SDK
@@ -59,6 +59,6 @@ SPEC CHECKSUMS:
   SDWebImage: a3ba0b8faac7228c3c8eadd1a55c9c9fe5e16457
   TrekSDKAdMobMediationObjc: 758815118885b5beac1380aca27c36348d2510d3
 
-PODFILE CHECKSUM: f096ab977b74aa164e0006e0376913b3f0afd093
+PODFILE CHECKSUM: 8b419dc53c684733daa3953bd60f935d92d2966f
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.17.0
