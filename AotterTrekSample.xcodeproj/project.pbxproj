@@ -48,7 +48,7 @@
 		E10358902CDB645800CFD5F4 /* TKSuprAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E103588F2CDB645800CFD5F4 /* TKSuprAdCache.m */; };
 		E122FCA62DFC26B400E8E3BB /* OMSDK_Aotternet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E122FCA52DFC26B400E8E3BB /* OMSDK_Aotternet.xcframework */; };
 		E164EFA32A418848005B240B /* AdmobNativeAdDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E164EFA22A418848005B240B /* AdmobNativeAdDemoCell.m */; };
-		E19EC31D303606FE00FB3986 /* AotterTrek-iOS-SDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E19EC31C303606FE00FB3986 /* AotterTrek-iOS-SDK.xcframework */; };
+		E16B28C030384D8C00564939 /* AotterTrek-iOS-SDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16B28BF30384D8C00564939 /* AotterTrek-iOS-SDK.xcframework */; };
 		E1D8726F2A400D940007066E /* AdmobNativeAdDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D8726E2A400D940007066E /* AdmobNativeAdDemoVC.m */; };
 		E1D872752A400E0D0007066E /* AdmobBannerAdDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D872742A400E0D0007066E /* AdmobBannerAdDemoVC.m */; };
 		E1D872782A400E290007066E /* AdmobSuprAdDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D872772A400E290007066E /* AdmobSuprAdDemoVC.m */; };
@@ -136,7 +136,7 @@
 		E122FCA52DFC26B400E8E3BB /* OMSDK_Aotternet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = OMSDK_Aotternet.xcframework; sourceTree = "<group>"; };
 		E164EFA12A418848005B240B /* AdmobNativeAdDemoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdmobNativeAdDemoCell.h; sourceTree = "<group>"; };
 		E164EFA22A418848005B240B /* AdmobNativeAdDemoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdmobNativeAdDemoCell.m; sourceTree = "<group>"; };
-		E19EC31C303606FE00FB3986 /* AotterTrek-iOS-SDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "AotterTrek-iOS-SDK.xcframework"; sourceTree = "<group>"; };
+		E16B28BF30384D8C00564939 /* AotterTrek-iOS-SDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "AotterTrek-iOS-SDK.xcframework"; sourceTree = "<group>"; };
 		E1D8726D2A400D940007066E /* AdmobNativeAdDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdmobNativeAdDemoVC.h; sourceTree = "<group>"; };
 		E1D8726E2A400D940007066E /* AdmobNativeAdDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdmobNativeAdDemoVC.m; sourceTree = "<group>"; };
 		E1D872732A400E0D0007066E /* AdmobBannerAdDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdmobBannerAdDemoVC.h; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 				11A784E325136839009E6712 /* AppTrackingTransparency.framework in Frameworks */,
 				E122FCA62DFC26B400E8E3BB /* OMSDK_Aotternet.xcframework in Frameworks */,
 				116F19E022E8648B00678B50 /* UIKit.framework in Frameworks */,
-				E19EC31D303606FE00FB3986 /* AotterTrek-iOS-SDK.xcframework in Frameworks */,
+				E16B28C030384D8C00564939 /* AotterTrek-iOS-SDK.xcframework in Frameworks */,
 				116F19DE22E8648200678B50 /* Foundation.framework in Frameworks */,
 				116F19DC22E8645700678B50 /* SystemConfiguration.framework in Frameworks */,
 				3FD6BB292214154200E332B7 /* WebKit.framework in Frameworks */,
@@ -299,7 +299,7 @@
 		11B4639B1D51C962007591CE /* AotterTrekSample */ = {
 			isa = PBXGroup;
 			children = (
-				E19EC31C303606FE00FB3986 /* AotterTrek-iOS-SDK.xcframework */,
+				E16B28BF30384D8C00564939 /* AotterTrek-iOS-SDK.xcframework */,
 				E122FCA52DFC26B400E8E3BB /* OMSDK_Aotternet.xcframework */,
 				0823B8DF263A9F5900B12A8F /* ViewController */,
 				0823B8E0263A9F7C00B12A8F /* Cell */,
